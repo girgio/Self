@@ -1,0 +1,2 @@
+obj_battle_player_parent.data.add_exp(obj_battle_enemy_parent.data.exp_give)
+room_goto(obj_battle_switch.current_room)

@@ -1,0 +1,13 @@
+_turn = 0 //da 0 a 4, 4 è il turno dei nemici
+damage_to_enemy = 0
+enemy_damage = 0
+enemy_num = 0
+j = 0
+i = j + 4
+count = -1
+players = [obj_battle_player1,obj_battle_player2,obj_battle_player3,obj_battle_player4]
+enemies = []
+order_players = []
+targets = array_create(4)
+holding = false
+alarm[11] = 1
