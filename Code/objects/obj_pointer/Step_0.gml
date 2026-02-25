@@ -31,11 +31,18 @@ if(_selezione == "azione"){
         }
     }
     if(keyboard_check_pressed(ord("X")) and _manager._turn > 0){
+        var original_turn = _manager._turn
         _manager._turn--
         while(_manager.players[_manager._turn].is_dead and _manager._turn <=3 ){
             _manager._turn--
+            if(_manager._turn < 0){
+                _manager._turn = original_turn
+                break
+            }
         }
-        _text = true
+        if(_manager._turn != original_turn){
+            _text = true   
+        }
     }
     
 }else if (_selezione == "target") {

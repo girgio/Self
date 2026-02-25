@@ -72,6 +72,7 @@
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"DrawTextMarkup","path":"scripts/DrawTextMarkup/DrawTextMarkup.yy",},},
     {"id":{"name":"ExtractMaxSpeed","path":"scripts/ExtractMaxSpeed/ExtractMaxSpeed.yy",},},
+    {"id":{"name":"Options","path":"scripts/Options/Options.yy",},},
     {"id":{"name":"spr_battle_screen","path":"sprites/spr_battle_screen/spr_battle_screen.yy",},},
     {"id":{"name":"spr_box_car","path":"sprites/spr_box_car/spr_box_car.yy",},},
     {"id":{"name":"spr_box_char","path":"sprites/spr_box_char/spr_box_char.yy",},},
