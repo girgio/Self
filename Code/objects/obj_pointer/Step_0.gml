@@ -9,20 +9,23 @@ if(_manager._turn == -1){
     }
       if(keyboard_check_pressed(vk_down)){
         _y_perc += 0.12
-        if(_y_perc > 0.20){
+        if(_y_perc > obj_battle_run._y_perc){
             _y_perc = obj_battle_combat._y_perc
         }
     }
     if(keyboard_check_pressed(vk_up)){
         _y_perc -= 0.12
         if(_y_perc < obj_battle_combat._y_perc){
-            _y_perc = 0.20
+            _y_perc = obj_battle_run._y_perc
         }
     }
     if(keyboard_check_pressed(ord("Z"))){
         if(_y_perc == obj_battle_combat._y_perc){
             _manager._turn = 0
             _text = true
+        }
+        if(_y_perc == obj_battle_run._y_perc){
+            room_goto(Room1)
         }
     }
 }
