@@ -43,6 +43,7 @@
     {"name":"Attacco","order":1,"path":"scripts/Attacco/Attacco.yy",},
     {"name":"DrawTextMarkup","order":3,"path":"scripts/DrawTextMarkup/DrawTextMarkup.yy",},
     {"name":"ExtractMaxSpeed","order":2,"path":"scripts/ExtractMaxSpeed/ExtractMaxSpeed.yy",},
+    {"name":"Options","order":4,"path":"scripts/Options/Options.yy",},
     {"name":"spr_box_car","order":4,"path":"sprites/spr_box_car/spr_box_car.yy",},
     {"name":"spr_box_char","order":7,"path":"sprites/spr_box_char/spr_box_char.yy",},
     {"name":"spr_box_name","order":5,"path":"sprites/spr_box_name/spr_box_name.yy",},

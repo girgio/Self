@@ -10,4 +10,5 @@ enemies = []
 order_players = []
 targets = array_create(4)
 holding = false
+
 alarm[11] = 1

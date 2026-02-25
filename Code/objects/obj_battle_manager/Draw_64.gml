@@ -1,6 +1,6 @@
 
-var gui_w = camera_get_view_width(0)
-var gui_h = camera_get_view_height(0)
+var gui_w = global.w_risoluzione
+var gui_h = global.h_risoluzione
 var _w = gui_w/4
 var _h = gui_h/3
 var _x = 0
