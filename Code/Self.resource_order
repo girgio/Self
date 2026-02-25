@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"fonts","order":3,"path":"folders/fonts.yy",},
+    {"name":"Ost","order":5,"path":"folders/Ost.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
     {"name":"Battle","order":3,"path":"folders/Objects/Battle.yy",},
     {"name":"enemies","order":20,"path":"folders/Objects/Battle/enemies.yy",},
@@ -32,6 +33,7 @@
     {"name":"obj_battle_run","order":17,"path":"objects/obj_battle_run/obj_battle_run.yy",},
     {"name":"obj_dialogue","order":5,"path":"objects/obj_dialogue/obj_dialogue.yy",},
     {"name":"obj_enemy_stat1","order":1,"path":"objects/obj_enemy_stat1/obj_enemy_stat1.yy",},
+    {"name":"obj_music_manager","order":13,"path":"objects/obj_music_manager/obj_music_manager.yy",},
     {"name":"obj_npc_parent","order":6,"path":"objects/obj_npc_parent/obj_npc_parent.yy",},
     {"name":"obj_npc1","order":7,"path":"objects/obj_npc1/obj_npc1.yy",},
     {"name":"obj_player2","order":9,"path":"objects/obj_player2/obj_player2.yy",},
@@ -43,6 +45,7 @@
     {"name":"DrawTextMarkup","order":3,"path":"scripts/DrawTextMarkup/DrawTextMarkup.yy",},
     {"name":"ExtractMaxSpeed","order":2,"path":"scripts/ExtractMaxSpeed/ExtractMaxSpeed.yy",},
     {"name":"Options","order":4,"path":"scripts/Options/Options.yy",},
+    {"name":"Battaglia","order":1,"path":"sounds/Battaglia/Battaglia.yy",},
     {"name":"spr_box_car","order":4,"path":"sprites/spr_box_car/spr_box_car.yy",},
     {"name":"spr_box_char","order":7,"path":"sprites/spr_box_char/spr_box_char.yy",},
     {"name":"spr_box_name","order":5,"path":"sprites/spr_box_name/spr_box_name.yy",},
