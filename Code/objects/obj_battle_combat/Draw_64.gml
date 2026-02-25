@@ -1,4 +1,4 @@
-if(obj_battle_manager._turn != -1){
+if(obj_battle_manager._turn == -1){
     draw_set_font(Font3)
 
 _x = display_get_width()*_x_perc

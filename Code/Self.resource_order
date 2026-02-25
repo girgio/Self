@@ -15,6 +15,7 @@
     {"name":"nemici_parent","order":1,"path":"objects/nemici_parent/nemici_parent.yy",},
     {"name":"nemico1","order":2,"path":"objects/nemico1/nemico1.yy",},
     {"name":"nemico2","order":4,"path":"objects/nemico2/nemico2.yy",},
+    {"name":"obj_battle_combat","order":22,"path":"objects/obj_battle_combat/obj_battle_combat.yy",},
     {"name":"obj_battle_defend","order":5,"path":"objects/obj_battle_defend/obj_battle_defend.yy",},
     {"name":"obj_battle_dialog","order":21,"path":"objects/obj_battle_dialog/obj_battle_dialog.yy",},
     {"name":"obj_battle_enemy1","order":1,"path":"objects/obj_battle_enemy1/obj_battle_enemy1.yy",},

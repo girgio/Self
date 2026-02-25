@@ -39,6 +39,7 @@
     {"id":{"name":"nemici_parent","path":"objects/nemici_parent/nemici_parent.yy",},},
     {"id":{"name":"nemico1","path":"objects/nemico1/nemico1.yy",},},
     {"id":{"name":"nemico2","path":"objects/nemico2/nemico2.yy",},},
+    {"id":{"name":"obj_battle_combat","path":"objects/obj_battle_combat/obj_battle_combat.yy",},},
     {"id":{"name":"obj_battle_defend","path":"objects/obj_battle_defend/obj_battle_defend.yy",},},
     {"id":{"name":"obj_battle_dialog","path":"objects/obj_battle_dialog/obj_battle_dialog.yy",},},
     {"id":{"name":"obj_battle_enemy_parent","path":"objects/obj_battle_enemy_parent/obj_battle_enemy_parent.yy",},},

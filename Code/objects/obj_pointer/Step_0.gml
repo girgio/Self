@@ -1,26 +1,52 @@
 
 
-
-if(_selezione == "azione"){
+if(_manager._turn == -1){
     if(_text){
+        _y_perc = obj_battle_combat._y_perc
+        obj_battle_dialog.current_char = 0
+        obj_battle_dialog._string = $"Che vuoi fare?"
+        _text = false
+    }
+      if(keyboard_check_pressed(vk_down)){
+        _y_perc += 0.12
+        if(_y_perc > 0.20){
+            _y_perc = obj_battle_combat._y_perc
+        }
+    }
+    if(keyboard_check_pressed(vk_up)){
+        _y_perc -= 0.12
+        if(_y_perc < obj_battle_combat._y_perc){
+            _y_perc = 0.20
+        }
+    }
+    if(keyboard_check_pressed(ord("Z"))){
+        if(_y_perc == obj_battle_combat._y_perc){
+            _manager._turn = 0
+            _text = true
+        }
+    }
+}
+else if(_selezione == "azione"){
+    if(_text){
+        _y_perc = obj_battle_parent._y_perc
         obj_battle_dialog.current_char = 0
         obj_battle_dialog._string = $"E' il turno di {_manager.players[_manager._turn].data.name}"
         _text = false
     }
     if(keyboard_check_pressed(vk_down)){
-        _y_perc += 0.1
-        if(_y_perc > 0.43){
-            _y_perc = 0.03
+        _y_perc += 0.12
+        if(_y_perc > 0.42){
+            _y_perc = obj_battle_parent._y_perc
         }
     }
     if(keyboard_check_pressed(vk_up)){
-        _y_perc -= 0.1
-        if(_y_perc < 0.03){
-            _y_perc = 0.43
+        _y_perc -= 0.12
+        if(_y_perc < obj_battle_parent._y_perc){
+            _y_perc = 0.42
         }
     }
     if(keyboard_check_pressed(ord("Z"))){
-        if(_y_perc == 0.03){
+        if(_y_perc == obj_battle_parent._y_perc){
             _manager.players[_manager._turn]._action = obj_battle_light.Attacco
             _selezione = "target"
             _x_target = _manager.enemies[0].x
@@ -31,11 +57,18 @@ if(_selezione == "azione"){
         }
     }
     if(keyboard_check_pressed(ord("X")) and _manager._turn > 0){
+        var original_turn = _manager._turn
         _manager._turn--
         while(_manager.players[_manager._turn].is_dead and _manager._turn <=3 ){
             _manager._turn--
+            if(_manager._turn < 0){
+                _manager._turn = original_turn
+                break
+            }
         }
-        _text = true
+        if(_manager._turn != original_turn){
+             _text = true
+        }
     }
     
 }else if (_selezione == "target") {
@@ -74,7 +107,5 @@ if(_selezione == "azione"){
         _selezione = "azione"
         _text = true
     }
-    
-   
-    
+        
 }
