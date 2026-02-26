@@ -1,4 +1,3 @@
-speed_m = 1;
 name = "Sbrellon"
 tilemap = layer_tilemap_get_id("Collision");
 hp = 20
@@ -19,5 +18,9 @@ target_x = Indiano.x;
 target_y = Indiano.y;
 movement_h = target_x-x
 movement_v = target_y - y
-hor = clamp(movement_h,-1,1);
-ver = clamp(movement_v,-1,1);
+position_history = ds_list_create();
+history_length = 30
+leader_is_moving = false;
+hor = 0
+ver = 0
+move_speed = 1;

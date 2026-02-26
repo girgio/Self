@@ -1,4 +1,4 @@
-speed_m = 1;
+move_speed = 1;
 name = "Lentit"
 tilemap = layer_tilemap_get_id("Collision");
 hp = 104
@@ -21,3 +21,4 @@ movement_h = target_x-x
 movement_v = target_y - y
 hor = clamp(movement_h,-1,1);
 ver = clamp(movement_v,-1,1);
+follow_index = 3

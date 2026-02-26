@@ -64,6 +64,7 @@
     {"id":{"name":"obj_music_manager","path":"objects/obj_music_manager/obj_music_manager.yy",},},
     {"id":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},},
     {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},},
+    {"id":{"name":"obj_party_manager","path":"objects/obj_party_manager/obj_party_manager.yy",},},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},},
     {"id":{"name":"obj_player3","path":"objects/obj_player3/obj_player3.yy",},},
     {"id":{"name":"obj_player4","path":"objects/obj_player4/obj_player4.yy",},},

@@ -1,4 +1,4 @@
-speed_m = 1;
+
 name = "Pollon"
 tilemap = layer_tilemap_get_id("Collision");
 hp = 12
@@ -19,5 +19,10 @@ target_x = obj_player2.x;
 target_y = obj_player2.y;
 movement_h = target_x-x
 movement_v = target_y - y
-hor = clamp(movement_h,-1,1);
-ver = clamp(movement_v,-1,1);
+follow_index = 2
+position_history = ds_list_create();
+history_length = 30
+leader_is_moving = false;
+hor = 0
+ver = 0
+move_speed = 1;

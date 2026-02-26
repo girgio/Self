@@ -14,6 +14,13 @@ luck = 1
 level = 1
 xp = 0
 xp_required = 100
+position_history = ds_list_create();
+history_length = 30
+leader_is_moving = false;
+hor = 0
+ver = 0
+
+show_debug_log(true)
 
 add_exp = function(obtained_exp){
     xp += obtained_exp
