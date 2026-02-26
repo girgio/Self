@@ -24,6 +24,7 @@ if(_selezione == "azione"){
             _manager.players[_manager._turn]._action = obj_battle_light.Attacco
             _selezione = "target"
             _x_target = _manager.enemies[0].x
+            _i_target = 0
             var temp = _w
            _w = _h
            _h = temp 
