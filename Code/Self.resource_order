@@ -1,12 +1,12 @@
 {
   "FolderOrderSettings":[
     {"name":"fonts","order":3,"path":"folders/fonts.yy",},
-    {"name":"Ost","order":5,"path":"folders/Ost.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
     {"name":"Battle","order":3,"path":"folders/Objects/Battle.yy",},
     {"name":"enemies","order":20,"path":"folders/Objects/Battle/enemies.yy",},
     {"name":"players","order":19,"path":"folders/Objects/Battle/players.yy",},
     {"name":"enemies_stat","order":12,"path":"folders/Objects/enemies_stat.yy",},
+    {"name":"Ost","order":5,"path":"folders/Ost.yy",},
     {"name":"Script","order":4,"path":"folders/Script.yy",},
   ],
   "ResourceOrderSettings":[
@@ -45,6 +45,7 @@
     {"name":"DrawTextMarkup","order":3,"path":"scripts/DrawTextMarkup/DrawTextMarkup.yy",},
     {"name":"ExtractMaxSpeed","order":2,"path":"scripts/ExtractMaxSpeed/ExtractMaxSpeed.yy",},
     {"name":"Options","order":4,"path":"scripts/Options/Options.yy",},
+    {"name":"Battaglia_orchestra","order":2,"path":"sounds/Battaglia_orchestra/Battaglia_orchestra.yy",},
     {"name":"Battaglia","order":1,"path":"sounds/Battaglia/Battaglia.yy",},
     {"name":"spr_box_car","order":4,"path":"sprites/spr_box_car/spr_box_car.yy",},
     {"name":"spr_box_char","order":7,"path":"sprites/spr_box_char/spr_box_char.yy",},

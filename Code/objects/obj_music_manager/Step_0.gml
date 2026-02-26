@@ -6,7 +6,7 @@ if(room == Room1 and first_time){
 
 if(room == Battle_room and first_time){
     audio_stop_all()
-    audio_play_sound(Battaglia, 1, true)
+    audio_play_sound(Battaglia_orchestra, 1, true)
     first_time = false
 }
 
