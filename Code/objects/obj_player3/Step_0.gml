@@ -8,7 +8,10 @@ if (!instance_exists(leader)) exit;
 var old_x = x;
 var old_y = y;
 var history = leader.position_history;
-var spacing = 20; 
+var spacing = 15; 
+if(keyboard_check(vk_shift)){
+    move_speed = move_speed + 0.5
+}
 var target_index = spacing * follow_index;
 
 if (!leader.leader_is_moving) {
@@ -44,7 +47,7 @@ if (ds_list_size(history) > target_index) {
         // Se il leader si muove a 4, il follower deve poter andare a 4 * 1.5 
         // per compensare la distanza maggiore in diagonale.
         if(leader.hor != 0 && leader.ver != 0 ){ 
-            speed_to_apply = min(dist, move_speed * 1.5);    
+            speed_to_apply = min(dist, move_speed * power(2,1/2));    
         }
         hor = lengthdir_x(speed_to_apply, dir);
         ver = lengthdir_y(speed_to_apply, dir)
@@ -66,6 +69,7 @@ if (ds_list_size(history) > target_index) {
     else if (sprite_index == spr_player_walk_right) sprite_index = spr_player_idle_right;
     else if (sprite_index == spr_player_walk_left)  sprite_index = spr_player_idle_left;
 }
+    move_speed = 1
 }
 
 

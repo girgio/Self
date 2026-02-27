@@ -1,4 +1,5 @@
 _turn = 0 //da 0 a 4, 4 è il turno dei nemici
+_round = 1 // da 1 a infinito, indica il numero di round in totale
 damage_to_enemy = 0
 enemy_damage = 0
 enemy_num = 0

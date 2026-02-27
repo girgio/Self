@@ -17,7 +17,7 @@ draw_text(_x_text,_y_text,string(data.hp)+"/"+string(data.hp_max))
 
 draw_set_font(Font1)
 _y_text -= _h*2
-draw_text(_x_text,_y_text,$"{data.name}")
+draw_text(_x_text,_y_text,$"{data.name} LV.{data.level}")
 
 draw_set_valign(fa_left)
 draw_set_halign(fa_top)

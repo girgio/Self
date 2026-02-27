@@ -5,15 +5,17 @@ var old_x = x;
 var old_y = y;
 hor = keyboard_check(vk_right) - keyboard_check(vk_left)
 ver = keyboard_check(vk_down) - keyboard_check(vk_up)
+
+
 if(keyboard_check(vk_shift)){
     movement_speed = movement_speed + 0.5
 }
 
 var len = point_distance(0,0,hor,ver);
 
+
 // movimento con collisione
-move_and_collide(hor * movement_speed, ver * movement_speed, tilemap);
-movement_speed = 1
+
 if(hor != 0 or ver != 0){
     if(ver > 0) {sprite_index = spr_player_walk_down} 
     else if(ver < 0) {sprite_index = spr_player_walk_up}
@@ -26,6 +28,22 @@ if(hor != 0 or ver != 0){
     else if(sprite_index == spr_player_walk_left) {sprite_index = spr_player_idle_left}   
 }
 
+if(place_meeting(x,y-1,tilemap) && ver < 0){
+    ver = 0
+}
+if(place_meeting(x,y+1,tilemap) && ver > 0){
+    ver = 0
+}
+if(place_meeting(x+1,y,tilemap) && hor > 0){
+    hor = 0
+}
+if(place_meeting(x-1,y,tilemap) && hor < 0){
+    hor = 0
+}
+
+move_and_collide(hor * movement_speed, ver * movement_speed, tilemap);
+movement_speed = 1
+
 if(hp <= 0){
     game_restart()
 }
@@ -37,4 +55,3 @@ if (ds_list_size(position_history) > history_length * 10) {
 }
 
 leader_is_moving = (x != old_x) || (y != old_y);
-ds_list_insert(position_history, 0, [x, y]);

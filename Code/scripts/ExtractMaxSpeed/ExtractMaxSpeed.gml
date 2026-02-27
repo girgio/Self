@@ -5,11 +5,9 @@ function extract_max_speed_player(array) {
     var max_speed = -1 // numero molto basso
     var i 
     var max_i = 0
-    show_debug_message(array_length(array))
     
     for(i = 0;i<array_length(array);i++){
         var p = array[i]
-        show_debug_message(p.data.name)
         if (p.data._speed > max_speed) {
             max_speed = p.data._speed;
             max_instance = p;

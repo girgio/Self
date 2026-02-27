@@ -30,6 +30,15 @@ if(_selezione == "azione"){
            _h = temp 
             _text = true
         }
+        else if(_y_perc == 0.43){
+            _manager.players[_manager._turn]._action = obj_battle_run.Fuga
+            _manager.players[_manager._turn]._target = "nessuno"
+            _text = true
+            _manager._turn++
+            if(_manager._turn > 3){
+            _selezione = "attesa"
+        }
+        }
     }
     if(keyboard_check_pressed(ord("X")) and _manager._turn > 0){
         var original_turn = _manager._turn
