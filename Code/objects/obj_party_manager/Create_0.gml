@@ -12,6 +12,6 @@ follower2.follow_index = 2;
 array_push(global.party, follower2);
 
 var follower3 = instance_create_layer(200,300,"Instances",obj_player4);
-follower2.follow_index = 3;
+follower3.follow_index = 3;
 array_push(global.party, follower3);
 
