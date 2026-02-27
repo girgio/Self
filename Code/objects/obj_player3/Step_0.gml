@@ -8,7 +8,7 @@ if (!instance_exists(leader)) exit;
 var old_x = x;
 var old_y = y;
 var history = leader.position_history;
-var spacing = 20; 
+var spacing = 30; 
 var target_index = spacing * follow_index;
 
 if (!leader.leader_is_moving) {
