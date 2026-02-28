@@ -44,10 +44,6 @@ if(place_meeting(x-1,y,tilemap) && hor < 0){
 move_and_collide(hor * movement_speed, ver * movement_speed, tilemap);
 movement_speed = 1
 
-if(hp <= 0){
-    game_restart()
-}
-
 ds_list_insert(position_history, 0, [x, y]);
 
 if (ds_list_size(position_history) > history_length * 10) {

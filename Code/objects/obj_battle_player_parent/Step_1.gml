@@ -4,7 +4,7 @@ if(data.hp <= 0 and !is_dead){
     is_dead = true
     var alive = obj_battle_manager.player_alive
     alive--
-    if(alive == 0){
+    if(alive <= 0){
         game_restart()
     }
 }

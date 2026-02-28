@@ -8,7 +8,12 @@ var _y = gui_h - _h
 
 
 draw_sprite_stretched(spr_box,0,_x,_y,_w,_h)
-draw_sprite_stretched(Sprite28,0,_x,_y,_w,_h)
+if(obj_battle_player1.is_dead){
+    draw_sprite_stretched(dKristo,0,_x,_y,_w,_h)
+}else{
+    draw_sprite_stretched(Sprite28,0,_x,_y,_w,_h)
+}
+
 if(obj_battle_manager._turn == 0){
     draw_sprite_stretched(spr_pesce,0,_x,_y,_w,_h)
 }

@@ -43,7 +43,7 @@ if(stat){
     draw_text(_x+0.3*_w,_y,data.atk)
     
     _y += 0.1*_h
-    draw_text(_x,_y,"Magia")
+    draw_text(_x,_y,"Magiaz")
     draw_text(_x+0.3*_w,_y,data.m_atk)
     
     _y += 0.1*_h

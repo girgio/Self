@@ -9,7 +9,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"def","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"hp","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"atk","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"_speed","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"_speed","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
   ],
   "parent":{
     "name":"enemies_stat",
