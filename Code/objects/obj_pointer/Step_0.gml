@@ -33,8 +33,11 @@ if(_selezione == "azione"){
         else if(_y_perc == 0.43){
             _manager.players[_manager._turn]._action = obj_battle_run.Fuga
             _manager.players[_manager._turn]._target = "nessuno"
-            _text = true
+             _manager._turn++
+        while(_manager._turn <=3 and _manager.players[_manager._turn].is_dead){
             _manager._turn++
+        }
+        _text = true
             if(_manager._turn > 3){
             _selezione = "attesa"
         }

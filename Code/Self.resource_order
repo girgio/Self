@@ -48,6 +48,7 @@
     {"name":"Options","order":4,"path":"scripts/Options/Options.yy",},
     {"name":"Battaglia_orchestra","order":2,"path":"sounds/Battaglia_orchestra/Battaglia_orchestra.yy",},
     {"name":"Battaglia","order":1,"path":"sounds/Battaglia/Battaglia.yy",},
+    {"name":"spr_box_1","order":10,"path":"sprites/spr_box_1/spr_box_1.yy",},
     {"name":"spr_box_car","order":4,"path":"sprites/spr_box_car/spr_box_car.yy",},
     {"name":"spr_box_char","order":7,"path":"sprites/spr_box_char/spr_box_char.yy",},
     {"name":"spr_box_name","order":5,"path":"sprites/spr_box_name/spr_box_name.yy",},

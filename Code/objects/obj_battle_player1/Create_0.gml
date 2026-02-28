@@ -3,3 +3,4 @@ _action = noone
 _target = noone
 _self = obj_battle_player1
 is_dead = false
+stat = false

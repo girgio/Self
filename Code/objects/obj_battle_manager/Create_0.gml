@@ -10,5 +10,6 @@ players = [obj_battle_player1,obj_battle_player2,obj_battle_player3,obj_battle_p
 enemies = []
 order_players = []
 targets = array_create(4)
+player_alive = 4
 holding = false
 alarm[11] = 1

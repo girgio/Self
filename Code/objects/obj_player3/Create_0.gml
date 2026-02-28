@@ -1,9 +1,9 @@
 
 name = "Pollon"
 tilemap = layer_tilemap_get_id("Collision");
-hp = 12
+hp = 1
 hp_max = hp
-atk = 2
+atk = 100
 m_atk = 5
 def = 10
 _precision = 100

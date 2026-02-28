@@ -1,7 +1,7 @@
 move_speed = 1;
 name = "Lentit"
 tilemap = layer_tilemap_get_id("Collision");
-hp = 104
+hp = 1
 hp_max = hp
 atk = 2
 m_atk = 5

@@ -6,6 +6,11 @@ if(data.hp <= 0){
     array_delete(obj_battle_manager.order_players,array_get_index(obj_battle_manager.order_players,_self),1)
     
     instance_destroy()
+    
+    if(obj_battle_manager.enemy_num <= 0){
+        obj_battle_switch.win = true
+        room_goto(Room1)
+    }
 }
 if(obj_battle_manager._turn == 0){
     _action = obj_battle_light.Attacco

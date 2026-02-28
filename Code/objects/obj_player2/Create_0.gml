@@ -1,8 +1,8 @@
 name = "Sbrellon"
 tilemap = layer_tilemap_get_id("Collision");
-hp = 20
+hp = 2
 hp_max = hp
-atk = 2
+atk = 50
 m_atk = 5
 def = 10
 _precision = 100

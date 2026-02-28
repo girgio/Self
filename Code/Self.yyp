@@ -80,6 +80,7 @@
     {"id":{"name":"Battaglia","path":"sounds/Battaglia/Battaglia.yy",},},
     {"id":{"name":"Overworld","path":"sounds/Overworld/Overworld.yy",},},
     {"id":{"name":"spr_battle_screen","path":"sprites/spr_battle_screen/spr_battle_screen.yy",},},
+    {"id":{"name":"spr_box_1","path":"sprites/spr_box_1/spr_box_1.yy",},},
     {"id":{"name":"spr_box_car","path":"sprites/spr_box_car/spr_box_car.yy",},},
     {"id":{"name":"spr_box_char","path":"sprites/spr_box_char/spr_box_char.yy",},},
     {"id":{"name":"spr_box_name","path":"sprites/spr_box_name/spr_box_name.yy",},},

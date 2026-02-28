@@ -22,6 +22,7 @@ battle_switch.data_enemy3 = enemy3
 battle_switch.data_player2 = instance_find(obj_player2, 0);
 battle_switch.data_player3 = instance_find(obj_player3, 0);
 battle_switch.data_player4 = instance_find(obj_player4, 0);
+battle_switch.data_enemy_overworld = other
 battle_switch.current_room = room
 instance_destroy(obj_dialogue)
 room_goto(Battle_room)
