@@ -14,7 +14,7 @@ function Calcola_danno(player,enemy){
     var luck = player.data.luck 
     var crict = 1
     
-    var rand_crit = irandom_range(0,100)
+    var rand_crit = irandom_range(0,200)
     if(luck > rand_crit){
         crict = 1.5 //Hai fatto colpo critico!
     }

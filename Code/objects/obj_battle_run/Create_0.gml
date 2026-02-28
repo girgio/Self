@@ -16,9 +16,11 @@ function Fuga(p)
     
     array_foreach(enemies,function(_element,_index){
         var result = random_range(0,3)
+        
         show_debug_message($"Velocità di {_element.data.name}:{_element.data._speed}")
         show_debug_message($"roll da superare:{result}")
-        var prob = (_speed + _turn)/_element.data._speed
+        
+        var prob = (_speed + _turn*2)/_element.data._speed
         show_debug_message($"probabilità calcolata:{prob}")
         show_debug_message("")
         if(result > prob){

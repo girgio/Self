@@ -21,6 +21,7 @@ _dy = _dy - (32 + _h)
 _dx -= 16
 
 if(_img){
+    draw_sprite_stretched(spr_box,0,_dx,_dy,_w,_h)
     draw_sprite_stretched(_img,0,_dx,_dy,_w,_h)
 }
 

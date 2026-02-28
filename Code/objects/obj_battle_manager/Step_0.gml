@@ -1,4 +1,6 @@
-
+if(player_alive <= 0){
+        game_restart()
+    }
 if(_turn > 3 and !holding){
     var current_player = extract_max_speed_player(order_players)
     if(current_player == noone){
