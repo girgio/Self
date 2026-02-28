@@ -1,5 +1,4 @@
 if (instance_exists(obj_dialogue)) exit;
-if (instance_exists(obj_battle_switch)) exit;
 
 var leader = global.party[0];
 if (!instance_exists(leader)) exit; 
