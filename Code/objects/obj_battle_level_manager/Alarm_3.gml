@@ -1,0 +1,1 @@
+obj_battle_player3.level_up = true

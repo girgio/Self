@@ -1,5 +1,5 @@
 
-
+if(obj_battle_switch.win) exit;
 
 if(_selezione == "azione"){
     if(_text){

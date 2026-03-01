@@ -8,8 +8,8 @@ function extract_max_speed_player(array) {
     
     for(i = 0;i<array_length(array);i++){
         var p = array[i]
-        if (p.data._speed > max_speed) {
-            max_speed = p.data._speed;
+        if (p.current_speed > max_speed) {
+            max_speed = p.current_speed;
             max_instance = p;
             max_i = i
         }

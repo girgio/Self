@@ -7,21 +7,34 @@ potenza_mossa = {
 }
 
 
-function Calcola_danno(player,enemy){
-    var atk = player.data.atk
+function Calcola_danno(player,enemy,base_power){
+    var atk = player.current_atk
     var lv = player.data.level
-    var def = enemy.data.def
-    var luck = player.data.luck 
-    var crict = 1
+    var def = enemy.current_def
+    var luck = player.current_luck 
+    var crit = 1
+    var esito = noone
     
     var rand_crit = irandom_range(0,200)
     if(luck > rand_crit){
-        crict = 1.5 //Hai fatto colpo critico!
+        crit = 1.5 //Hai fatto colpo critico!
     }
     
-    var danno =round((((2*lv+10)/250)*(atk/def)*global.potenza_mossa.bassa+2)*crict)
+    var danno =round((((2*lv+10)/250)*(atk/def)*base_power+2)*crit)
     
-    return danno
+    if(crit > 1){
+        esito = {
+            "danno":danno,
+            "crit":true
+        }
+    }else{
+        esito = {
+            "danno":danno,
+            "crit":false
+        }
+    }
+    
+    return esito
     
     
 }
