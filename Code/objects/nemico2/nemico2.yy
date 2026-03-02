@@ -1,13 +1,14 @@
 {
   "$GMObject":"",
   "%Name":"nemico2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"nemico2",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"nemici_parent","path":"objects/nemici_parent/nemici_parent.yy",},"propertyId":{"name":"speed_m","path":"objects/nemici_parent/nemici_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"nemici_parent","path":"objects/nemici_parent/nemici_parent.yy",},"propertyId":{"name":"speed_m","path":"objects/nemici_parent/nemici_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"nemici_parent","path":"objects/nemici_parent/nemici_parent.yy",},"propertyId":{"name":"enemy2","path":"objects/nemici_parent/nemici_parent.yy",},"resource":{"name":"obj_enemy_stat2","path":"objects/obj_enemy_stat2/obj_enemy_stat2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_enemy_stat2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"nemici_parent","path":"objects/nemici_parent/nemici_parent.yy",},"propertyId":{"name":"enemy1","path":"objects/nemici_parent/nemici_parent.yy",},"resource":{"name":"obj_enemy_stat1","path":"objects/obj_enemy_stat1/obj_enemy_stat1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_enemy_stat1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"nemici_parent","path":"objects/nemici_parent/nemici_parent.yy",},"propertyId":{"name":"range","path":"objects/nemici_parent/nemici_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
   ],
   "parent":{
     "name":"Objects",

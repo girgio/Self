@@ -11,6 +11,7 @@ current_speed = data._speed
 current_luck = data.luck
 level_up = false
 draw_state = false
+is_attacking = false
 
 point = 2
 max_point = point

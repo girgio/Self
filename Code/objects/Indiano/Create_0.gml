@@ -1,16 +1,16 @@
 movement_speed = 1;
 name = "Kristo"
 tilemap = layer_tilemap_get_id("Collision");
-hp = 1
+hp = 40
 hp_max = hp
-atk = 100
+atk = 10
 m_atk = 20
-def = 10
+def = 15
 mp = 15
 mp_max = mp
-_speed = 200
+_speed = 15
 _precision = 100
-luck = 200
+luck = 10
 level = 1
 position_history = ds_list_create();
 history_length = 30
@@ -22,11 +22,11 @@ xp_required = 100
 
 //aumento di statistiche
 
-atk_up = 1
+atk_up = 2
 hp_up = 20
 mp_up = 10
 matk_up = 3
-_speed_up = 2
+_speed_up = 5
 def_up = 3
 luck_up = 1
 levels_obtained = 0

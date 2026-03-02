@@ -1,16 +1,16 @@
 
 name = "Pollon"
 tilemap = layer_tilemap_get_id("Collision");
-hp = 1
+hp = 40
 hp_max = hp
-atk = 100
+atk = 5
 m_atk = 5
-def = 10
+def = 30
 _precision = 100
 mp = 25
 mp_max = mp
 _speed = 2
-luck = 1
+luck = 3
 level = 1
 xp = 0
 xp_required = 100
@@ -30,11 +30,11 @@ move_speed = 1;
 //aumento di statistiche
 
 atk_up = 1
-hp_up = 20
+hp_up = 30
 mp_up = 10
 matk_up = 3
 _speed_up = 2
-def_up = 3
+def_up = 5
 luck_up = 1
 levels_obtained = 0
 add_exp = function(obtained_exp){

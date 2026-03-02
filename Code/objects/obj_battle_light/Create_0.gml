@@ -8,6 +8,7 @@ function Attacco(player,target){
     esito = Calcola_danno(player,target,global.potenza_mossa.bassa)
     danno = esito.danno
     crit = esito.crit
-    alarm[0] = 150
+    player.is_attacking = true
+    alarm[0] = 120
 }
 

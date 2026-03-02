@@ -1,15 +1,15 @@
 name = "Sbrellon"
 tilemap = layer_tilemap_get_id("Collision");
-hp = 1
+hp = 20
 hp_max = hp
-atk = 50
+atk = 10
 m_atk = 5
 def = 10
 _precision = 100
 mp = 3
 mp_max = mp
-_speed = 15
-luck = 1
+_speed = 30
+luck = 10
 level = 1
 xp = 0
 xp_required = 100
@@ -27,13 +27,13 @@ move_speed = 1;
 
 //aumento di statistiche
 
-atk_up = 1
-hp_up = 20
+atk_up = 4
+hp_up = 10
 mp_up = 10
 matk_up = 3
-_speed_up = 2
+_speed_up = 4
 def_up = 3
-luck_up = 1
+luck_up = 2
 levels_obtained = 0
 add_exp = function(obtained_exp){
     xp += obtained_exp

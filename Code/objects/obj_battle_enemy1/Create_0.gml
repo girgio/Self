@@ -13,3 +13,4 @@ current_atk = data.atk
 current_def = data.def
 current_speed = data._speed
 current_luck = data.luck
+is_attacking = false

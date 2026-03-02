@@ -1,0 +1,1 @@
+obj_battle_player1.is_attacking = false

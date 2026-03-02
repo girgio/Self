@@ -11,6 +11,7 @@ level_up = false
 draw_state = false
 point = 2
 max_point = point
+is_attacking = false
 
 //variabili x draw
 var gui_w = global.w_res 

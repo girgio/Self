@@ -11,7 +11,14 @@ draw_sprite_stretched(spr_box,0,_x,_y,_w,_h)
 if(obj_battle_player1.is_dead){
     draw_sprite_stretched(dKristo,0,_x,_y,_w,_h)
 }else{
-    draw_sprite_stretched(Sprite28,0,_x,_y,_w,_h)
+    if(obj_battle_player1.is_attacking){
+        draw_sprite_stretched(Sprite33,0,_x,_y,_w,_h) 
+        if(alarm[4] == -1){
+            alarm[4] = 120
+        }
+    }else{
+       draw_sprite_stretched(Sprite28,0,_x,_y,_w,_h) 
+    }
 }
 
 if(obj_battle_manager._turn == 0){
