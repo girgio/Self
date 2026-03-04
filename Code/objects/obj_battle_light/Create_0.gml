@@ -5,6 +5,7 @@ function Attacco(player,target){
     _enemy = target
     obj_battle_dialog.current_char = 0
     obj_battle_dialog._string = $"{player.data.name} attacca {target.data.name}"
+    array_push(obj_scroll_panel.moves,$"[Round {obj_battle_manager._round}] {player.data.name} attacca {target.data.name}")
     esito = Calcola_danno(player,target,global.potenza_mossa.bassa)
     danno = esito.danno
     crit = esito.crit

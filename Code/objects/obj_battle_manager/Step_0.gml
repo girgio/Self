@@ -23,6 +23,7 @@ if(_turn > 3 and !holding and !obj_battle_switch.win){
                 holding = true
                 obj_battle_dialog.current_char = 0
                 obj_battle_dialog._string = $"{current_player.data.name} attacca a vuoto"
+                array_push(obj_scroll_panel.moves,$"[Round {obj_battle_manager._round}] {current_player.data.name} attacca a vuoto")
                 alarm[0] = 80
                 
             }
