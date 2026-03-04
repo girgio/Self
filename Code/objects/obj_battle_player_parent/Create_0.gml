@@ -12,6 +12,7 @@ draw_state = false
 point = 2
 max_point = point
 is_attacking = false
+defend = 1
 
 //variabili x draw
 var gui_w = global.w_res 

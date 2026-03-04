@@ -20,7 +20,7 @@ function Calcola_danno(player,enemy,base_power){
         crit = 1.5 //Hai fatto colpo critico!
     }
     
-    var danno =round((((2*lv+10)/250)*(atk/def)*base_power+2)*crit)
+    var danno =round((((2*lv+10)/250)*(atk/def)*base_power+2)*crit*enemy.defend)
     
     if(crit > 1){
         esito = {

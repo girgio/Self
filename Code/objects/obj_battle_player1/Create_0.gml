@@ -14,6 +14,11 @@ draw_state = false
 point = 2
 max_point = point
 is_attacking = false
+defend = 1
+
+default_sprite = Sprite28
+sprite_index = default_sprite
+defend_sprite = Sprite37
 
 //variabili x draw
 var gui_w = global.w_res 

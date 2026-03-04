@@ -23,7 +23,6 @@
     {"name":"obj_battle_enemy1","order":1,"path":"objects/obj_battle_enemy1/obj_battle_enemy1.yy",},
     {"name":"obj_battle_enemy2","order":2,"path":"objects/obj_battle_enemy2/obj_battle_enemy2.yy",},
     {"name":"obj_battle_enemy3","order":3,"path":"objects/obj_battle_enemy3/obj_battle_enemy3.yy",},
-    {"name":"obj_battle_info","order":23,"path":"objects/obj_battle_info/obj_battle_info.yy",},
     {"name":"obj_battle_item","order":16,"path":"objects/obj_battle_item/obj_battle_item.yy",},
     {"name":"obj_battle_level_manager","order":22,"path":"objects/obj_battle_level_manager/obj_battle_level_manager.yy",},
     {"name":"obj_battle_light","order":2,"path":"objects/obj_battle_light/obj_battle_light.yy",},
@@ -57,6 +56,7 @@
     {"name":"Script7","order":6,"path":"scripts/Script7/Script7.yy",},
     {"name":"Battaglia_orchestra","order":2,"path":"sounds/Battaglia_orchestra/Battaglia_orchestra.yy",},
     {"name":"Battaglia","order":1,"path":"sounds/Battaglia/Battaglia.yy",},
+    {"name":"collision_box","order":17,"path":"sprites/collision_box/collision_box.yy",},
     {"name":"dKristo","order":11,"path":"sprites/dKristo/dKristo.yy",},
     {"name":"spr_arrow_close","order":15,"path":"sprites/spr_arrow_close/spr_arrow_close.yy",},
     {"name":"spr_arrpw_open","order":13,"path":"sprites/spr_arrpw_open/spr_arrpw_open.yy",},
@@ -73,6 +73,7 @@
     {"name":"Sprite28","order":8,"path":"sprites/Sprite28/Sprite28.yy",},
     {"name":"Sprite33","order":1,"path":"sprites/Sprite33/Sprite33.yy",},
     {"name":"Sprite35","order":14,"path":"sprites/Sprite35/Sprite35.yy",},
+    {"name":"Sprite37","order":16,"path":"sprites/Sprite37/Sprite37.yy",},
     {"name":"TileSet1","order":1,"path":"tilesets/TileSet1/TileSet1.yy",},
   ],
 }

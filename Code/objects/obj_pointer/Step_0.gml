@@ -1,7 +1,11 @@
 
 if(obj_battle_switch.win) exit;
+    
+if(alarm[0] != -1) exit; //per controllare se si sta difendeno un player
 
 if(_selezione == "azione"){
+    _manager.players[_manager._turn].defend = 1
+    _manager.players[_manager._turn].sprite_index = _manager.players[_manager._turn].default_sprite
     if(_text){
         obj_battle_dialog.current_char = 0
         obj_battle_dialog._string = $"E' il turno di {_manager.players[_manager._turn].data.name}"
@@ -29,18 +33,25 @@ if(_selezione == "azione"){
            _w = _h
            _h = temp 
             _text = true
-        }
-        else if(_y_perc == 0.43){
+        }else if(_y_perc == 0.33){
+             _manager.players[_manager._turn]._action = obj_battle_defend.Parata
+            _manager.players[_manager._turn]._target = "nessuno"
+            _manager.players[_manager._turn].defend = 0.75
+            _manager.players[_manager._turn].sprite_index =  _manager.players[_manager._turn].defend_sprite
+            obj_battle_dialog.current_char = 0
+            obj_battle_dialog._string = $"{_manager.players[_manager._turn].data.name} si difende"
+            alarm[0] = 60
+        }else if(_y_perc == 0.43){
             _manager.players[_manager._turn]._action = obj_battle_run.Fuga
             _manager.players[_manager._turn]._target = "nessuno"
              _manager._turn++
-        while(_manager._turn <=3 and _manager.players[_manager._turn].is_dead){
-            _manager._turn++
-        }
-        _text = true
+            while(_manager._turn <=3 and _manager.players[_manager._turn].is_dead){
+                _manager._turn++
+            }
+            _text = true
             if(_manager._turn > 3){
-            _selezione = "attesa"
-        }
+                _selezione = "attesa"
+            }
         }
     }
     if(keyboard_check_pressed(ord("X")) and _manager._turn > 0){

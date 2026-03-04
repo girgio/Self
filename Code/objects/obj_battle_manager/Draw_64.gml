@@ -17,7 +17,7 @@ if(obj_battle_player1.is_dead){
             alarm[4] = 120
         }
     }else{
-       draw_sprite_stretched(Sprite28,0,_x,_y,_w,_h) 
+       draw_sprite_stretched(obj_battle_player1.sprite_index,0,_x,_y,_w,_h) 
     }
 }
 

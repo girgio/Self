@@ -3,6 +3,7 @@ if(player_alive <= 0){
     }
 if(_turn > 3 and !holding and !obj_battle_switch.win){
     var current_player = extract_max_speed_player(order_players)
+    
     if(current_player == noone){
         _turn = 0
         _round++
@@ -15,7 +16,8 @@ if(_turn > 3 and !holding and !obj_battle_switch.win){
     }else{
        if(instance_exists(current_player) and current_player.data.hp > 0) {
            var target = current_player._target 
-           if(target == "nessuno") {
+           
+        if(target == "nessuno") {
                 current_player._action(current_player)
             }else if(instance_exists(target) and target.data.hp > 0) {
                 current_player._action(current_player,target)

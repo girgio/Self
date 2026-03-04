@@ -36,6 +36,9 @@
     "name":"spr_box_char",
     "path":"sprites/spr_box_char/spr_box_char.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"collision_box",
+    "path":"sprites/collision_box/collision_box.yy",
+  },
   "visible":true,
 }

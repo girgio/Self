@@ -12,6 +12,11 @@ current_luck = data.luck
 level_up = false
 draw_state = false
 is_attacking = false
+defend = 1
+
+default_sprite = Sprite28
+sprite_index = default_sprite
+defend_sprite = Sprite37
 
 point = 2
 max_point = point
