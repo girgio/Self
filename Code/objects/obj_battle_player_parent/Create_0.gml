@@ -14,6 +14,14 @@ max_point = point
 is_attacking = false
 defend = 1
 
+//magie
+magics = []
+for(i = 0;i < array_length(data.magics);i++){
+    var magic = instance_create_depth(0,0,0,data.magics[i])  
+    array_push(magics,magic)
+}
+
+
 //variabili x draw
 var gui_w = global.w_res 
 var gui_h = global.h_res

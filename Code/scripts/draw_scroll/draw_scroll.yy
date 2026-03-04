@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script7",
+  "%Name":"draw_scroll",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script7",
+  "name":"draw_scroll",
   "parent":{
     "name":"Script",
     "path":"folders/Script.yy",

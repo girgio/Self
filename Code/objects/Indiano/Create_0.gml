@@ -20,6 +20,9 @@ ver = 0
 xp = 0
 xp_required = 100
 
+//magie
+magics = [obj_magic_fire]
+
 //aumento di statistiche
 
 atk_up = 2

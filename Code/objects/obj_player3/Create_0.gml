@@ -27,6 +27,9 @@ hor = 0
 ver = 0
 move_speed = 1;
 
+//magie
+magics = [obj_magic_fire]
+
 //aumento di statistiche
 
 atk_up = 1

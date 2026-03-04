@@ -22,6 +22,9 @@ hor = clamp(movement_h,-1,1);
 ver = clamp(movement_v,-1,1);
 follow_index = 3
 
+//magie
+magics = [obj_magic_fire]
+
 //aumento di statistiche
 
 atk_up = 1

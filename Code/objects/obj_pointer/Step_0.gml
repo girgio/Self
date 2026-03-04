@@ -33,7 +33,10 @@ if(_selezione == "azione"){
            _w = _h
            _h = temp 
             _text = true
-        }else if(_y_perc == 0.33){
+        }else if(_y_perc == 0.13){
+            _selezione = "magic"
+        }
+        else if(_y_perc == 0.33){
              _manager.players[_manager._turn]._action = obj_battle_defend.Parata
             _manager.players[_manager._turn]._target = "nessuno"
             _manager.players[_manager._turn].defend = 0.75
@@ -105,7 +108,6 @@ if(_selezione == "azione"){
         _selezione = "azione"
         _text = true
     }
-    
-   
+}else if(_selezione == "magic"){
     
 }

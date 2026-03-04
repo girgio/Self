@@ -16,6 +16,14 @@ max_point = point
 is_attacking = false
 defend = 1
 
+//magie
+magics = []
+for(i = 0;i < array_length(data.magics);i++){
+    var magic = instance_create_depth(0,0,0,data.magics[i])  
+    array_push(magics,magic)
+}
+
+
 default_sprite = Sprite28
 sprite_index = default_sprite
 defend_sprite = Sprite37
