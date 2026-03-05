@@ -109,5 +109,5 @@ if(_selezione == "azione"){
         _text = true
     }
 }else if(_selezione == "magic"){
-    
+    _y_perc = 0.3
 }

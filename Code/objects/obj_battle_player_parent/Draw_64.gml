@@ -3,7 +3,6 @@ draw_set_font(Font2)
 draw_set_halign(fa_center)
 draw_set_valign(fa_center)
 
-draw_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,false)
 
 var gui_w = global.w_res 
 var gui_h = global.h_res
