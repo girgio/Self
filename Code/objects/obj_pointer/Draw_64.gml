@@ -13,4 +13,6 @@ if(_selezione == "azione"){
     var xx = (_x_target) * scale - _w/2;
 
     draw_sprite_stretched(spr_button_run, 0, xx, yy, _w, _h);
+}else if(_selezione == "magic"){
+    
 }
