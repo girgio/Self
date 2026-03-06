@@ -3,7 +3,7 @@ _action = noone
 _target = noone
 _self = obj_battle_player1
 is_dead = false
-stat = false
+stat = false //per visualizzare le statistiche quando passi il mouse
 current_atk = data.atk
 curretn_matk = data.m_atk
 current_def = data.def
@@ -15,6 +15,9 @@ point = 2
 max_point = point
 is_attacking = false
 defend = 1
+
+//stato
+
 
 //magie
 magics = []
