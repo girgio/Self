@@ -87,6 +87,7 @@
     {"id":{"name":"ExtractMaxSpeed","path":"scripts/ExtractMaxSpeed/ExtractMaxSpeed.yy",},},
     {"id":{"name":"Options","path":"scripts/Options/Options.yy",},},
     {"id":{"name":"Restore_stat","path":"scripts/Restore_stat/Restore_stat.yy",},},
+    {"id":{"name":"States","path":"scripts/States/States.yy",},},
     {"id":{"name":"Battaglia_orchestra","path":"sounds/Battaglia_orchestra/Battaglia_orchestra.yy",},},
     {"id":{"name":"Battaglia","path":"sounds/Battaglia/Battaglia.yy",},},
     {"id":{"name":"Overworld","path":"sounds/Overworld/Overworld.yy",},},

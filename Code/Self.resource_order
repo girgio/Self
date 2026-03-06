@@ -56,6 +56,7 @@
     {"name":"ExtractMaxSpeed","order":2,"path":"scripts/ExtractMaxSpeed/ExtractMaxSpeed.yy",},
     {"name":"Options","order":4,"path":"scripts/Options/Options.yy",},
     {"name":"Restore_stat","order":5,"path":"scripts/Restore_stat/Restore_stat.yy",},
+    {"name":"States","order":7,"path":"scripts/States/States.yy",},
     {"name":"Battaglia_orchestra","order":2,"path":"sounds/Battaglia_orchestra/Battaglia_orchestra.yy",},
     {"name":"Battaglia","order":1,"path":"sounds/Battaglia/Battaglia.yy",},
     {"name":"collision_box","order":17,"path":"sprites/collision_box/collision_box.yy",},

@@ -1,0 +1,3 @@
+states = {
+    "burn" : 0
+}

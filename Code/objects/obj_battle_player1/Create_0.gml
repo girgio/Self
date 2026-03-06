@@ -16,7 +16,8 @@ max_point = point
 is_attacking = false
 defend = 1
 
-//stato
+//condizione di stato
+_state = noone
 
 
 //magie

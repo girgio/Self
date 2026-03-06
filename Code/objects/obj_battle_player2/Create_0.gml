@@ -18,6 +18,9 @@ default_sprite = Sprite28
 sprite_index = default_sprite
 defend_sprite = Sprite37
 
+//condizione di stato
+_state = noone
+
 //magie
 magics = []
 for(i = 0;i < array_length(data.magics);i++){

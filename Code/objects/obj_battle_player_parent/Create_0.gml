@@ -14,6 +14,9 @@ max_point = point
 is_attacking = false
 defend = 1
 
+//condizione di stato
+_state = noone
+
 //magie
 magics = []
 for(i = 0;i < array_length(data.magics);i++){
