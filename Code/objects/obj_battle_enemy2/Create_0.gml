@@ -14,3 +14,6 @@ current_speed = data._speed
 current_luck = data.luck
 is_attacking = false
 defend = 1
+
+//condizione di stato
+_state = noone
