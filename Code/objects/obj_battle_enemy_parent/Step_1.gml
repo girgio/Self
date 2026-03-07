@@ -1,5 +1,5 @@
 if(obj_battle_manager._turn == 4 and data.hp > 0){
-    _action = obj_battle_light.Attacco
+    _action = obj_magic_fire.Attacco
     n =  irandom_range(0,3)
     _target = obj_battle_manager.players[n]
     

@@ -3,7 +3,7 @@ function Attacco(player,target){
      obj_battle_manager.holding = true
     if(player.data.mp < costo){
         obj_battle_dialog.current_char = 0
-        obj_battle_dialog._string = $"{player.data.name} non ha abbastanza magia"
+        obj_battle_dialog._string = $"{player.data.name} prova a laciare una magia,non ha abbastanza magia"
         alarm[1] = 120  
     }else{
         player.data.mp -= costo

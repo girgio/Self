@@ -10,7 +10,7 @@ if(crit){
 }
 if(_enemy.data.hp > 0){
     var roll_burn = irandom_range(1,10)
-    if(roll_burn <= 2 and _enemy._state != global.states.burn){
+    if(roll_burn <= 4 and _enemy._state != global.states.burn){
         alarm[2] = 80
     }else{
     	alarm[1] = 100

@@ -2,9 +2,10 @@ if(player_alive <= 0){
         game_restart()
     }
 if(instance_exists(current_player) and !holding){
+    //bruciatura
     if(current_player._state = global.states.burn and alarm[5] == -1){
         holding = true
-        var danno = max(int64(current_player.data.hp_max*0.02),1) 
+        var danno = max(int64(current_player.data.hp_max*0.05),1) 
         var _info = $"{current_player.data.name} brucia e perde {danno} hp"
 
         obj_battle_dialog.current_char = 0
