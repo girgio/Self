@@ -53,7 +53,7 @@ if(place_meeting(x-1,y,tilemap) && hor < 0){
     hor = 0
 }
 
-move_and_collide(hor * movement_speed, ver * movement_speed, tilemap);
+move_and_collide(hor * movement_speed, ver * movement_speed,[tilemap,obj_npc_parent]);
 movement_speed = 1
 
 ds_list_insert(position_history, 0, [x, y]);

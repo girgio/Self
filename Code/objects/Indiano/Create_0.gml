@@ -35,6 +35,7 @@ luck_up = 1
 levels_obtained = 0
 fullscreen = false
 
+
 show_debug_log(true)
 
 add_exp = function(obtained_exp){
