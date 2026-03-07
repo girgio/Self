@@ -33,7 +33,7 @@ _speed_up = 5
 def_up = 3
 luck_up = 1
 levels_obtained = 0
-
+fullscreen = false
 
 show_debug_log(true)
 
@@ -57,4 +57,4 @@ add_exp = function(obtained_exp){
         levels_obtained++
     }
 }
-window_set_fullscreen(1)
+window_set_fullscreen(0)

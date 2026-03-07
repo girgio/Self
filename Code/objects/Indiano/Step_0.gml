@@ -11,7 +11,7 @@ if(instance_exists(obj_dialogue)) {
     exit;
 
 }
-    
+
 
 var old_x = x;
 var old_y = y;

@@ -1,1 +1,2 @@
 win = false
+fullscreen = false
