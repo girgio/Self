@@ -5,7 +5,7 @@ _self = obj_battle_player4
 is_dead = false
 stat = false //per visualizzare le statistiche quando passi il mouse
 current_atk = data.atk
-curretn_matk = data.m_atk
+current_matk = data.m_atk
 current_def = data.def
 current_speed = data._speed
 current_luck = data.luck
@@ -16,6 +16,9 @@ defend = 1
 default_sprite = Sprite28
 sprite_index = default_sprite
 defend_sprite = Sprite37
+
+//condizione di stato
+_state = noone
 
 //magie
 magics = []

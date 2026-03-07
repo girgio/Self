@@ -36,7 +36,7 @@ if(_selezione == "azione"){
         }else if(_y_perc == 0.13){
             _selezione = "magic"
             _text = true
-            _y_perc = 0.3
+            _y_perc = 0.03
         }
         else if(_y_perc == 0.33){
              _manager.players[_manager._turn]._action = obj_battle_defend.Parata
@@ -74,7 +74,7 @@ if(_selezione == "azione"){
         }
     }
     
-}else if (_selezione == "target") {
+}else if (_selezione == "target" or _selezione_magia) {
     if(_text){
         obj_battle_dialog.current_char = 0
         obj_battle_dialog._string = $"Chi vuoi colpire?"
@@ -96,6 +96,7 @@ if(_selezione == "azione"){
      if(keyboard_check_pressed(ord("Z"))){
         _manager.players[_manager._turn]._target = _manager.enemies[_i_target]
         _manager._turn++
+        _selezione_magia = false
         while(_manager._turn <=3 and _manager.players[_manager._turn].is_dead){
             _manager._turn++
         }
@@ -107,13 +108,18 @@ if(_selezione == "azione"){
     }
     
     if(keyboard_check_pressed(ord("X"))){
-        _selezione = "azione"
-        _text = true
+        if(_selezione_magia){
+            _selezione_magia = false
+            _text = true
+        }else{
+            _selezione = "azione"
+            _text = true
+        }
     }
-}else if(_selezione == "magic"){
+}else if(_selezione == "magic" and !_selezione_magia){
     var array_magics = _manager.players[_manager._turn].magics
     var num_magic = array_length(array_magics)
-    var i = int64((_y_perc - 0.03)/0.1)
+    var i = 0
         
     if(num_magic > 0 and _text){
          obj_battle_dialog.current_char = 0
@@ -123,6 +129,9 @@ if(_selezione == "azione"){
     
     if(keyboard_check_pressed(vk_down)){
         _y_perc += 0.1
+        if(num_magic > 1){
+            _text = true   
+        }
         i = (i + 1) % num_magic
         if(_y_perc > 0.03+0.1*i){
             _y_perc = 0.03
@@ -130,6 +139,9 @@ if(_selezione == "azione"){
     }
     if(keyboard_check_pressed(vk_up)){
         i = (i + 1) % num_magic
+        if(num_magic > 1){
+            _text = true   
+        }
         _y_perc -= 0.1
         if(_y_perc < 0.03){
             _y_perc = 0.03+0.1*i
@@ -140,15 +152,17 @@ if(_selezione == "azione"){
         _manager.players[_manager._turn]._action = array_magics[i].Attacco
         
         if(array_magics[i].target == "nemico"){
-            _selezione = "target"
+              _text = true   
+            
             _x_target = _manager.enemies[0].x
             _i_target = 0
             
             var temp = _w
             _w = _h
             _h = temp 
+            _selezione_magia = true
+            obj_battle_dialog.current_char = 0
             
-            _text = true    
         }else if(array_magics[i].target == "all"){
             _manager.players[_manager._turn]._target = "all"
             _manager._turn++
@@ -160,19 +174,9 @@ if(_selezione == "azione"){
                 _selezione = "attesa"
             }
         }
-    }else if(keyboard_check_pressed(ord("x"))){
-        var original_turn = _manager._turn
-        _manager._turn--
-        while(_manager.players[_manager._turn].is_dead and _manager._turn <=3 ){
-            _manager._turn--
-            if(_manager._turn < 0){
-                _manager._turn = original_turn
-                break
-            }
+    }else if(keyboard_check_pressed(ord("X"))){
+            _selezione = "azione"
+            _text = true
+            obj_battle_dialog.current_char = 0
         }
-        if(_manager._turn != original_turn){
-            _text = true   
-        }
-    
-    }
 }

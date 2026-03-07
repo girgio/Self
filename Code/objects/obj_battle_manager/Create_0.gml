@@ -12,4 +12,5 @@ order_players = []
 targets = array_create(4)
 player_alive = 4
 holding = false
+current_player = noone
 alarm[11] = 1

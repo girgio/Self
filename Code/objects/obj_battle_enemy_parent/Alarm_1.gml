@@ -4,6 +4,10 @@ array_push(obj_scroll_panel.moves,$"[Round {obj_battle_manager._round}] {data.na
 obj_battle_manager.enemy_num--
     array_delete(obj_battle_manager.enemies,array_get_index(obj_battle_manager.enemies,_self),1)
     array_delete(obj_battle_manager.players,array_get_index(obj_battle_manager.players,_self),1)
-    array_delete(obj_battle_manager.order_players,array_get_index(obj_battle_manager.order_players,_self),1)
+    var _index = array_get_index(obj_battle_manager.order_players, _self);
+
+    if (_index != -1) {
+        array_delete(obj_battle_manager.order_players, _index, 1);
+    }
    alarm[0] = 100
     

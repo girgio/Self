@@ -1,8 +1,21 @@
 if(player_alive <= 0){
         game_restart()
     }
+if(instance_exists(current_player) and !holding){
+    if(current_player._state = global.states.burn and alarm[5] == -1){
+        holding = true
+        var danno = max(int64(current_player.data.hp_max*0.02),1) 
+        var _info = $"{current_player.data.name} brucia e perde {danno} hp"
+
+        obj_battle_dialog.current_char = 0
+       obj_battle_dialog._string = _info
+       array_push(obj_scroll_panel.moves,$"[Round {_round}] {_info}")
+       current_player.data.hp -= danno
+        alarm[5] = 80
+    }
+}
 if(_turn > 3 and !holding and !obj_battle_switch.win){
-    var current_player = extract_max_speed_player(order_players)
+    current_player = extract_max_speed_player(order_players)
     
     if(current_player == noone){
         _turn = 0
