@@ -132,6 +132,7 @@
     {"id":{"name":"Sprite33","path":"sprites/Sprite33/Sprite33.yy",},},
     {"id":{"name":"Sprite35","path":"sprites/Sprite35/Sprite35.yy",},},
     {"id":{"name":"Sprite37","path":"sprites/Sprite37/Sprite37.yy",},},
+    {"id":{"name":"Sprite40","path":"sprites/Sprite40/Sprite40.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
