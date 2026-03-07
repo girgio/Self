@@ -7,7 +7,7 @@ scroll_y -= wheel * scroll_speed;
 scroll_y = clamp(scroll_y, 0, max(0, content_height - view_h));
 
 // Calcolo thumb
-if (content_height > view_h) {
+if (content_height*scale_y > view_h*scale_y) {
     thumb_h = view_h * (view_h / content_height);
     thumb_y = view_y + (scroll_y / content_height) * view_h;
 }
