@@ -1,6 +1,6 @@
 _text = "Fuggi"
-_y_perc = 0.43
-_x_perc = 0.02
+_y_perc = 0.44
+_x_perc = 0.03
 escape = true
 function Fuga(p)
 {

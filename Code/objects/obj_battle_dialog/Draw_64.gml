@@ -14,7 +14,7 @@ var _h = gui_h*0.1
 var _dy = gui_h*5/9 - _h
 
 
-draw_sprite_stretched(spr_box,0,_dx,_dy,_w,_h)
+draw_sprite_stretched(Sprite41,0,_dx,_dy,_w,_h)
 
 _dx += _w/2
 _dy += _h/2

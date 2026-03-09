@@ -18,7 +18,7 @@ if(_selezione == "azione"){
         var _y_box = 0
         var _h_box = 5/9*global.h_res
         var _w_box = 1/4*global.w_res
-        var _y_perc_text = 0.03
+        var _y_perc_text = 0.04
         
         draw_sprite_stretched(spr_box,0,_x_box,_y_box,_w_box,_h_box)
         
@@ -36,7 +36,7 @@ if(_selezione == "azione"){
     var _y_box = 0
     var _h_box = 5/9*global.h_res
     var _w_box = 1/4*global.w_res
-    var _y_perc_text = 0.03
+    var _y_perc_text = 0.04
     
     draw_sprite_stretched(spr_box,0,_x_box,_y_box,_w_box,_h_box)
     

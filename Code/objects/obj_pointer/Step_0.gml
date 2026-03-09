@@ -13,18 +13,18 @@ if(_selezione == "azione"){
     }
     if(keyboard_check_pressed(vk_down)){
         _y_perc += 0.1
-        if(_y_perc > 0.43){
-            _y_perc = 0.03
+        if(_y_perc > 0.44){
+            _y_perc = 0.04
         }
     }
     if(keyboard_check_pressed(vk_up)){
         _y_perc -= 0.1
-        if(_y_perc < 0.03){
-            _y_perc = 0.43
+        if(_y_perc < 0.04){
+            _y_perc = 0.44
         }
     }
     if(keyboard_check_pressed(ord("Z"))){
-        if(_y_perc == 0.03){
+        if(_y_perc == obj_battle_light._y_perc){
             _manager.players[_manager._turn]._action = obj_battle_light.Attacco
             _selezione = "target"
             _x_target = _manager.enemies[0].x
@@ -33,12 +33,12 @@ if(_selezione == "azione"){
            _w = _h
            _h = temp 
             _text = true
-        }else if(_y_perc == 0.13){
+        }else if(_y_perc == obj_battle_magic._y_perc){
             _selezione = "magic"
             _text = true
-            _y_perc = 0.03
+            _y_perc = 0.04
         }
-        else if(_y_perc == 0.33){
+        else if(_y_perc == obj_battle_defend._y_perc){
              _manager.players[_manager._turn]._action = obj_battle_defend.Parata
             _manager.players[_manager._turn]._target = "nessuno"
             _manager.players[_manager._turn].defend = 0.75
@@ -46,7 +46,7 @@ if(_selezione == "azione"){
             obj_battle_dialog.current_char = 0
             obj_battle_dialog._string = $"{_manager.players[_manager._turn].data.name} si difende"
             alarm[0] = 60
-        }else if(_y_perc == 0.43){
+        }else if(_y_perc == obj_battle_run._y_perc){
             _manager.players[_manager._turn]._action = obj_battle_run.Fuga
             _manager.players[_manager._turn]._target = "nessuno"
              _manager._turn++
@@ -133,8 +133,8 @@ if(_selezione == "azione"){
             _text = true   
         }
         i = (i + 1) % num_magic
-        if(_y_perc > 0.03+0.1*i){
-            _y_perc = 0.03
+        if(_y_perc > 0.04+0.1*i){
+            _y_perc = 0.04
         }
     }
     if(keyboard_check_pressed(vk_up)){
@@ -143,8 +143,8 @@ if(_selezione == "azione"){
             _text = true   
         }
         _y_perc -= 0.1
-        if(_y_perc < 0.03){
-            _y_perc = 0.03+0.1*i
+        if(_y_perc < 0.04){
+            _y_perc = 0.04+0.1*i
         }
     }
     

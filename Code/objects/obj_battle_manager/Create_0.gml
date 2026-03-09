@@ -13,4 +13,5 @@ targets = array_create(4)
 player_alive = 4
 holding = false
 current_player = noone
+origin_turn = _turn
 alarm[11] = 1
