@@ -183,7 +183,7 @@ if(level_up and (draw_state == false)){
     _y += 0.1*_h
     _x += 0.5*_w
     draw_text(_x,_y,"Statistiche+")
-    if(alarm[3] == -1){
+    if(alarm[3] == -1 and alarm[4] == -1){
         alarm[3] = 60
     }
 }else if(draw_state == "bonus"){
