@@ -25,7 +25,7 @@ _dy += _h/2
 
 
 
-draw_text_ext(_dx,_dy,draw_message,-1,_w - 2*_dx)
+draw_text_ext_colour(_dx,_dy,draw_message,-1,_w - 2*_dx,c_dkgray,c_dkgray,c_dkgray,c_dkgray,1)
 
 draw_set_valign(fa_left)
     draw_set_halign(fa_top)

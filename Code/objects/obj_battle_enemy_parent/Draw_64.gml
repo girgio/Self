@@ -13,11 +13,11 @@ _y_text = ystart*(global.h_res/camera_get_view_height(view_camera[0]))-_h*5.3
 draw_sprite_stretched(spr_box,0,_x,_y,_w,_h)
 draw_sprite_stretched_ext(spr_box,1,_x,_y,_w*(data.hp/data.hp_max),_h,c_red ,1)
 
-draw_text(_x_text,_y_text,string(data.hp)+"/"+string(data.hp_max))
+draw_text_colour(_x_text,_y_text,string(data.hp)+"/"+string(data.hp_max),c_dkgray,c_dkgray,c_dkgray,c_dkgray,1)
 
 draw_set_font(Font1)
 _y_text -= _h*2
-draw_text(_x_text,_y_text,$"{data.name} LV.{data.level}")
+draw_text_colour(_x_text,_y_text,$"{data.name} LV.{data.level}",c_dkgray,c_dkgray,c_dkgray,c_dkgray,1)
 
 var _y_icon = ystart*(global.h_res/camera_get_view_height(view_camera[0]))-_h*5.6
 var _x_icon = xstart*(global.w_res/camera_get_view_width(view_camera[0]))+self.sprite_width + 0.2*_w

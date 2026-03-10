@@ -33,6 +33,7 @@
   },
   "name":"Self",
   "resources":[
+    {"id":{"name":"font_battle_name","path":"fonts/font_battle_name/font_battle_name.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
     {"id":{"name":"Font3","path":"fonts/Font3/Font3.yy",},},
@@ -110,6 +111,7 @@
     {"id":{"name":"spr_button_run","path":"sprites/spr_button_run/spr_button_run.yy",},},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},},
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},},
+    {"id":{"name":"spr_glass","path":"sprites/spr_glass/spr_glass.yy",},},
     {"id":{"name":"spr_ice","path":"sprites/spr_ice/spr_ice.yy",},},
     {"id":{"name":"spr_lava","path":"sprites/spr_lava/spr_lava.yy",},},
     {"id":{"name":"spr_npc1","path":"sprites/spr_npc1/spr_npc1.yy",},},
