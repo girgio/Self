@@ -5,7 +5,6 @@ draw_sprite_stretched(sprite_index,0,view_x_sprite,global.h_res*(y)/room_height,
 draw_sprite_stretched(spr_box,0,view_x, view_y, view_w, view_h);
 draw_text(view_x + 0.5*view_w,view_y + 30,"Storico mosse")
 
-show_debug_message(display_get_width())
 if(obj_battle_switch.fullscreen){
     scale_x = display_get_width() / global.w_res;
     scale_y = display_get_height() / global.h_res;
