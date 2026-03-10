@@ -26,7 +26,7 @@ if(_turn > 3 and !holding and !obj_battle_switch.win){
         }
         obj_pointer._selezione = "azione"
         
-        obj_pointer._y_perc = 0.03
+        obj_pointer._y_perc = obj_battle_light._y_perc
         array_copy(order_players,0,players,0,array_length(players))
         
     }else{

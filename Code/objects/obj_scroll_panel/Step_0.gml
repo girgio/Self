@@ -44,3 +44,11 @@ if(open and view_x >= global.w_res - view_w){
     view_x_sprite += speed_open
     sprite_index = spr_arrpw_open
 }
+
+if(obj_battle_switch.fullscreen){
+    scale_x = display_get_width() / global.w_res;
+    scale_y = display_get_height() / global.h_res;
+}else{
+    scale_x = 1
+    scale_y = 1
+}

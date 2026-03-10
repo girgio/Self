@@ -28,7 +28,7 @@ speed_open = 15
 
 function draw_scroll_content(){
     var line_h = 30;
-    var yy = view_y+ 0.2*view_h - scroll_y;
+    var yy = (view_y-40)*scale_y+ 0.2*view_h - scroll_y;
 
     content_height = array_length(moves) * line_h;
     
