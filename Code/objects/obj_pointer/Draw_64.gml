@@ -20,7 +20,7 @@ if(_selezione == "azione"){
         var _w_box = 1/4*global.w_res
         var _y_perc_text = 0.04
         
-        draw_sprite_stretched(spr_box,0,_x_box,_y_box,_w_box,_h_box)
+        draw_sprite_stretched(Sprite44,0,_x_box,_y_box,_w_box,_h_box)
         
         for(i = 0;i < array_length(_manager.players[_manager._turn].magics);i++){
             draw_set_font(Magic_font)
@@ -38,7 +38,7 @@ if(_selezione == "azione"){
     var _w_box = 1/4*global.w_res
     var _y_perc_text = 0.04
     
-    draw_sprite_stretched(spr_box,0,_x_box,_y_box,_w_box,_h_box)
+    draw_sprite_stretched(Sprite44,0,_x_box,_y_box,_w_box,_h_box)
     
     for(i = 0;i < array_length(_manager.players[_manager._turn].magics);i++){
         draw_set_font(Magic_font)
