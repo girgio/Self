@@ -74,22 +74,39 @@ if(!obj_battle_player1.is_dead)
     draw_sprite_stretched(spr_blood_eye,-1,_x + 10,_y - 40,_w -  40,_h - 160)
 }
 
-if(obj_battle_manager._turn == 1){
+if(!obj_battle_player2.is_dead){
+  if(obj_battle_manager._turn == 1){
     draw_sprite_stretched(_eye,-1,_x+_w+ 10,_y - 40,_w -  40,_h - 160)
-}else {
-	draw_sprite_stretched(_eye,0,_x+_w+ 10,_y - 40,_w -  40,_h - 160)
-}
-if(obj_battle_manager._turn == 2){
-    draw_sprite_stretched(_eye,-1,_x+2*_w+ 10,_y - 40,_w -  40,_h - 160)
-}else {
-	draw_sprite_stretched(_eye,0,_x+2*_w+ 10,_y - 40,_w -  40,_h - 160)
+    }else {
+    	draw_sprite_stretched(_eye,0,_x+_w+ 10,_y - 40,_w -  40,_h - 160)
+    }  
+}else{
+    image_speed = 18/60;
+    draw_sprite_stretched(spr_blood_eye,-1,_x+_w+ 10,_y - 40,_w -  40,_h - 160)
 }
 
-if(obj_battle_manager._turn == 3){
-    draw_sprite_stretched(_eye,-1,_x+3*_w+ 10,_y - 40,_w -  40,_h - 160)
-}else {
-	draw_sprite_stretched(_eye,0,_x+3*_w+ 10,_y - 40,_w -  40,_h - 160)
+if(!obj_battle_player3.is_dead){
+    if(obj_battle_manager._turn == 2){
+        draw_sprite_stretched(_eye,-1,_x+2*_w+ 10,_y - 40,_w -  40,_h - 160)
+    }else {
+    	draw_sprite_stretched(_eye,0,_x+2*_w+ 10,_y - 40,_w -  40,_h - 160)
+    }
+}else{
+    image_speed = 18/60;
+    draw_sprite_stretched(spr_blood_eye,-1,_x+2*_w+ 10,_y - 40,_w -  40,_h - 160)
 }
+
+if(!obj_battle_player3.is_dead){
+    if(obj_battle_manager._turn == 3){
+        draw_sprite_stretched(_eye,-1,_x+3*_w+ 10,_y - 40,_w -  40,_h - 160)
+    }else {
+    	draw_sprite_stretched(_eye,0,_x+3*_w+ 10,_y - 40,_w -  40,_h - 160)
+    }
+}else{
+    image_speed = 18/60;
+    draw_sprite_stretched(spr_blood_eye,-1,_x+3*_w+ 10,_y - 40,_w -  40,_h - 160)
+}
+
 var _h_bar = gui_h - _h - _h_name
 _y = 0
 
