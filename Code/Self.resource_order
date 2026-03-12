@@ -66,6 +66,7 @@
     {"name":"dKristo","order":11,"path":"sprites/dKristo/dKristo.yy",},
     {"name":"spr_arrow_close","order":15,"path":"sprites/spr_arrow_close/spr_arrow_close.yy",},
     {"name":"spr_arrpw_open","order":13,"path":"sprites/spr_arrpw_open/spr_arrpw_open.yy",},
+    {"name":"spr_blood_eye","order":25,"path":"sprites/spr_blood_eye/spr_blood_eye.yy",},
     {"name":"spr_box_1","order":10,"path":"sprites/spr_box_1/spr_box_1.yy",},
     {"name":"spr_box_car","order":4,"path":"sprites/spr_box_car/spr_box_car.yy",},
     {"name":"spr_box_char","order":7,"path":"sprites/spr_box_char/spr_box_char.yy",},

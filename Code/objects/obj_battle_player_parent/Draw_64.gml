@@ -15,20 +15,23 @@ _h = 0.15*(global.h_res*(1/9))
 _y = ystart*(global.h_res/camera_get_view_height(view_camera[0]))-_h*2 - 0.15*(global.h_res*(1/9))
 _y_text = ystart*(global.h_res/camera_get_view_height(view_camera[0]))-_h*1.5- 0.15*(global.h_res*(1/9))
 
-draw_sprite_stretched_ext(spr_glass,1,_x,_y-30,_w*(data.hp/data.hp_max),_h*1.5,c_green,0.9)
+draw_sprite_stretched_ext(spr_glass,1,_x,_y-30,_w*(data.hp/data.hp_max),_h*1.5,c_green,0.85)
 draw_sprite_stretched(spr_glass,0,_x,_y-30,_w,_h*1.5)
 
 
 draw_text(_x_text,_y_text - 20,string(data.hp)+"/"+string(data.hp_max))
+draw_set_colour(c_white)
+
 
 _y += _h*1.5
 _y_text = _y + _h/2
-draw_sprite_stretched_ext(spr_glass,1,_x,_y-20,_w*(data.mp/data.mp_max),_h*1.5,c_blue,0.9)
+draw_sprite_stretched_ext(spr_glass,1,_x,_y-20,_w*(data.mp/data.mp_max),_h*1.5,c_blue,0.65)
 draw_sprite_stretched(spr_glass,0,_x,_y-20,_w,_h*1.5)
 
 var testo_nome = $"{data.name} LV.{data.level}"
 
 draw_text(_x_text,_y_text - 10,$"{data.mp}/{data.mp_max}")
+draw_set_colour(c_white)
 
 draw_set_font(font_battle_name)
 _y_text -= _h*4 + 5

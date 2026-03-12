@@ -61,10 +61,17 @@ draw_sprite_stretched(_spr_box_healt,0,_x+_w,_y,_w,_h_name)
 draw_sprite_stretched(_spr_box_healt,0,_x+2*_w,_y,_w,_h_name)
 draw_sprite_stretched(_spr_box_healt,0,_x+3*_w,_y,_w,_h_name)
 
-if(obj_battle_manager._turn == 0){
-    draw_sprite_stretched(_eye,-1,_x + 10,_y - 40,_w -  40,_h - 160)
+if(!obj_battle_player1.is_dead)
+{
+    if(obj_battle_manager._turn == 0){
+    
+        draw_sprite_stretched(_eye,-1,_x + 10,_y - 40,_w -  40,_h - 160)
+   }else{
+       draw_sprite_stretched(_eye,0,_x+ 10,_y - 40,_w -  40,_h - 160)
+   }   
 }else{
-    draw_sprite_stretched(_eye,0,_x+ 10,_y - 40,_w -  40,_h - 160)
+    image_speed = 18/60;
+    draw_sprite_stretched(spr_blood_eye,-1,_x + 10,_y - 40,_w -  40,_h - 160)
 }
 
 if(obj_battle_manager._turn == 1){
