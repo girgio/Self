@@ -96,7 +96,7 @@ if(!obj_battle_player3.is_dead){
     draw_sprite_stretched(spr_blood_eye,-1,_x+2*_w+ 10,_y - 40,_w -  40,_h - 160)
 }
 
-if(!obj_battle_player3.is_dead){
+if(!obj_battle_player4.is_dead){
     if(obj_battle_manager._turn == 3){
         draw_sprite_stretched(_eye,-1,_x+3*_w+ 10,_y - 40,_w -  40,_h - 160)
     }else {

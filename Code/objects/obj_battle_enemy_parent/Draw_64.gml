@@ -23,6 +23,8 @@ var _y_icon = ystart*(global.h_res/camera_get_view_height(view_camera[0]))-_h*5.
 var _x_icon = xstart*(global.w_res/camera_get_view_width(view_camera[0]))+self.sprite_width + 0.2*_w
 if(_state == global.states.burn){
     draw_sprite_stretched(spr_burn,0,_x_icon,_y_icon,global.w_res*0.04,global.h_res*0.08)
+}else if(_state == global.states.freeze){
+    draw_sprite_stretched(spr_ice,0,_x_icon,_y_icon,global.w_res*0.04,global.h_res*0.08)
 }
 
 draw_set_valign(fa_left)

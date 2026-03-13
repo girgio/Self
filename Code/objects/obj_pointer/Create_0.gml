@@ -5,3 +5,5 @@ _selezione_magia = false
 _i_target = 0
 _manager = obj_battle_manager
 _text = true
+_sprite_pointer = spr_button_run
+i = 0 //tiene il conto della magia da selezionare

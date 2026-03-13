@@ -21,7 +21,7 @@ xp = 0
 xp_required = 100
 
 //magie
-magics = [obj_magic_fire]
+magics = [obj_magic_fire,obj_magic_ice]
 
 //aumento di statistiche
 

@@ -37,6 +37,7 @@ if(_selezione == "azione"){
             _selezione = "magic"
             _text = true
             _y_perc = 0.04
+            i = 0
         }
         else if(_y_perc == obj_battle_defend._y_perc){
              _manager.players[_manager._turn]._action = obj_battle_defend.Parata
@@ -104,6 +105,7 @@ if(_selezione == "azione"){
         if(_manager._turn > 3){
             _selezione = "attesa"
         }
+        _y_perc = 0.04
         _text = true
     }
     
@@ -119,7 +121,6 @@ if(_selezione == "azione"){
 }else if(_selezione == "magic" and !_selezione_magia){
     var array_magics = _manager.players[_manager._turn].magics
     var num_magic = array_length(array_magics)
-    var i = 0
         
     if(num_magic > 0 and _text){
          obj_battle_dialog.current_char = 0
@@ -128,23 +129,23 @@ if(_selezione == "azione"){
     }
     
     if(keyboard_check_pressed(vk_down)){
-        _y_perc += 0.1
+        _y_perc += 0.05
         if(num_magic > 1){
             _text = true   
         }
         i = (i + 1) % num_magic
-        if(_y_perc > 0.04+0.1*i){
+        if(_y_perc > 0.04+0.05*i){
             _y_perc = 0.04
         }
     }
     if(keyboard_check_pressed(vk_up)){
-        i = (i + 1) % num_magic
+        i = (( (i - 1) % num_magic ) + num_magic) % num_magic
         if(num_magic > 1){
             _text = true   
         }
-        _y_perc -= 0.1
+        _y_perc -= 0.05
         if(_y_perc < 0.04){
-            _y_perc = 0.04+0.1*i
+            _y_perc = 0.04+0.05*i
         }
     }
     
@@ -176,6 +177,7 @@ if(_selezione == "azione"){
         }
     }else if(keyboard_check_pressed(ord("X"))){
             _selezione = "azione"
+            _y_perc = 0.04
             _text = true
             obj_battle_dialog.current_char = 0
         }
