@@ -20,10 +20,6 @@ _dx += _w/2
 _dy += _h/2
 
   
-    	
-
-
-
 
 draw_text_ext_colour(_dx,_dy,draw_message,-1,_w - 2*_dx,c_dkgray,c_dkgray,c_dkgray,c_dkgray,1)
 

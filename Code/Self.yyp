@@ -71,6 +71,7 @@
     {"id":{"name":"obj_enemy_stat2","path":"objects/obj_enemy_stat2/obj_enemy_stat2.yy",},},
     {"id":{"name":"obj_enemy_stat3","path":"objects/obj_enemy_stat3/obj_enemy_stat3.yy",},},
     {"id":{"name":"obj_magic_fire","path":"objects/obj_magic_fire/obj_magic_fire.yy",},},
+    {"id":{"name":"obj_magic_ice","path":"objects/obj_magic_ice/obj_magic_ice.yy",},},
     {"id":{"name":"obj_magic_parent","path":"objects/obj_magic_parent/obj_magic_parent.yy",},},
     {"id":{"name":"obj_music_manager","path":"objects/obj_music_manager/obj_music_manager.yy",},},
     {"id":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},},

@@ -1,3 +1,4 @@
 states = {
-    "burn" : 0
+    "burn" : 0,
+    "ice" : 1
 }
