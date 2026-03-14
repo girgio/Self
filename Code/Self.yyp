@@ -94,6 +94,7 @@
     {"id":{"name":"States","path":"scripts/States/States.yy",},},
     {"id":{"name":"Battaglia_orchestra","path":"sounds/Battaglia_orchestra/Battaglia_orchestra.yy",},},
     {"id":{"name":"Battaglia","path":"sounds/Battaglia/Battaglia.yy",},},
+    {"id":{"name":"Caverna_no_suno","path":"sounds/Caverna_no_suno/Caverna_no_suno.yy",},},
     {"id":{"name":"Overworld","path":"sounds/Overworld/Overworld.yy",},},
     {"id":{"name":"collision_box","path":"sprites/collision_box/collision_box.yy",},},
     {"id":{"name":"dKristo","path":"sprites/dKristo/dKristo.yy",},},
