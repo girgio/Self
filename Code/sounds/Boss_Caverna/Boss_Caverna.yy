@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Boss_Caverna",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":170.48,
+  "exportDir":"",
+  "name":"Boss_Caverna",
+  "parent":{
+    "name":"Ost",
+    "path":"folders/Ost.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Boss_Caverna.ogg",
+  "volume":1.0,
+}

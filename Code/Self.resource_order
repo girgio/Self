@@ -63,6 +63,7 @@
     {"name":"States","order":7,"path":"scripts/States/States.yy",},
     {"name":"Battaglia_orchestra","order":2,"path":"sounds/Battaglia_orchestra/Battaglia_orchestra.yy",},
     {"name":"Battaglia","order":1,"path":"sounds/Battaglia/Battaglia.yy",},
+    {"name":"Boss_Caverna","order":4,"path":"sounds/Boss_Caverna/Boss_Caverna.yy",},
     {"name":"Caverna_no_suno","order":3,"path":"sounds/Caverna_no_suno/Caverna_no_suno.yy",},
     {"name":"collision_box","order":17,"path":"sprites/collision_box/collision_box.yy",},
     {"name":"dKristo","order":11,"path":"sprites/dKristo/dKristo.yy",},
