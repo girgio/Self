@@ -24,6 +24,7 @@ leader_is_moving = false;
 hor = 0
 ver = 0
 move_speed = 1;
+_state = noone
 
 //magie
 magics = [obj_magic_fire]

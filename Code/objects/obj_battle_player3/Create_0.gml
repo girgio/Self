@@ -18,7 +18,11 @@ sprite_index = default_sprite
 defend_sprite = Sprite37
 
 //condizione di stato
-_state = noone
+if(data._state == noone){
+    _state = noone
+}else{
+    _state = data._state    
+}
 
 //magie
 magics = []

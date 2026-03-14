@@ -17,7 +17,12 @@ is_attacking = false
 defend = 1
 
 //condizione di stato
-_state = noone
+if(data._state == noone){
+    _state = noone
+}else{
+    _state = data._state    
+}
+
 
 
 //magie

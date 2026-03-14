@@ -15,7 +15,7 @@ is_attacking = false
 defend = 1
 
 //condizione di stato
-_state = noone
+_state = data_player._state
 
 //magie
 magics = []

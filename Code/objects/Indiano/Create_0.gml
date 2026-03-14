@@ -19,6 +19,7 @@ hor = 0
 ver = 0
 xp = 0
 xp_required = 100
+_state = noone
 
 //magie
 magics = [obj_magic_fire,obj_magic_ice]

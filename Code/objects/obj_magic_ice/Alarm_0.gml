@@ -10,7 +10,7 @@ if(crit){
 }
 if(_enemy.data.hp > 0){
     var roll = irandom_range(1,10)
-    if(roll <= 6 and _enemy._state != global.states.freeze){
+    if(roll <= 6 and _enemy._state == noone){
         alarm[2] = 80
     }else{
     	alarm[1] = 100
