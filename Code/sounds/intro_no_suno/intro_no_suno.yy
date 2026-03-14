@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"intro_no_suno",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":176.0,
+  "exportDir":"",
+  "name":"intro_no_suno",
+  "parent":{
+    "name":"Ost",
+    "path":"folders/Ost.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"intro_no_suno.ogg",
+  "volume":1.0,
+}
