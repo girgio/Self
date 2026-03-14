@@ -1,4 +1,4 @@
-description = "Ghiaccio non umido. Ma come fa ad essere secco se è praticamente acqua. Forse Jhoannes ce lo spiega. Minima probabilità di congelare aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
+description = "Ghiaccio non umido. Ma come fa ad essere secco se è praticamente acqua. Forse Jhoannes ce lo spiega. Minima probabilità di congelare aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasonogay"
 function Attacco(player,target){
      obj_battle_manager.holding = true
     if(player.data.mp < costo){

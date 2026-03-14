@@ -9,8 +9,8 @@ if(crit){
     array_push(obj_scroll_panel.moves,$"[Round {obj_battle_manager._round}] {_enemy_name} subisce {danno} danni")
 }
 if(_enemy.data.hp > 0){
-    var roll_burn = irandom_range(1,10)
-    if(roll_burn <= 4 and _enemy._state != global.states.freeze){
+    var roll = irandom_range(1,10)
+    if(roll <= 6 and _enemy._state != global.states.freeze){
         alarm[2] = 80
     }else{
     	alarm[1] = 100

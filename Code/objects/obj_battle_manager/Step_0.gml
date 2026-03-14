@@ -3,7 +3,7 @@ if(player_alive <= 0){
     }
 if(instance_exists(current_player) and !holding){
     //bruciatura
-    if(current_player._state = global.states.burn and alarm[5] == -1){
+    if(current_player._state == global.states.burn and alarm[5] == -1){
         holding = true
         var danno = max(int64(current_player.data.hp_max*0.05),1) 
         var _info = $"{current_player.data.name} brucia e perde {danno} hp"
@@ -29,6 +29,30 @@ if(_turn > 3 and !holding and !obj_battle_switch.win){
         obj_pointer._y_perc = obj_battle_light._y_perc
         array_copy(order_players,0,players,0,array_length(players))
         
+    }//congelamento
+    else if(current_player._state == global.states.freeze and alarm[5] == -1 and alarm[6] == -1 and instance_exists(current_player) and current_player.data.hp > 0){
+        holding = true
+        
+        show_debug_message($"{current_player.data.name} è freezato")
+        
+        var roll = irandom_range(1,10)
+        
+        if(roll <= 2){
+            current_player._state = noone
+            var _info = $"{current_player.data.name} si è scongelato"
+            
+            obj_battle_dialog.current_char = 0
+            obj_battle_dialog._string = _info
+            array_push(obj_scroll_panel.moves,$"[Round {_round}] {_info}")
+            alarm[6] = 80
+        }else{
+        	var _info = $"{current_player.data.name} non agisce perchè ha freddo"
+
+            obj_battle_dialog.current_char = 0
+           obj_battle_dialog._string = _info
+           array_push(obj_scroll_panel.moves,$"[Round {_round}] {_info}")
+            alarm[5] = 80
+        }
     }else{
        if(instance_exists(current_player) and current_player.data.hp > 0) {
            var target = current_player._target 
