@@ -99,6 +99,7 @@
     {"id":{"name":"Battaglia","path":"sounds/Battaglia/Battaglia.yy",},},
     {"id":{"name":"Boss_Caverna","path":"sounds/Boss_Caverna/Boss_Caverna.yy",},},
     {"id":{"name":"Caverna_no_suno","path":"sounds/Caverna_no_suno/Caverna_no_suno.yy",},},
+    {"id":{"name":"Click","path":"sounds/Click/Click.yy",},},
     {"id":{"name":"Dialoghi_arrabiati","path":"sounds/Dialoghi_arrabiati/Dialoghi_arrabiati.yy",},},
     {"id":{"name":"Dialoghi_femmine","path":"sounds/Dialoghi_femmine/Dialoghi_femmine.yy",},},
     {"id":{"name":"Dialoghi_maschi","path":"sounds/Dialoghi_maschi/Dialoghi_maschi.yy",},},

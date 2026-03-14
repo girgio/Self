@@ -67,6 +67,7 @@
     {"name":"Battaglia","order":1,"path":"sounds/Battaglia/Battaglia.yy",},
     {"name":"Boss_Caverna","order":4,"path":"sounds/Boss_Caverna/Boss_Caverna.yy",},
     {"name":"Caverna_no_suno","order":3,"path":"sounds/Caverna_no_suno/Caverna_no_suno.yy",},
+    {"name":"Click","order":2,"path":"sounds/Click/Click.yy",},
     {"name":"Dialoghi_femmine","order":1,"path":"sounds/Dialoghi_femmine/Dialoghi_femmine.yy",},
     {"name":"Dialoghi_maschi","order":2,"path":"sounds/Dialoghi_maschi/Dialoghi_maschi.yy",},
     {"name":"intro_no_suno","order":6,"path":"sounds/intro_no_suno/intro_no_suno.yy",},
