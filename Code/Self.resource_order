@@ -72,6 +72,7 @@
     {"name":"Dialoghi_maschi","order":2,"path":"sounds/Dialoghi_maschi/Dialoghi_maschi.yy",},
     {"name":"intro_no_suno","order":6,"path":"sounds/intro_no_suno/intro_no_suno.yy",},
     {"name":"intro_si_suno","order":5,"path":"sounds/intro_si_suno/intro_si_suno.yy",},
+    {"name":"Level_up","order":7,"path":"sounds/Level_up/Level_up.yy",},
     {"name":"collision_box","order":17,"path":"sprites/collision_box/collision_box.yy",},
     {"name":"dKristo","order":11,"path":"sprites/dKristo/dKristo.yy",},
     {"name":"spr_arrow_close","order":15,"path":"sprites/spr_arrow_close/spr_arrow_close.yy",},
