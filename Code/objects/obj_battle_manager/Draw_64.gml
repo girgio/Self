@@ -41,6 +41,20 @@ if(obj_battle_manager._turn == 1){
 }else {
 	draw_sprite_stretched(_spr_box,0,_x+_w,_y,_w,_h)
 }
+
+if(obj_battle_player2.is_dead){
+    draw_sprite_stretched(dKristo,0,_x +_w,_y + 10,_w,_h -30)
+}else{
+    if(obj_battle_player2.is_attacking){
+        draw_sprite_stretched(Sprite33,0,_x +_w,_y+ 10,_w,_h -30) 
+        if(alarm[4] == -1){
+            alarm[4] = 120
+        }
+    }else{
+       draw_sprite_stretched(obj_battle_player2.sprite_index,0,_x +_w,_y+ 10,_w,_h -30) 
+    }
+}
+
 if(obj_battle_manager._turn == 2){
     draw_sprite_stretched(_spr_box,-1,_x+2*_w,_y,_w,_h)
 }else {

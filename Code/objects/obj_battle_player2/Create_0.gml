@@ -14,7 +14,7 @@ draw_state = false
 is_attacking = false
 defend = 1
 
-default_sprite = Sprite28
+default_sprite = Sprite47
 sprite_index = default_sprite
 defend_sprite = Sprite37
 
