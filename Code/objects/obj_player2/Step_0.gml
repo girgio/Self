@@ -20,7 +20,7 @@ var old_x = x;
 var old_y = y;
 var history = leader.position_history;
 var spacing = 15; 
-if(keyboard_check(vk_shift)){
+if(keyboard_check(vk_shift) and leader.leader_is_moving){
     move_speed = move_speed + 0.5
 }
 var target_index = spacing * follow_index;
