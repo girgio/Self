@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Battaglia_orchestra",
+  "%Name":"Dialoghi_arrabiati",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":78.493,
+  "duration":1.2853742,
   "exportDir":"",
-  "name":"Battaglia_orchestra",
+  "name":"Dialoghi_arrabiati",
   "parent":{
-    "name":"Ost",
-    "path":"folders/Sounds/Ost.yy",
+    "name":"Dialoghi",
+    "path":"folders/Sounds/Sound design/Dialoghi.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Battaglia_orchestra.ogg",
+  "soundFile":"Dialoghi_arrabiati.ogg",
   "volume":1.0,
 }

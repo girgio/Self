@@ -15,7 +15,7 @@
   "name":"Caverna_no_suno",
   "parent":{
     "name":"Ost",
-    "path":"folders/Ost.yy",
+    "path":"folders/Sounds/Ost.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
