@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Click_scartato",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.07226758,
+  "exportDir":"",
+  "name":"Click_scartato",
+  "parent":{
+    "name":"Scarti",
+    "path":"folders/Sounds/Scarti.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Click_scartato.ogg",
+  "volume":1.0,
+}
