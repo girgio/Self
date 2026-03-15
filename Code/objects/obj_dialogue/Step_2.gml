@@ -13,7 +13,6 @@ else if(keyboard_check(input_key)){
     if(current_message >= array_length(message)){
         instance_destroy()
     }else{
-        audio_play_sound(obj_music_manager.click,1,false)
         current_char = 0
     }
 }

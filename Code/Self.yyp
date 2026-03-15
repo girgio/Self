@@ -20,6 +20,7 @@
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Script","folderPath":"folders/Script.yy","name":"Script","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Scarti","folderPath":"folders/Sounds/Scarti.yy","name":"Scarti","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ost","folderPath":"folders/Sounds/Ost.yy","name":"Ost","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sound design","folderPath":"folders/Sounds/Sound design.yy","name":"Sound design","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Dialoghi","folderPath":"folders/Sounds/Sound design/Dialoghi.yy","name":"Dialoghi","resourceType":"GMFolder","resourceVersion":"2.0",},

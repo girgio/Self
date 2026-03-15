@@ -139,6 +139,7 @@ if(level_up and (draw_state == false)){
     draw_text(_x,_y,$"{data.name} LV.{data.level}")
     
     if(keyboard_check_pressed(ord("Z"))){
+        audio_play_sound(Click,1,false)
         draw_state = "finish"
     }
     
@@ -232,11 +233,13 @@ if(level_up and (draw_state == false)){
         draw_set_valign(fa_left)
         draw_set_halign(fa_top)
         if(keyboard_check_pressed(vk_down)){
+            audio_play_sound(Click,1,false)
             _y_pointer += 0.1*_h
             if(_y_pointer > rapporto + 0.4*_h){
                 _y_pointer = rapporto
             }
         }else if(keyboard_check_pressed(vk_up)){
+            audio_play_sound(Click,1,false)
             _y_pointer -= 0.1*_h
             if(_y_pointer < rapporto){
                 _y_pointer = rapporto + 0.4*_h
@@ -246,6 +249,7 @@ if(level_up and (draw_state == false)){
         }else if(keyboard_check_pressed(vk_right) and (point < max_point)){
             point++
         }else if(keyboard_check_pressed(ord("Z"))){
+            audio_play_sound(Click,1,false)
             if(_y_pointer == rapporto){
                 data.atk += point
                 max_point -= point

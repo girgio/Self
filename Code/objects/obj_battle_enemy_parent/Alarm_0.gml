@@ -1,5 +1,7 @@
 
 if(obj_battle_manager.enemy_num <= 0){
+        audio_stop_all()
+        audio_play_sound(Level_up,1,false)
         Restore_stat(obj_battle_player1)
         if(obj_battle_player1._state == noone){
             obj_battle_player1.data._state = noone

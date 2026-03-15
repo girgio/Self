@@ -9,6 +9,7 @@
     {"name":"magic","order":16,"path":"folders/Objects/magic.yy",},
     {"name":"Script","order":4,"path":"folders/Script.yy",},
     {"name":"Sounds","order":6,"path":"folders/Sounds.yy",},
+    {"name":"Scarti","order":2,"path":"folders/Sounds/Scarti.yy",},
     {"name":"Sound design","order":1,"path":"folders/Sounds/Sound design.yy",},
     {"name":"Dialoghi","order":1,"path":"folders/Sounds/Sound design/Dialoghi.yy",},
     {"name":"icone stati","order":18,"path":"folders/Sprites/icone stati.yy",},
