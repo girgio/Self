@@ -1,6 +1,7 @@
 description = "Ghiaccio non umido. Ma come fa ad essere secco se è praticamente acqua. Forse Jhoannes ce lo spiega. Minima probabilità di congelare aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasonogay"
 function Attacco(player,target){
      obj_battle_manager.holding = true
+    attacker = player
     if(player.data.mp < costo){
         obj_battle_dialog.current_char = 0
         obj_battle_dialog._string = $"{player.data.name} prova a laciare una magia,non ha abbastanza magia"

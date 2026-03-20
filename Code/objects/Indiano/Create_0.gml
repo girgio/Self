@@ -4,7 +4,7 @@ tilemap = layer_tilemap_get_id("Collision");
 hp = 30
 hp_max = hp
 atk = 10
-m_atk = 100
+m_atk = 11
 def = 10
 mp = 15
 mp_max = mp
@@ -22,7 +22,7 @@ xp_required = 100
 _state = noone
 
 //magie
-magics = [obj_magic_fire,obj_magic_ice]
+magics = [obj_magic_fire,obj_magic_ice,obj_magic_blood]
 
 //aumento di statistiche
 

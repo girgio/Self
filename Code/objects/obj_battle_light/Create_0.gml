@@ -1,6 +1,7 @@
 // Inherit the parent event
 event_inherited();
 function Attacco(player,target){
+    attacker = player
     obj_battle_manager.holding = true
     _enemy = target
     obj_battle_dialog.current_char = 0
