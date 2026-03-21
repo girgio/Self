@@ -16,6 +16,7 @@ current_luck = data.luck
 current_matk = data.m_atk
 is_attacking = false
 defend = 1
+sleep_turn = 0
 
 //condizione di stato
 _state = noone

@@ -12,6 +12,7 @@ current_luck = data.luck
 level_up = false
 draw_state = false
 defend = 1
+sleep_turn = 0
 
 default_sprite = Sprite28
 sprite_index = default_sprite
