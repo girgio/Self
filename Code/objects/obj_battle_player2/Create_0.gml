@@ -13,6 +13,7 @@ level_up = false
 draw_state = false
 is_attacking = false
 defend = 1
+sleep_turn = 0
 
 default_sprite = Sprite47
 sprite_index = default_sprite

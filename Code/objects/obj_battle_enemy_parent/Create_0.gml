@@ -9,3 +9,4 @@ current_luck = data.luck
 current_matk = data.m_atk
 //condizione di stato
 _state = noone
+sleep_turn = 0
