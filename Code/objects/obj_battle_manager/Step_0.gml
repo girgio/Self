@@ -1,6 +1,7 @@
 if(player_alive <= 0){
         game_restart()
     }
+
 if(instance_exists(current_player) and !holding){
     //bruciatura
     if(current_player._state == global.states.burn and alarm[5] == -1){

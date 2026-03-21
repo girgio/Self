@@ -1,9 +1,11 @@
 if(obj_battle_manager._turn == 4 and data.hp > 0){
-    n_atk = irandom_range(0,1)
+    n_atk = irandom_range(0,2)
     if(n_atk == 0){
         _action = obj_magic_ice.Attacco
-    }else{
+    }else if(n_atk == 1){
         _action = obj_magic_fire.Attacco
+    }else{
+        _action = obj_magic_blood.Attacco
     }
  
     n =  irandom_range(0,3)
