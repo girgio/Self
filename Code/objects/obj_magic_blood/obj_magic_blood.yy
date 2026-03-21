@@ -1,22 +1,23 @@
 {
   "$GMObject":"",
-  "%Name":"obj_battle_light",
+  "%Name":"obj_magic_blood",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":3,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_battle_light",
-  "overriddenProperties":[],
+  "name":"obj_magic_blood",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_magic_parent","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"propertyId":{"name":"name","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Taglio",},
+  ],
   "parent":{
-    "name":"Battle",
-    "path":"folders/Objects/Battle.yy",
+    "name":"magic",
+    "path":"folders/Objects/magic.yy",
   },
   "parentObjectId":{
-    "name":"obj_battle_parent",
-    "path":"objects/obj_battle_parent/obj_battle_parent.yy",
+    "name":"obj_magic_parent",
+    "path":"objects/obj_magic_parent/obj_magic_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
