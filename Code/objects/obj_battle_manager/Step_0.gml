@@ -53,6 +53,7 @@ if(_turn > 3 and !holding and !obj_battle_switch.win){
            array_push(obj_scroll_panel.moves,$"[Round {_round}] {_info}")
             alarm[5] = 80
         }
+        //sonno
     }else if(current_player._state == global.states.sleep and instance_exists(current_player) and current_player.data.hp > 0 and alarm[5] == -1 and alarm[7] == -1){
         holding = true
         var _info = $"{current_player.data.name} non agisce perchè non ha voglia"
