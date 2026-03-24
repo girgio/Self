@@ -14,4 +14,5 @@ player_alive = 4
 holding = false
 current_player = noone
 origin_turn = _turn
+check_state = false
 alarm[11] = 1

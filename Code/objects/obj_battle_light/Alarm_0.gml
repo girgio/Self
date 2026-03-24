@@ -9,6 +9,10 @@ if(crit){
     array_push(obj_scroll_panel.moves,$"[Round {obj_battle_manager._round}] {_enemy_name} subisce {danno} danni")
 }
 if(_enemy.data.hp > 0){
-    alarm[1] = 100
-}
+   alarm[3] = 100
+}  else{
+        obj_battle_manager.check_state = true
+} 
+
+
 
