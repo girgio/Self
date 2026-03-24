@@ -1,5 +1,7 @@
 // Inherit the parent event
-event_inherited();
+_text = "Attacco"
+_y_perc = 0.04
+_x_perc = 0.03
 function Attacco(player,target){
     attacker = player
     obj_battle_manager.holding = true
