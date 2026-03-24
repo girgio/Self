@@ -110,6 +110,7 @@
     {"id":{"name":"intro_no_suno","path":"sounds/intro_no_suno/intro_no_suno.yy",},},
     {"id":{"name":"intro_si_suno","path":"sounds/intro_si_suno/intro_si_suno.yy",},},
     {"id":{"name":"Laboratorio_no_suno","path":"sounds/Laboratorio_no_suno/Laboratorio_no_suno.yy",},},
+    {"id":{"name":"Laboratorio_no_suno16","path":"sounds/Laboratorio_no_suno16/Laboratorio_no_suno16.yy",},},
     {"id":{"name":"Laboratorio_si_suno","path":"sounds/Laboratorio_si_suno/Laboratorio_si_suno.yy",},},
     {"id":{"name":"Level_up","path":"sounds/Level_up/Level_up.yy",},},
     {"id":{"name":"Overworld","path":"sounds/Overworld/Overworld.yy",},},

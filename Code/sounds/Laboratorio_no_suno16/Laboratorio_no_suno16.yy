@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Laboratorio_no_suno",
+  "%Name":"Laboratorio_no_suno16",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,15 +12,15 @@
   "conversionMode":0,
   "duration":174.58281,
   "exportDir":"",
-  "name":"Laboratorio_no_suno",
+  "name":"Laboratorio_no_suno16",
   "parent":{
-    "name":"Scarti",
-    "path":"folders/Sounds/Scarti.yy",
+    "name":"Ost",
+    "path":"folders/Sounds/Ost.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Laboratorio_no_suno.ogg",
+  "soundFile":"Laboratorio_no_suno16.ogg",
   "volume":1.0,
 }
