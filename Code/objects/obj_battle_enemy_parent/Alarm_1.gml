@@ -9,5 +9,11 @@ obj_battle_manager.enemy_num--
     if (_index != -1) {
         array_delete(obj_battle_manager.order_players, _index, 1);
     }
-   alarm[0] = 100
+   if(obj_battle_manager.check_state){
+    obj_battle_manager.check_state = false
+    obj_magic_parent.alarm[3] = 100
+    instance_destroy()
+    }else{
+        alarm[2] = 100   
+    }
     

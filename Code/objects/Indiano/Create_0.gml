@@ -22,7 +22,7 @@ xp_required = 100
 _state = noone
 
 //magie
-magics = [obj_magic_fire,obj_magic_ice,obj_magic_blood]
+magics = [obj_magic_fire,obj_magic_ice,obj_magic_blood,obj_magic_sleep]
 
 //aumento di statistiche
 
