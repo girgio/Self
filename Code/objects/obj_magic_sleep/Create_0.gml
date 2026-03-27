@@ -1,4 +1,4 @@
-description = "Ti taglio"
+description = "Una ninna nanna che consiste nel non cantare niente, restando in silenzio si dorme meglio"
 function Attacco(player,target){
     
     danno = 0
