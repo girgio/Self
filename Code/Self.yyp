@@ -24,6 +24,7 @@
     {"$GMFolder":"","%Name":"Scarti","folderPath":"folders/Sounds/Scarti.yy","name":"Scarti","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sound design","folderPath":"folders/Sounds/Sound design.yy","name":"Sound design","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Dialoghi","folderPath":"folders/Sounds/Sound design/Dialoghi.yy","name":"Dialoghi","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Suoni magia","folderPath":"folders/Sounds/Sound design/Suoni magia.yy","name":"Suoni magia","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"icone stati","folderPath":"folders/Sprites/icone stati.yy","name":"icone stati","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Turn Based Battle","folderPath":"folders/Sprites/Turn Based Battle.yy","name":"Turn Based Battle","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -33,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"Self",
   "resources":[
@@ -116,6 +117,9 @@
     {"id":{"name":"Laboratorio_si_suno","path":"sounds/Laboratorio_si_suno/Laboratorio_si_suno.yy",},},
     {"id":{"name":"Level_up","path":"sounds/Level_up/Level_up.yy",},},
     {"id":{"name":"Overworld","path":"sounds/Overworld/Overworld.yy",},},
+    {"id":{"name":"Pagina_girata_compulsiva","path":"sounds/Pagina_girata_compulsiva/Pagina_girata_compulsiva.yy",},},
+    {"id":{"name":"Pagina_girata","path":"sounds/Pagina_girata/Pagina_girata.yy",},},
+    {"id":{"name":"Scrittura","path":"sounds/Scrittura/Scrittura.yy",},},
     {"id":{"name":"collision_box","path":"sprites/collision_box/collision_box.yy",},},
     {"id":{"name":"dKristo","path":"sprites/dKristo/dKristo.yy",},},
     {"id":{"name":"spr_arrow_close","path":"sprites/spr_arrow_close/spr_arrow_close.yy",},},

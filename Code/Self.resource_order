@@ -12,6 +12,7 @@
     {"name":"Scarti","order":2,"path":"folders/Sounds/Scarti.yy",},
     {"name":"Sound design","order":1,"path":"folders/Sounds/Sound design.yy",},
     {"name":"Dialoghi","order":1,"path":"folders/Sounds/Sound design/Dialoghi.yy",},
+    {"name":"Suoni magia","order":3,"path":"folders/Sounds/Sound design/Suoni magia.yy",},
     {"name":"icone stati","order":18,"path":"folders/Sprites/icone stati.yy",},
   ],
   "ResourceOrderSettings":[
@@ -81,6 +82,8 @@
     {"name":"Laboratorio_no_suno16","order":10,"path":"sounds/Laboratorio_no_suno16/Laboratorio_no_suno16.yy",},
     {"name":"Laboratorio_si_suno","order":9,"path":"sounds/Laboratorio_si_suno/Laboratorio_si_suno.yy",},
     {"name":"Level_up","order":7,"path":"sounds/Level_up/Level_up.yy",},
+    {"name":"Pagina_girata","order":2,"path":"sounds/Pagina_girata/Pagina_girata.yy",},
+    {"name":"Scrittura","order":1,"path":"sounds/Scrittura/Scrittura.yy",},
     {"name":"collision_box","order":17,"path":"sprites/collision_box/collision_box.yy",},
     {"name":"dKristo","order":11,"path":"sprites/dKristo/dKristo.yy",},
     {"name":"spr_arrow_close","order":15,"path":"sprites/spr_arrow_close/spr_arrow_close.yy",},
