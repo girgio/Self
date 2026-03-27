@@ -36,7 +36,7 @@
     {"name":"obj_battle_magic","order":15,"path":"objects/obj_battle_magic/obj_battle_magic.yy",},
     {"name":"obj_battle_manager","order":1,"path":"objects/obj_battle_manager/obj_battle_manager.yy",},
     {"name":"obj_battle_parent","order":3,"path":"objects/obj_battle_parent/obj_battle_parent.yy",},
-    {"name":"obj_battle_player_parent","order":6,"path":"objects/obj_battle_player_parent/obj_battle_player_parent.yy",},
+    {"name":"obj_battle_player_parent","order":4,"path":"objects/obj_battle_player_parent/obj_battle_player_parent.yy",},
     {"name":"obj_battle_player2","order":1,"path":"objects/obj_battle_player2/obj_battle_player2.yy",},
     {"name":"obj_battle_player3","order":2,"path":"objects/obj_battle_player3/obj_battle_player3.yy",},
     {"name":"obj_battle_player4","order":3,"path":"objects/obj_battle_player4/obj_battle_player4.yy",},

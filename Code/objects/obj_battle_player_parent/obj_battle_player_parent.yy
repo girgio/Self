@@ -17,8 +17,8 @@
   "name":"obj_battle_player_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Battle",
-    "path":"folders/Objects/Battle.yy",
+    "name":"players",
+    "path":"folders/Objects/Battle/players.yy",
   },
   "parentObjectId":null,
   "persistent":false,

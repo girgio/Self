@@ -13,6 +13,7 @@ point = 2
 max_point = point
 is_attacking = false
 defend = 1
+sleep_turn = 0
 
 //condizione di stato
 _state = data_player._state

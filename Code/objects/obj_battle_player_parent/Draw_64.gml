@@ -46,6 +46,8 @@ if(_state == global.states.burn){
      draw_sprite_stretched(spr_blood,0,_x_icon,_y_icon,global.w_res*0.04,global.h_res*0.08)
 }else if(_state == global.states.sleep){
     draw_sprite_stretched(spr_zzz,0,_x_icon,_y_icon,global.w_res*0.04,global.h_res*0.08)
+}else if(_state == global.states.stunned){
+    draw_sprite_stretched(spr_stunned,0,_x_icon,_y_icon,global.w_res*0.04,global.h_res*0.08)
 }
 
 draw_set_valign(fa_left)
