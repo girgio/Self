@@ -62,7 +62,8 @@ if(_selezione == "azione"){
                 _selezione = "attesa"
             }
         }
-    }//else suoo wreeee
+        else {audio_play_sound(Denied,1,false)}
+    }
     if(keyboard_check_pressed(ord("X")) and _manager._turn > 0){
         var original_turn = _manager._turn
         _manager._turn--
