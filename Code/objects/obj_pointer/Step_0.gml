@@ -42,7 +42,7 @@ if(_selezione == "azione"){
             _y_perc = 0.04
             i = 0
         }
-        else if(_y_perc == obj_battle_defend._y_perc){
+        else if(_y_perc == obj_battle_defend._y_perc and _manager.players[_manager._turn]._state != global.states.sleep){
              _manager.players[_manager._turn]._action = obj_battle_defend.Parata
             _manager.players[_manager._turn]._target = "nessuno"
             _manager.players[_manager._turn].defend = 0.75
@@ -62,7 +62,7 @@ if(_selezione == "azione"){
                 _selezione = "attesa"
             }
         }
-    }
+    }//else suoo wreeee
     if(keyboard_check_pressed(ord("X")) and _manager._turn > 0){
         var original_turn = _manager._turn
         _manager._turn--
