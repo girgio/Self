@@ -20,17 +20,23 @@ if (!surface_exists(drawing_surface)) {
 }
 
 // 2. Disegna sulla superficie se il tasto è premuto
-if (draw_red) {
+if (draw_red and first) {
+    
     surface_set_target(drawing_surface);
+    
     draw_line_width_color(_gui_mouse_x, _gui_mouse_y, mouse_x_prev, mouse_y_prev, 29, c_red, c_red);
     
+    if(_gui_mouse_x != mouse_x_prev or mouse_y_prev != _gui_mouse_y ){
+        current_instance = instance_create_depth(mouse_x,mouse_y,-100,obj_battle_red_check)
+        num_instance++  
+    }
     
+    _time++
     draw_sprite(spr_draw_red, 0, _gui_mouse_x, _gui_mouse_y);
     surface_reset_target();
-    draw_surface(drawing_surface, _x, _y);
-}else if(surface_exists(drawing_surface)){
-    surface_free(drawing_surface)
 }
+
+draw_surface(drawing_surface, _x, _y);
 
 mouse_x_prev = _gui_mouse_x;
 mouse_y_prev = _gui_mouse_y;
