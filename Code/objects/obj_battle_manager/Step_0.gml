@@ -118,8 +118,24 @@ if(_turn > 3 and !holding and !obj_battle_switch.win){
             alarm[5] = 80    
         }
         
-    }
-    else{
+    }//Stordimento
+    else if((current_player._state == global.states.stunned and instance_exists(current_player) and current_player.data.hp > 0 and alarm[8] == -1 and alarm[9] == -1)){
+        holding = true
+        
+        var  roll = irandom_range(1,10)
+        var _info
+        if(roll <= 5){
+            _info = $"{current_player.data.name} non agisce perchè...boh"
+            alarm[9] = 80
+        }else{
+        	_info = $"{current_player.data.name} riesce ad agire nonostante sia stordito"
+            alarm[8] = 80
+        }
+        
+        obj_battle_dialog.current_char = 0
+        obj_battle_dialog._string = _info
+        array_push(obj_scroll_panel.moves,$"[Round {_round}] {_info}")
+    }else{
        if(instance_exists(current_player) and current_player.data.hp > 0) {
            var target = current_player._target 
            
