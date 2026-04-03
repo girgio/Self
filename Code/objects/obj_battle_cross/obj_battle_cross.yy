@@ -6,7 +6,7 @@
   "name":"obj_battle_cross",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_battle_line","path":"objects/obj_battle_line/obj_battle_line.yy",},"propertyId":{"name":"_max","path":"objects/obj_battle_line/obj_battle_line.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"220",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_battle_line","path":"objects/obj_battle_line/obj_battle_line.yy",},"propertyId":{"name":"_time_max","path":"objects/obj_battle_line/obj_battle_line.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_battle_line","path":"objects/obj_battle_line/obj_battle_line.yy",},"propertyId":{"name":"_time_max","path":"objects/obj_battle_line/obj_battle_line.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"160",},
   ],
   "parent":{
     "name":"simboli",

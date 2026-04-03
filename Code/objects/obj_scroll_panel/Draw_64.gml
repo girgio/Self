@@ -8,10 +8,10 @@ draw_text(view_x + 0.5*view_w,view_y + 30,"Storico mosse")
 if(obj_battle_switch.fullscreen){
     scale_x = display_get_width() / global.w_res;
     scale_y = display_get_height() / global.h_res;
-    gpu_set_scissor(view_x*scale_x, (view_y + 40)*scale_y, (view_x + view_w)*scale_x, (view_h-40)*scale_y);//fixare incoERENZA
+    //gpu_set_scissor(view_x*scale_x, (view_y + 40)*scale_y, (view_x + view_w)*scale_x, (view_h-40)*scale_y);//fixare incoERENZA
     
 }else{
-    gpu_set_scissor(view_x*scale_x -view_w/2, (view_y + 40)*scale_y, (view_x + view_w)*scale_x, (view_h -60)*scale_y);
+    //gpu_set_scissor(view_x*scale_x -view_w/2, (view_y + 40)*scale_y, (view_x + view_w)*scale_x, (view_h -60)*scale_y);
 }
 
 

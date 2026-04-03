@@ -95,6 +95,7 @@
     {"name":"spr_blood","order":3,"path":"sprites/spr_blood/spr_blood.yy",},
     {"name":"spr_box_1","order":10,"path":"sprites/spr_box_1/spr_box_1.yy",},
     {"name":"spr_box_car","order":4,"path":"sprites/spr_box_car/spr_box_car.yy",},
+    {"name":"spr_box_char_1","order":28,"path":"sprites/spr_box_char_1/spr_box_char_1.yy",},
     {"name":"spr_box_char","order":7,"path":"sprites/spr_box_char/spr_box_char.yy",},
     {"name":"spr_box_name","order":5,"path":"sprites/spr_box_name/spr_box_name.yy",},
     {"name":"spr_box_win","order":6,"path":"sprites/spr_box_win/spr_box_win.yy",},

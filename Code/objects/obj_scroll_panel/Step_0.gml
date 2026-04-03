@@ -1,4 +1,4 @@
-// Mouse wheel
+
 x = view_x_sprite*room_width/global.w_res
 var wheel = mouse_wheel_up() - mouse_wheel_down();
 scroll_y -= wheel * scroll_speed;

@@ -17,6 +17,10 @@ function Attacco(player,target){
          danno = esito.danno
          crit = esito.crit
          player.is_attacking = true
-         alarm[0] = 120   
+         if (player.object_index == obj_battle_enemy_parent || object_is_ancestor(player.object_index,  obj_battle_enemy_parent)) {
+            alarm[0] = 120
+        }else{
+            alarm[5] = 120      
+        }
     }
 }

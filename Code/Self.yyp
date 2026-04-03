@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.221",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"Self",
   "resources":[
@@ -133,6 +133,7 @@
     {"id":{"name":"spr_blood","path":"sprites/spr_blood/spr_blood.yy",},},
     {"id":{"name":"spr_box_1","path":"sprites/spr_box_1/spr_box_1.yy",},},
     {"id":{"name":"spr_box_car","path":"sprites/spr_box_car/spr_box_car.yy",},},
+    {"id":{"name":"spr_box_char_1","path":"sprites/spr_box_char_1/spr_box_char_1.yy",},},
     {"id":{"name":"spr_box_char","path":"sprites/spr_box_char/spr_box_char.yy",},},
     {"id":{"name":"spr_box_name","path":"sprites/spr_box_name/spr_box_name.yy",},},
     {"id":{"name":"spr_box_win","path":"sprites/spr_box_win/spr_box_win.yy",},},

@@ -1,3 +1,4 @@
+
 var gui_w = global.w_res
 var gui_h = global.h_res
 
@@ -10,6 +11,9 @@ draw_sprite_stretched(Sprite44,0,_x,_y,_w,_h)
 
 var _gui_mouse_x = mouse_x * (global.w_res / camera_get_view_width(view_camera[0])) - (1/4*global.w_res);
 var _gui_mouse_y = mouse_y * (global.h_res / camera_get_view_height(view_camera[0]));
+
+var _local_mouse_x = _gui_mouse_x - _x;
+var _local_mouse_y = _gui_mouse_y - _y;
 
 // 1. Controlla se la superficie esiste, altrimenti creala
 if (!surface_exists(drawing_surface)) {
