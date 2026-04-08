@@ -17,5 +17,8 @@ if(_enemy.data.hp > 0){
     }else{
         alarm[1] = 100
     }
-}
+}else{
+        obj_battle_manager.check_state = true
+        obj_battle_manager.attacker_instance = self
+} 
     

@@ -12,6 +12,7 @@ if(_enemy.data.hp > 0){
    alarm[3] = 100
 }  else{
         obj_battle_manager.check_state = true
+        obj_battle_manager.attacker_instance = self
 } 
 
 
