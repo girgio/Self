@@ -15,4 +15,5 @@ holding = false
 current_player = noone
 origin_turn = _turn
 check_state = false
+attacker_instance = noone
 alarm[11] = 1

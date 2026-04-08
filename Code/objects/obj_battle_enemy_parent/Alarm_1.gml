@@ -11,7 +11,7 @@ obj_battle_manager.enemy_num--
     }
    if(obj_battle_manager.check_state){
     obj_battle_manager.check_state = false
-    obj_magic_parent.alarm[3] = 100
+    obj_battle_manager.attacker_instance.alarm[3] = 100
     instance_destroy()
     }else{
         alarm[2] = 100   
