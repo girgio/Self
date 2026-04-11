@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Pagina_girata_compulsiva",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":8.1920185,
+  "exportDir":"",
+  "name":"Pagina_girata_compulsiva",
+  "parent":{
+    "name":"Suuoni magia",
+    "path":"folders/Sounds/Sound design/Suuoni magia.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Pagina_girata_compulsiva.ogg",
+  "volume":1.0,
+}
