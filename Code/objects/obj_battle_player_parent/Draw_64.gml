@@ -62,25 +62,78 @@ if(stat and !level_up){
     
     _x += 0.3*_w
     _y += 0.2*_h
+    
+    var _x_stat = _x +0.4*_w
 
     draw_text(_x,_y,"Attacco")
     draw_text(_x+0.3*_w,_y,data.atk)
+    
+    if(mod_atk == 1){
+        draw_sprite_stretched(global.spr_up1,0,_x_stat,_y + 10,30,30)
+    }else if(mod_atk == 2){
+        draw_sprite_stretched(global.spr_up2,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_atk == -1){
+        draw_sprite_stretched(global.spr_down1,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_atk == -2){
+         draw_sprite_stretched(global.spr_down2,0,_x_stat,_y+ 10,30,30)
+    }
     
     _y += 0.1*_h
     draw_text(_x,_y,"Magia")
     draw_text(_x+0.3*_w,_y,data.m_atk)
     
+    if(mod_matk == 1){
+        draw_sprite_stretched(global.spr_up1,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_matk == 2){
+        draw_sprite_stretched(global.spr_up2,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_matk == -1){
+        draw_sprite_stretched(global.spr_down1,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_matk == -2){
+         draw_sprite_stretched(global.spr_down2,0,_x_stat,_y+ 10,30,30)
+    }
+    
     _y += 0.1*_h
     draw_text(_x,_y,"Difesa")
     draw_text(_x+0.3*_w,_y,data.def)
+    
+    if(mod_def == 1){
+        draw_sprite_stretched(global.spr_up1,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_def == 2){
+        draw_sprite_stretched(global.spr_up2,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_def == -1){
+        draw_sprite_stretched(global.spr_down1,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_def == -2){
+         draw_sprite_stretched(global.spr_down2,0,_x_stat,_y+ 10,30,30)
+    }
     
     _y += 0.1*_h
     draw_text(_x,_y,"Velocità")
     draw_text(_x+0.3*_w,_y,data._speed)
     
+    if(mod_spd == 1){
+        draw_sprite_stretched(global.spr_up1,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_spd == 2){
+        draw_sprite_stretched(global.spr_up2,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_spd == -1){
+        draw_sprite_stretched(global.spr_down1,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_spd == -2){
+         draw_sprite_stretched(global.spr_down2,0,_x_stat,_y+ 10,30,30)
+    }
+    
     _y += 0.1*_h
     draw_text(_x,_y,"Fortuna")
     draw_text(_x+0.3*_w,_y,data.luck)
+    
+    if(mod_lk == 1){
+        draw_sprite_stretched(global.spr_up1,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_lk == 2){
+        draw_sprite_stretched(global.spr_up2,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_lk == -1){
+        draw_sprite_stretched(global.spr_down1,0,_x_stat,_y+ 10,30,30)
+    }else if(mod_lk == -2){
+         draw_sprite_stretched(global.spr_down2,0,_x_stat,_y+ 10,30,30)
+    }
+    
     
     draw_set_halign(fa_center)
     draw_set_valign(fa_center)

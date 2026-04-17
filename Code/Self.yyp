@@ -38,7 +38,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.221",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"Self",
   "resources":[
@@ -84,6 +84,7 @@
     {"id":{"name":"obj_enemy_stat2","path":"objects/obj_enemy_stat2/obj_enemy_stat2.yy",},},
     {"id":{"name":"obj_enemy_stat3","path":"objects/obj_enemy_stat3/obj_enemy_stat3.yy",},},
     {"id":{"name":"obj_magic_blood","path":"objects/obj_magic_blood/obj_magic_blood.yy",},},
+    {"id":{"name":"obj_magic_down","path":"objects/obj_magic_down/obj_magic_down.yy",},},
     {"id":{"name":"obj_magic_fire","path":"objects/obj_magic_fire/obj_magic_fire.yy",},},
     {"id":{"name":"obj_magic_ice","path":"objects/obj_magic_ice/obj_magic_ice.yy",},},
     {"id":{"name":"obj_magic_parent","path":"objects/obj_magic_parent/obj_magic_parent.yy",},},
@@ -108,6 +109,7 @@
     {"id":{"name":"ExtractMaxSpeed","path":"scripts/ExtractMaxSpeed/ExtractMaxSpeed.yy",},},
     {"id":{"name":"Options","path":"scripts/Options/Options.yy",},},
     {"id":{"name":"Restore_stat","path":"scripts/Restore_stat/Restore_stat.yy",},},
+    {"id":{"name":"Sound_options","path":"scripts/Sound_options/Sound_options.yy",},},
     {"id":{"name":"Sprites","path":"scripts/Sprites/Sprites.yy",},},
     {"id":{"name":"States","path":"scripts/States/States.yy",},},
     {"id":{"name":"Battaglia_orchestra","path":"sounds/Battaglia_orchestra/Battaglia_orchestra.yy",},},

@@ -15,7 +15,7 @@ if(_enemy.data.hp > 0){
     if(roll <= 6 and _enemy._state == noone){
         alarm[2] = 80
     }else{
-        alarm[1] = 100
+        alarm[3] = 100
     }
 }else{
         obj_battle_manager.check_state = true

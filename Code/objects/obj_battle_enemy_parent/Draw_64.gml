@@ -32,21 +32,50 @@ if(mod_atk == 1){
     draw_sprite_stretched(global.spr_up1,0,_x_text- font_get_size(History_font)*11,_y_text,30,30)
 }else if(mod_atk == 2){
     draw_sprite_stretched(global.spr_up2,0,_x_text - font_get_size(History_font)*11,_y_text,30,30)
+}else if(mod_atk == -1){
+    draw_sprite_stretched(global.spr_down1,0,_x_text - font_get_size(History_font)*11,_y_text,30,30)
+}else if(mod_atk == -2){
+     draw_sprite_stretched(global.spr_down2,0,_x_text - font_get_size(History_font)*11,_y_text,30,30)
 }
+
 if(mod_matk == 1){
     draw_sprite_stretched(global.spr_up1,0,_x_text - font_get_size(History_font)*6,_y_text,30,30)
+}else if(mod_matk == 2){
+    draw_sprite_stretched(global.spr_up2,0,_x_text - font_get_size(History_font)*6,_y_text,30,30)
+}else if(mod_matk == -1){
+    draw_sprite_stretched(global.spr_down1,0,_x_text - font_get_size(History_font)*6,_y_text,30,30)
+}else if(mod_matk == -2){
+     draw_sprite_stretched(global.spr_down2,0,_x_text - font_get_size(History_font)*6,_y_text,30,30)
 }
 
 if(mod_def == 1){
     draw_sprite_stretched(global.spr_up1,0,_x_text- font_get_size(History_font)*1,_y_text,30,30)
+}else if(mod_def == 2){
+    draw_sprite_stretched(global.spr_up2,0,_x_text - font_get_size(History_font)*1,_y_text,30,30)
+}else if(mod_def == -1){
+    draw_sprite_stretched(global.spr_down1,0,_x_text - font_get_size(History_font)*1,_y_text,30,30)
+}else if(mod_def == -2){
+     draw_sprite_stretched(global.spr_down2,0,_x_text - font_get_size(History_font)*1,_y_text,30,30)
 }
 
 if(mod_spd == 1){
     draw_sprite_stretched(global.spr_up1,0,_x_text + font_get_size(History_font)*4,_y_text,30,30)
+}else if(mod_spd == 2){
+    draw_sprite_stretched(global.spr_up2,0,_x_text - font_get_size(History_font)*4,_y_text,30,30)
+}else if(mod_spd == -1){
+    draw_sprite_stretched(global.spr_down1,0,_x_text - font_get_size(History_font)*4,_y_text,30,30)
+}else if(mod_spd == -2){
+     draw_sprite_stretched(global.spr_down2,0,_x_text - font_get_size(History_font)*4,_y_text,30,30)
 }
 
 if(mod_lk == 1){
     draw_sprite_stretched(global.spr_up1,0,_x_text + font_get_size(History_font)*9,_y_text,30,30)
+}else if(mod_lk == 2){
+    draw_sprite_stretched(global.spr_up2,0,_x_text - font_get_size(History_font)*9,_y_text,30,30)
+}else if(mod_lk == -1){
+    draw_sprite_stretched(global.spr_down1,0,_x_text - font_get_size(History_font)*9,_y_text,30,30)
+}else if(mod_lk == -2){
+     draw_sprite_stretched(global.spr_down2,0,_x_text - font_get_size(History_font)*9,_y_text,30,30)
 }
 draw_set_font(Font2)
 

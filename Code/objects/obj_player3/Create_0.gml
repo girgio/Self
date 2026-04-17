@@ -29,7 +29,7 @@ move_speed = 1;
 _state = noone
 
 //magie
-magics = [obj_magic_fire]
+magics = [obj_magic_fire,obj_magic_down]
 
 //aumento di statistiche
 

@@ -4,4 +4,10 @@ function Restore_stat(player){
     player.current_def = player.data.def 
     player.current_speed = player.data._speed 
     player.current_luck = player.data.luck
+    player.mod_atk = 0
+    player.mod_def = 0
+    player.mod_lk = 0
+    player.mod_spd = 0
+    player.mod_matk = 0
+    
 }
