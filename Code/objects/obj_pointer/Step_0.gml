@@ -204,7 +204,7 @@ if(_selezione == "azione"){
      if(keyboard_check_pressed(ord("Z"))){
         _manager.players[_manager._turn]._action = array_magics[i].Attacco
         audio_play_sound(obj_music_manager.click,1,false)
-        target_type = array_magics[i]
+        target_type = array_magics[i].target
         if(target_type == "nemico"){
               _text = true   
             
