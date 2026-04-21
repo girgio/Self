@@ -26,6 +26,11 @@ _state = noone
 //magie
 magics = [obj_magic_fire]
 
+//oggetti
+items = [obj_item_potion]
+num_items = [1]//numero di oggetti, il numero di oggetti items[i] è num_items[i]
+
+
 //aumento di statistiche
 
 atk_up = 1

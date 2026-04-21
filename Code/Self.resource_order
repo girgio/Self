@@ -8,6 +8,7 @@
     {"name":"enemies","order":20,"path":"folders/Objects/Battle/enemies.yy",},
     {"name":"players","order":19,"path":"folders/Objects/Battle/players.yy",},
     {"name":"enemies_stat","order":12,"path":"folders/Objects/enemies_stat.yy",},
+    {"name":"item","order":17,"path":"folders/Objects/item.yy",},
     {"name":"magic","order":16,"path":"folders/Objects/magic.yy",},
     {"name":"Script","order":4,"path":"folders/Script.yy",},
     {"name":"Sounds","order":6,"path":"folders/Sounds.yy",},

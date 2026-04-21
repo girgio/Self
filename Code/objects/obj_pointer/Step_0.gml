@@ -1,3 +1,4 @@
+var target_type = "nemico"
 
 if(obj_battle_switch.win) exit;
     
@@ -41,6 +42,11 @@ if(_selezione == "azione"){
             _text = true
             _y_perc = 0.04
             i = 0
+        }else if(_y_perc == obj_battle_item._y_perc){
+            _selezione = "item"
+            _text = true
+            _y_perc = 0.04
+            i = 0
         }
         else if(_y_perc == obj_battle_defend._y_perc and _manager.players[_manager._turn]._state != global.states.sleep){
              _manager.players[_manager._turn]._action = obj_battle_defend.Parata
@@ -78,14 +84,15 @@ if(_selezione == "azione"){
         }
     }
     
-}else if (_selezione == "target" or _selezione_magia) {
+}else if (_selezione == "target" or _selezione_magia or _selezione_item) {
     if(_text){
         obj_battle_dialog.current_char = 0
         obj_battle_dialog._string = $"Chi vuoi colpire?"
         _text = false
     }
 
-    if (keyboard_check_pressed(vk_right)) {
+    if(target_type == "nemico"){
+       if (keyboard_check_pressed(vk_right)) {
         audio_play_sound(obj_music_manager.click,1,false)
         _i_target++;
         _i_target = _i_target % _manager.enemy_num;
@@ -112,7 +119,43 @@ if(_selezione == "azione"){
             _selezione = "attesa"
         }
         _y_perc = 0.04
-        _text = true
+        _text = true 
+        } 
+    }else if(target_type == "alleato_vivo"){
+        _draw_alley_box = true
+    	var i_alley = 0
+           if (keyboard_check_pressed(vk_right)) {
+        audio_play_sound(obj_music_manager.click,1,false)
+        i_alley++;
+        i_alley = i_alley % _manager.players;
+            if(_manager.players[i_alley].is_dead){
+                i_alley++;
+            }
+        _x_target = _manager.enemies[i_alley].x
+     }
+
+    if (keyboard_check_pressed(vk_left)) {
+        audio_play_sound(obj_music_manager.click,1,false)
+        _i_target--;
+        _i_target = (_i_target + _manager.enemy_num) % _manager.enemy_num;
+        _x_target = _manager.enemies[_i_target].x
+        }
+        
+        if(keyboard_check_pressed(ord("Z"))){
+        audio_play_sound(obj_music_manager.click,1,false)
+        _manager.players[_manager._turn]._target = _manager.players[i_alley]
+        _manager._turn++
+        _selezione_magia = false
+        while(_manager._turn <=3 and _manager.players[_manager._turn].is_dead){
+            _manager._turn++
+        }
+        _selezione = "azione"
+        if(_manager._turn > 3){
+            _selezione = "attesa"
+        }
+        _y_perc = 0.04
+        _text = true 
+        } 
     }
     
     if(keyboard_check_pressed(ord("X"))){
@@ -123,6 +166,7 @@ if(_selezione == "azione"){
             _selezione = "azione"
             _text = true
         }
+        _draw_alley_box = false
     }
 }else if(_selezione == "magic" and !_selezione_magia){
     var array_magics = _manager.players[_manager._turn].magics
@@ -160,8 +204,8 @@ if(_selezione == "azione"){
      if(keyboard_check_pressed(ord("Z"))){
         _manager.players[_manager._turn]._action = array_magics[i].Attacco
         audio_play_sound(obj_music_manager.click,1,false)
-        
-        if(array_magics[i].target == "nemico"){
+        target_type = array_magics[i]
+        if(target_type == "nemico"){
               _text = true   
             
             _x_target = _manager.enemies[0].x
@@ -173,7 +217,7 @@ if(_selezione == "azione"){
             _selezione_magia = true
             obj_battle_dialog.current_char = 0
             
-        }else if(array_magics[i].target == "all"){
+        }else if(target_type == "all"){
             _manager.players[_manager._turn]._target = "all"
             _manager._turn++
             while(_manager._turn <=3 and _manager.players[_manager._turn].is_dead){

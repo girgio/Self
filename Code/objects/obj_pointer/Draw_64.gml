@@ -1,14 +1,22 @@
 draw_set_font(Font3)
+var scale = global.w_res / camera_get_view_width(view_camera[0]);
 if(_selezione == "azione"){
     _x = global.w_res*_x_perc
     _w = global.w_res*0.04
     _h = global.h_res*0.04
     _y = global.h_res*_y_perc+string_height("a")/2-_h/2
     draw_sprite_stretched(_sprite_pointer,0,_x,_y,_w,_h)
-}else if(_selezione == "target" or _selezione_magia){
+}else if((_selezione == "target" or _selezione_magia) and _draw_alley_box){
+    var yy = global.h_res*2/3
+    var xx = (_x_target) * scale
+    var ww = global.w_res/4
+    var hh = global.h_res/3
+    
+    draw_rectangle(xx,yy,xx+(ww),yy+hh,true)
+}
+else if(_selezione == "target" or _selezione_magia){
     var yy = global.h_res * 0.05;
 
-    var scale = global.w_res / camera_get_view_width(view_camera[0]);
     var xx = (_x_target) * scale - _w/2;
 
     draw_sprite_stretched(_sprite_pointer, 0, xx, yy, _w, _h);
