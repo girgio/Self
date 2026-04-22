@@ -88,6 +88,7 @@
     {"id":{"name":"obj_magic_blood","path":"objects/obj_magic_blood/obj_magic_blood.yy",},},
     {"id":{"name":"obj_magic_down","path":"objects/obj_magic_down/obj_magic_down.yy",},},
     {"id":{"name":"obj_magic_fire","path":"objects/obj_magic_fire/obj_magic_fire.yy",},},
+    {"id":{"name":"obj_magic_heal","path":"objects/obj_magic_heal/obj_magic_heal.yy",},},
     {"id":{"name":"obj_magic_ice","path":"objects/obj_magic_ice/obj_magic_ice.yy",},},
     {"id":{"name":"obj_magic_parent","path":"objects/obj_magic_parent/obj_magic_parent.yy",},},
     {"id":{"name":"obj_magic_sleep","path":"objects/obj_magic_sleep/obj_magic_sleep.yy",},},
