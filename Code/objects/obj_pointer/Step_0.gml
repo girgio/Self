@@ -68,7 +68,7 @@ if(_selezione == "azione"){
                 _selezione = "attesa"
             }
         }
-    }//else suoo wreeee
+    }//else suono wreeee
     if(keyboard_check_pressed(ord("X")) and _manager._turn > 0){
         var original_turn = _manager._turn
         _manager._turn--
@@ -205,19 +205,7 @@ if(_selezione == "azione"){
         _manager.players[_manager._turn]._action = array_magics[i].Attacco
         audio_play_sound(obj_music_manager.click,1,false)
         target_type = array_magics[i].target
-        if(target_type == "nemico"){
-              _text = true   
-            
-            _x_target = _manager.enemies[0].x
-            _i_target = 0
-            
-            var temp = _w
-            _w = _h
-            _h = temp 
-            _selezione_magia = true
-            obj_battle_dialog.current_char = 0
-            
-        }else if(target_type == "all"){
+        if(target_type == "all"){
             _manager.players[_manager._turn]._target = "all"
             _manager._turn++
             while(_manager._turn <=3 and _manager.players[_manager._turn].is_dead){
@@ -227,6 +215,23 @@ if(_selezione == "azione"){
             if(_manager._turn > 3){
                 _selezione = "attesa"
             }
+        }else{
+              _text = true   
+            
+            if(target_type == "nemico"){
+                _x_target = _manager.enemies[0].x
+            }else{
+                _x_target = _manager.players[_manager._turn].x
+            }
+            
+            _i_target = 0
+            
+            var temp = _w
+            _w = _h
+            _h = temp 
+            _selezione_magia = true
+            obj_battle_dialog.current_char = 0
+            
         }
     }else if(keyboard_check_pressed(ord("X"))){
             _selezione = "azione"

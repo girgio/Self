@@ -29,7 +29,7 @@ move_speed = 1;
 _state = noone
 
 //magie
-magics = [obj_magic_fire,obj_magic_down]
+magics = [obj_magic_fire,obj_magic_down,obj_magic_heal]
 
 
 //oggetti
