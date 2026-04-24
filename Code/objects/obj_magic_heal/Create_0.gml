@@ -11,9 +11,9 @@ function Attacco(player,target){
         var _info = $"[Round {obj_battle_manager._round}] {player.data.name} lancia Cura su {target.data.name}"
          _enemy = target
          obj_battle_dialog.current_char = 0
-         obj_battle_dialog._string = $"{player.data.name} lancia Fuoco su {target.data.name}"
+         obj_battle_dialog._string = $"{player.data.name} lancia Cura su {target.data.name}"
          array_push(obj_scroll_panel.moves,_info)
-         esito = Calcola_danno_magico(player,target,global.potenza_mossa.bassa)
+         esito = Calcola_cura(player,target,global.potenza_mossa.bassa)
          danno = esito.danno
          crit = esito.crit
          player.is_attacking = true

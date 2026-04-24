@@ -83,7 +83,7 @@ function Calcola_cura(player,enemy,base_power){
         crit = 1.5 //Hai fatto colpo critico!
     }
     
-    var danno =round((((2*lv+10)/250)*base_power+2+atk/2)*crit*enemy.defend)
+    var danno =round((((2*lv+10)/250)*base_power+2+atk/2)*crit)
     
     if(crit > 1){
         esito = {
