@@ -61,7 +61,12 @@ if(instance_exists(current_player) and !holding){
        obj_battle_dialog._string = _info
        array_push(obj_scroll_panel.moves,$"[Round {_round}] {_info}")
        current_player.data.hp -= danno
-        alarm[5] = 80
+        if(current_player.data.hp <= 0){
+            current_player = noone
+        }else{
+             alarm[5] = 80
+        }
+       
     }
 }
 if(_turn > 3 and !holding and !obj_battle_switch.win){

@@ -9,3 +9,5 @@ _text = true
 _sprite_pointer = spr_button_run
 _draw_alley_box = false //per capire se disegnare la box per il target degli alleati
 i = 0 //tiene il conto della magia da selezionare
+target_type = "nemico"
+i_alley = 0

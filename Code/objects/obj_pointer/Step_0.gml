@@ -1,4 +1,4 @@
-var target_type = "nemico"
+
 
 if(obj_battle_switch.win) exit;
     
@@ -37,6 +37,7 @@ if(_selezione == "azione"){
            _w = _h
            _h = temp 
             _text = true
+            target_type = "nemico"
         }else if(_y_perc == obj_battle_magic._y_perc){
             _selezione = "magic"
             _text = true
@@ -123,22 +124,27 @@ if(_selezione == "azione"){
         } 
     }else if(target_type == "alleato_vivo"){
         _draw_alley_box = true
-    	var i_alley = 0
            if (keyboard_check_pressed(vk_right)) {
         audio_play_sound(obj_music_manager.click,1,false)
         i_alley++;
-        i_alley = i_alley % _manager.players;
-            if(_manager.players[i_alley].is_dead){
+        i_alley = (i_alley+global.num_player) % global.num_player;
+            while(_manager.players[i_alley].is_dead){
                 i_alley++;
+                i_alley = (i_alley+global.num_player) % global.num_player;
             }
-        _x_target = _manager.enemies[i_alley].x
+        _x_target = _manager.players[i_alley].x
      }
 
     if (keyboard_check_pressed(vk_left)) {
         audio_play_sound(obj_music_manager.click,1,false)
-        _i_target--;
-        _i_target = (_i_target + _manager.enemy_num) % _manager.enemy_num;
-        _x_target = _manager.enemies[_i_target].x
+        audio_play_sound(obj_music_manager.click,1,false)
+        i_alley--;
+        i_alley = (i_alley+global.num_player) % global.num_player;
+            while(_manager.players[i_alley].is_dead){
+                i_alley--;
+                i_alley = (i_alley+global.num_player) % global.num_player;
+            }
+        _x_target = _manager.players[i_alley].x
         }
         
         if(keyboard_check_pressed(ord("Z"))){
@@ -155,6 +161,7 @@ if(_selezione == "azione"){
         }
         _y_perc = 0.04
         _text = true 
+            _draw_alley_box = false
         } 
     }
     
@@ -222,9 +229,11 @@ if(_selezione == "azione"){
                 _x_target = _manager.enemies[0].x
             }else{
                 _x_target = _manager.players[_manager._turn].x
+                i_alley = _manager._turn
             }
             
-            _i_target = 0
+            _i_target = 0 
+            
             
             var temp = _w
             _w = _h

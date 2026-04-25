@@ -1,7 +1,7 @@
 if(obj_battle_manager._turn == 4 and data.hp > 0){
     n_atk = irandom_range(0,2)
     if(n_atk == 0){
-        _action = obj_magic_sleep.Attacco
+        _action = obj_magic_fire.Attacco
     }else if(n_atk == 1){
         _action = obj_magic_down.Attacco
     }else{

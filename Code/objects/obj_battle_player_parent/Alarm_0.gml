@@ -4,7 +4,7 @@ array_push(obj_scroll_panel.moves,$"[Round {obj_battle_manager._round}] {data.na
 
 if(obj_battle_manager.check_state){
     obj_battle_manager.check_state = false
-    obj_magic_parent.alarm[3] = 100
+    obj_battle_manager.attacker_instance.alarm[3] = 100
 }else{
     alarm[1] = 100   
 }

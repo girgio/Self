@@ -1,7 +1,7 @@
 movement_speed = 1;
 name = "Kristo"
 tilemap = layer_tilemap_get_id("Collision");
-hp = 30
+hp = 5
 hp_max = hp
 atk = 10
 m_atk = 11

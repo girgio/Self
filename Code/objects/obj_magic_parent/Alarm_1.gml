@@ -1,3 +1,4 @@
+
 if(attacker._state == global.states.bleeding and danno > 0){
     danno_sang = int64(max(1,danno*global.perc_bleeding))
     attacker.data.hp -= danno_sang
