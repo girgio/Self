@@ -26,6 +26,8 @@ for(i = 0;i < array_length(data.magics);i++){
 }
 
 
+
+
 //variabili x draw
 var gui_w = global.w_res 
 var gui_h = global.h_res

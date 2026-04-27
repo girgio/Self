@@ -43,11 +43,24 @@ if(_selezione == "azione"){
             _text = true
             _y_perc = 0.04
             i = 0
-        }else if(_y_perc == obj_battle_item._y_perc){
-            _selezione = "item"
+        }else if(_y_perc == obj_battle_item._y_perc){ 
+            var array_magics = _manager.players[_manager._turn].magics
+            var num_magic = array_length(array_magics)
+            array_magics = _manager.players[_manager._turn].data.items
+            num_magic = array_length(array_magics)
+            
+            if(num_magic <= 0){
+                _selezione = "azione"
+                _text = true
+                obj_battle_dialog.current_char = 0
+                audio_play_sound(global.sound_reject,1,false)
+            }else {
+            	_selezione = "item"
             _text = true
             _y_perc = 0.04
             i = 0
+            }
+            
         }
         else if(_y_perc == obj_battle_defend._y_perc and _manager.players[_manager._turn]._state != global.states.sleep){
              _manager.players[_manager._turn]._action = obj_battle_defend.Parata
@@ -151,7 +164,8 @@ if(_selezione == "azione"){
         audio_play_sound(obj_music_manager.click,1,false)
         _manager.players[_manager._turn]._target = _manager.players[i_alley]
         _manager._turn++
-        _selezione_magia = false
+        _selezione_magia = false 
+        _selezione_item = false
         while(_manager._turn <=3 and _manager.players[_manager._turn].is_dead){
             _manager._turn++
         }
@@ -168,16 +182,31 @@ if(_selezione == "azione"){
     if(keyboard_check_pressed(ord("X"))){
         if(_selezione_magia){
             _selezione_magia = false
-            _text = true
-        }else{
-            _selezione = "azione"
-            _text = true
+        }else if(_selezione_item){
+            _selezione_item = false
         }
+        else{
+            _selezione = "azione"
+        }
+        _text = true
         _draw_alley_box = false
     }
-}else if(_selezione == "magic" and !_selezione_magia){
+}else if((_selezione == "magic" and !_selezione_magia) or (_selezione == "item" and !_selezione_item)){
+    
     var array_magics = _manager.players[_manager._turn].magics
     var num_magic = array_length(array_magics)
+    if(_selezione == "item"){
+        array_magics = _manager.players[_manager._turn].data.items
+        num_magic = array_length(array_magics)
+    }
+    if(num_magic <= 0){
+        _selezione = "azione"
+        _y_perc = 0.04
+        _text = true
+        obj_battle_dialog.current_char = 0
+        audio_play_sound(global.sound_reject,1,false)
+        exit
+    }
         
     if(num_magic > 0 and _text){
          obj_battle_dialog.current_char = 0
@@ -238,7 +267,12 @@ if(_selezione == "azione"){
             var temp = _w
             _w = _h
             _h = temp 
-            _selezione_magia = true
+            if(_selezione = "magic"){
+              _selezione_magia = true  
+            }else{
+                _selezione_item = true
+            }
+            
             obj_battle_dialog.current_char = 0
             
         }

@@ -33,6 +33,13 @@ for(i = 0;i < array_length(data.magics);i++){
     array_push(magics,magic)
 }
 
+//oggetti
+items = []
+for(i = 0;i < array_length(data.items);i++){
+    var magic = instance_create_depth(0,0,0,data.items[i])  
+    array_push(items,magic)
+}
+
 
 default_sprite = Sprite28
 sprite_index = default_sprite

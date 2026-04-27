@@ -33,6 +33,14 @@ for(i = 0;i < array_length(data.magics);i++){
 }
 
 
+//oggetti
+items = []
+for(i = 0;i < array_length(data.items);i++){
+    var magic = instance_create_depth(0,0,0,data.items[i])  
+    array_push(items,magic)
+}
+
+
 point = 2
 max_point = point
 is_attacking = false

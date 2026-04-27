@@ -1,10 +1,17 @@
 {
   "$GMObject":"",
   "%Name":"obj_item_potion",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_item_potion",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_magic_parent","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"propertyId":{"name":"name","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Pozione di cura",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_magic_parent","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"propertyId":{"name":"costo","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_magic_parent","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"propertyId":{"name":"target","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"alleato_vivo",},
+  ],
   "parent":{
     "name":"item",
     "path":"folders/Objects/item.yy",

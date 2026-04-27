@@ -10,6 +10,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_magic_parent","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"propertyId":{"name":"target","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"alleato_vivo",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_magic_parent","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"propertyId":{"name":"name","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Cura",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_magic_parent","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"propertyId":{"name":"costo","path":"objects/obj_magic_parent/obj_magic_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
   ],
   "parent":{
     "name":"magic",
