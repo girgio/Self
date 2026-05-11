@@ -1,0 +1,2 @@
+isIncreasing = false 
+isDecreasing = true
