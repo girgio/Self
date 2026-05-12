@@ -3,5 +3,5 @@ start_height = 1
 isIncreasing = false
 isDecreasing = false
 fullscreen = false
-show_debug_message(start_width)
-show_debug_message(start_height)
+instance_deactivate_layer("Option_menu")
+instance_deactivate_layer("Option_scroll")

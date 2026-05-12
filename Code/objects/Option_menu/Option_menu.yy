@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"OptionButton",
+  "%Name":"Option_menu",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OptionButton",
+  "name":"Option_menu",
   "overriddenProperties":[],
   "parent":{
     "name":"Start",
     "path":"folders/Objects/Start.yy",
   },
-  "parentObjectId":{
-    "name":"Button",
-    "path":"objects/Button/Button.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_optionButton",
-    "path":"sprites/spr_optionButton/spr_optionButton.yy",
+    "name":"Sprite44_1",
+    "path":"sprites/Sprite44_1/Sprite44_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
