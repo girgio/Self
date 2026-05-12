@@ -20,7 +20,6 @@
     {"name":"inst_10346C10","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_627532D7","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4491A6BE","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_29AB7709","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2EAB5ACC","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6E7C37B9","path":"rooms/Room1/Room1.yy",},
   ],
@@ -43,7 +42,6 @@
         {"$GMRInstance":"v4","%Name":"inst_4491A6BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4491A6BE","objectId":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"dialogue","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.barbone_dialogue",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":448.0,},
-        {"$GMRInstance":"v4","%Name":"inst_29AB7709","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_29AB7709","objectId":{"name":"obj_music_manager","path":"objects/obj_music_manager/obj_music_manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1344.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_2EAB5ACC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2EAB5ACC","objectId":{"name":"obj_party_manager","path":"objects/obj_party_manager/obj_party_manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1316.0,"y":8.0,},
         {"$GMRInstance":"v4","%Name":"inst_6E7C37B9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E7C37B9","objectId":{"name":"nemico2","path":"objects/nemico2/nemico2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":741.0,"y":443.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

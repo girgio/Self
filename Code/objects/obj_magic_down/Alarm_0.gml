@@ -11,7 +11,8 @@ obj_battle_dialog.current_char = 0
         _enemy.mod_def--
         _enemy.current_def /= global.modifiche_stat
     }
-    audio_play_sound(global.sound_stat_down,0,false)
+    var sound = audio_play_sound(global.sound_stat_down,1,false)
+    audio_sound_gain(sound,obj_music_manager.se_volume,0);
     alarm[1] = 100
 
 

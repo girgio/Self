@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"slider_se",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"slider_se",
   "overriddenProperties":[],
@@ -11,7 +9,10 @@
     "name":"Start",
     "path":"folders/Objects/Start.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"slider_music",
+    "path":"objects/slider_music/slider_music.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

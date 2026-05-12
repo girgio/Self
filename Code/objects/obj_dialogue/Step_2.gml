@@ -23,7 +23,8 @@ if(current_char>=string_length(_str)){
 }
 
 if(is_drawing and first){
-    audio_play_sound(music,1,true)
+    var sound = audio_play_sound(music,1,true)
+    audio_sound_gain(sound,obj_music_manager.se_volume,0);
     first = false
 }else if(!is_drawing){
     audio_stop_sound(music)

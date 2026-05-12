@@ -4,7 +4,8 @@ if(player_alive <= 0){
 
 if(enemy_num <= 0 and !holding){
         audio_stop_all()
-        audio_play_sound(Level_up,1,false)
+        var sound = audio_play_sound(Level_up,1,false)
+        audio_sound_gain(sound,obj_music_manager.se_volume,0);
         Restore_stat(obj_battle_player1)
         if(obj_battle_player1._state == noone){
             obj_battle_player1.data._state = noone

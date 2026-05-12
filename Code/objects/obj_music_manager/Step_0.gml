@@ -1,9 +1,11 @@
+
+
 if(room == Room1 and first_time){
     audio_stop_all()
     music = Caverna_no_suno
     audio_play_sound(music,1,true)
     audio_sound_gain(music,0,0)//porta il volume a 0 in 0 ms
-    audio_sound_gain(music,1,3000)//porta il volume a 3 in 3000 ms
+    audio_sound_gain(music,music_volume,3000)//porta il volume a 1 in 3000 ms
     first_time = false
 }
 
@@ -12,7 +14,7 @@ if(room == Battle_room and first_time){
     music = Boss_Caverna
     audio_play_sound(music, 1, true)
     audio_sound_gain(music,0,0)//porta il volume a 0 in 0 ms
-    audio_sound_gain(music,1,3000)//porta il volume a 3 in 3000 ms
+    audio_sound_gain(music,music_volume,3000)//porta il volume a 3 in 3000 ms
     first_time = false
 }
 

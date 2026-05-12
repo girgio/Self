@@ -13,21 +13,24 @@ if(_selezione == "azione"){
         _text = false
     }
     if(keyboard_check_pressed(vk_down)){
-        audio_play_sound(obj_music_manager.click,1,false)
+        var sound = audio_play_sound(obj_music_manager.click,1,false)
+        audio_sound_gain(sound,obj_music_manager.se_volume,0);
         _y_perc += 0.1
         if(_y_perc > 0.44){
             _y_perc = 0.04
         }
     }
     if(keyboard_check_pressed(vk_up)){
-        audio_play_sound(obj_music_manager.click,1,false)
+        var sound = audio_play_sound(obj_music_manager.click,1,false)
+        audio_sound_gain(sound,obj_music_manager.se_volume,0);
         _y_perc -= 0.1
         if(_y_perc < 0.04){
             _y_perc = 0.44
         }
     }
     if(keyboard_check_pressed(ord("Z"))){
-        audio_play_sound(obj_music_manager.click,1,false)
+        var sound = audio_play_sound(obj_music_manager.click,1,false)
+        audio_sound_gain(sound,obj_music_manager.se_volume,0);
         if(_y_perc == obj_battle_light._y_perc){
             _manager.players[_manager._turn]._action = obj_battle_light.Attacco
             _selezione = "target"
@@ -53,7 +56,8 @@ if(_selezione == "azione"){
                 _selezione = "azione"
                 _text = true
                 obj_battle_dialog.current_char = 0
-                audio_play_sound(global.sound_reject,1,false)
+                sound = audio_play_sound(global.sound_reject,1,false)
+                audio_sound_gain(sound,obj_music_manager.se_volume,0);
             }else {
             	_selezione = "item"
             _text = true
@@ -107,21 +111,24 @@ if(_selezione == "azione"){
 
     if(target_type == "nemico"){
        if (keyboard_check_pressed(vk_right)) {
-        audio_play_sound(obj_music_manager.click,1,false)
+        var sound = audio_play_sound(obj_music_manager.click,1,false)
+        audio_sound_gain(sound,obj_music_manager.se_volume,0);
         _i_target++;
         _i_target = _i_target % _manager.enemy_num;
         _x_target = _manager.enemies[_i_target].x
     }
 
     if (keyboard_check_pressed(vk_left)) {
-        audio_play_sound(obj_music_manager.click,1,false)
+        var sound = audio_play_sound(obj_music_manager.click,1,false)
+        audio_sound_gain(sound,obj_music_manager.se_volume,0);
         _i_target--;
         _i_target = (_i_target + _manager.enemy_num) % _manager.enemy_num;
         _x_target = _manager.enemies[_i_target].x
     }
     
      if(keyboard_check_pressed(ord("Z"))){
-        audio_play_sound(obj_music_manager.click,1,false)
+        var sound = audio_play_sound(obj_music_manager.click,1,false)
+        audio_sound_gain(sound,obj_music_manager.se_volume,0);
         _manager.players[_manager._turn]._target = _manager.enemies[_i_target]
         _manager._turn++
         _selezione_magia = false
@@ -138,7 +145,8 @@ if(_selezione == "azione"){
     }else if(target_type == "alleato_vivo"){
         _draw_alley_box = true
            if (keyboard_check_pressed(vk_right)) {
-        audio_play_sound(obj_music_manager.click,1,false)
+        var sound = audio_play_sound(obj_music_manager.click,1,false)
+        audio_sound_gain(sound,obj_music_manager.se_volume,0);
         i_alley++;
         i_alley = (i_alley+global.num_player) % global.num_player;
             while(_manager.players[i_alley].is_dead){
@@ -149,8 +157,9 @@ if(_selezione == "azione"){
      }
 
     if (keyboard_check_pressed(vk_left)) {
-        audio_play_sound(obj_music_manager.click,1,false)
-        audio_play_sound(obj_music_manager.click,1,false)
+        var sound = audio_play_sound(obj_music_manager.click,1,false)
+        audio_sound_gain(sound,obj_music_manager.se_volume,0);
+        
         i_alley--;
         i_alley = (i_alley+global.num_player) % global.num_player;
             while(_manager.players[i_alley].is_dead){
@@ -161,7 +170,8 @@ if(_selezione == "azione"){
         }
         
         if(keyboard_check_pressed(ord("Z"))){
-        audio_play_sound(obj_music_manager.click,1,false)
+        var sound = audio_play_sound(obj_music_manager.click,1,false)
+        audio_sound_gain(sound,obj_music_manager.se_volume,0);
         _manager.players[_manager._turn]._target = _manager.players[i_alley]
         _manager._turn++
         _selezione_magia = false 
@@ -204,7 +214,8 @@ if(_selezione == "azione"){
         _y_perc = 0.04
         _text = true
         obj_battle_dialog.current_char = 0
-        audio_play_sound(global.sound_reject,1,false)
+        var sound = audio_play_sound(global.sound_reject,1,false)
+        audio_sound_gain(sound,obj_music_manager.se_volume,0);
         exit
     }
         
@@ -218,7 +229,8 @@ if(_selezione == "azione"){
         _y_perc += 0.05
         if(num_magic > 1){
             _text = true
-            audio_play_sound(obj_music_manager.click,1,false)   
+            var sound = audio_play_sound(obj_music_manager.click,1,false)
+            audio_sound_gain(sound,obj_music_manager.se_volume,0);   
         }
         i = (i + 1) % num_magic
         if(_y_perc > 0.04+0.05*i){
@@ -229,7 +241,8 @@ if(_selezione == "azione"){
         i = (( (i - 1) % num_magic ) + num_magic) % num_magic
         if(num_magic > 1){
             _text = true
-            audio_play_sound(obj_music_manager.click,1,false)   
+            var sound = audio_play_sound(obj_music_manager.click,1,false)
+            audio_sound_gain(sound,obj_music_manager.se_volume,0);   
         }
         _y_perc -= 0.05
         if(_y_perc < 0.04){
@@ -239,7 +252,8 @@ if(_selezione == "azione"){
     
      if(keyboard_check_pressed(ord("Z"))){
         _manager.players[_manager._turn]._action = array_magics[i].Attacco
-        audio_play_sound(obj_music_manager.click,1,false)
+        var sound = audio_play_sound(obj_music_manager.click,1,false)
+        audio_sound_gain(sound,obj_music_manager.se_volume,0);
         target_type = array_magics[i].target
         if(target_type == "all"){
             _manager.players[_manager._turn]._target = "all"
