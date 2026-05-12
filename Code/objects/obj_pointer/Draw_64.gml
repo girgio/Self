@@ -1,9 +1,9 @@
+ _w = global.w_res * 0.02
+ _h = global.h_res * 0.03
 draw_set_font(Font3)
 var scale = global.w_res / camera_get_view_width(view_camera[0]);
 if(_selezione == "azione"){
     _x = global.w_res*_x_perc
-    _w = global.w_res*0.04
-    _h = global.h_res*0.04
     _y = global.h_res*_y_perc+string_height("a")/2-_h/2
     draw_sprite_stretched(_sprite_pointer,0,_x,_y,_w,_h)
 }else if((_selezione == "target" or _selezione_magia or _selezione_item) and _draw_alley_box){
@@ -56,11 +56,11 @@ if(_selezione == "azione"){
 }
 }
 else if(_selezione == "target" or _selezione_magia  or _selezione_item){
-    var yy = global.h_res * 0.05;
-
-    var xx = (_x_target) * scale - _w/2;
-
-    draw_sprite_stretched(_sprite_pointer, 0, xx, yy, _w, _h);
+    var yy = global.h_res * 0.16
+    var xx = ((_x_target) * scale - _w/2) + 4;
+    var _angle = 90
+    
+    draw_sprite_ext(_sprite_pointer, 0, xx, yy, _w/sprite_get_width(_sprite_pointer), _h/sprite_get_height(_sprite_pointer), _angle, c_white, 1);
     
     if(_selezione_magia){
         var _x_box = 0
@@ -115,15 +115,21 @@ else if(_selezione == "target" or _selezione_magia  or _selezione_item){
         draw_set_font(Font3)
     }
     
-    _x = global.w_res*_x_perc
-    _w = global.w_res*0.04
-    _h = global.h_res*0.04
-   
-     draw_set_font(Magic_font)
-    _y = global.h_res*_y_perc+string_height("a")/2-_h/2
+    var i = round((_y_perc - 0.04) / 0.05)
+    show_debug_message(i)
+    
+    var _name = _manager.players[_manager._turn].magics[i].name
+    
+    draw_set_font(Magic_font)
+    _y = global.h_res * _y_perc + string_height("a") / 2 - _h / 2
+    
+    var _gap = 8  // distanza fissa tra pointer e testo
+    var _text_x = global.w_res*obj_battle_magic._x_perc
+    _x = _text_x + string_width(_name) + _gap
+    
     draw_set_font(Font3)
     
-    draw_sprite_stretched(_sprite_pointer,0,_x,_y,_w,_h)
+    draw_sprite_stretched(_sprite_pointer, 0, _x, _y, _w, _h)
     
 }else if(_selezione == "item" ){
     var _x_box = 0
@@ -143,14 +149,21 @@ else if(_selezione == "target" or _selezione_magia  or _selezione_item){
         draw_set_font(Font3)
     }
     
-    _x = global.w_res*_x_perc
-    _w = global.w_res*0.04
-    _h = global.h_res*0.04
-   
-     draw_set_font(Magic_font)
-    _y = global.h_res*_y_perc+string_height("a")/2-_h/2
+     var i = round((_y_perc - 0.04) / 0.05)
+    show_debug_message(i)
+    
+    var _name = _manager.players[_manager._turn].data.items[i].name
+    
+    
+    draw_set_font(Magic_font)
+    _y = global.h_res * _y_perc + string_height("a") / 2 - _h / 2
+    
+    var _gap = 8  // distanza fissa tra pointer e testo
+    var _text_x = global.w_res*obj_battle_magic._x_perc
+    _x = _text_x + string_width(_name) + _gap
+    
     draw_set_font(Font3)
     
-    draw_sprite_stretched(_sprite_pointer,0,_x,_y,_w,_h)
+    draw_sprite_stretched(_sprite_pointer, 0, _x, _y, _w, _h)
     
 }
