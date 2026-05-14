@@ -1,6 +1,5 @@
 if(keyboard_check_pressed(vk_f11)){
-    window_set_fullscreen(!fullscreen)
-    fullscreen = !fullscreen
+    global.fullscreen = !global.fullscreen
 }   
 
 if(instance_exists(obj_dialogue)) {

@@ -1,5 +1,5 @@
-start_width = 1
-start_height = 1
+start_width = 0.5
+start_height = 0.5
 isIncreasing = false
 isDecreasing = false
 fullscreen = false

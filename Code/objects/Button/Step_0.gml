@@ -1,7 +1,10 @@
 if(keyboard_check_pressed(vk_f11)){
-    window_set_fullscreen(!fullscreen)
-    fullscreen = !fullscreen
+    global.fullscreen = !global.fullscreen
 }   
+
+if(instance_exists(Option_menu)){
+    exit
+}
 
 if(isIncreasing){
     if(image_xscale >= finish_width and image_yscale >= finish_height)
