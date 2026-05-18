@@ -2,6 +2,10 @@ if(keyboard_check_pressed(vk_f11)){
     global.fullscreen = !global.fullscreen
 }   
 
+if(obj_menu_manager.is_open){
+    exit;   
+}
+
 if(instance_exists(obj_dialogue)) {
     if(sprite_index == spr_player_walk_down){
         sprite_index = spr_player_walk_down
