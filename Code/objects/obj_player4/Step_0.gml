@@ -19,7 +19,7 @@ if (!instance_exists(leader)) exit;
 var old_x = x;
 var old_y = y;
 var history = leader.position_history;
-var spacing = 15; 
+var spacing = 30; 
   if(keyboard_check(vk_shift) and leader.leader_is_moving){
     move_speed = move_speed + 0.5
 }

@@ -1,4 +1,4 @@
-movement_speed = 1;
+movement_speed = 1.5;
 name = "Kristo"
 tilemap = layer_tilemap_get_id("Collision");
 hp = 5
@@ -13,7 +13,7 @@ _precision = 100
 luck = 10
 level = 1
 position_history = ds_list_create();
-history_length = 30
+history_length = 60
 leader_is_moving = false;
 hor = 0
 ver = 0
