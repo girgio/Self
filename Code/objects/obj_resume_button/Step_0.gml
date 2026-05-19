@@ -1,5 +1,5 @@
-x = obj_menu.x + 10
-y = obj_menu.y + 10
+x = obj_menu.x + 15
+y = obj_menu.y + 30
 depth = obj_menu.depth - 1
 
 if(is_over){
