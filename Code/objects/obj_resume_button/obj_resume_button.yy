@@ -39,5 +39,5 @@
     "path":"sprites/spr_eye_resume/spr_eye_resume.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

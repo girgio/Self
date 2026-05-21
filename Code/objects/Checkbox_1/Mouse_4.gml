@@ -1,0 +1,1 @@
+global.fullscreen = !global.fullscreen

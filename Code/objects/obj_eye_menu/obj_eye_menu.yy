@@ -39,5 +39,5 @@
     "path":"sprites/spr_eye_menu/spr_eye_menu.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

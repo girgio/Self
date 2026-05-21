@@ -6,8 +6,11 @@ if(instance_exists(obj_dialogue)) {
 var _cam = view_camera[0];
 
 with (obj_menu) {
-    // Rende il menu visibile solo se is_open è true
-    visible = other.is_open; 
+    if(other.is_open or other.option_open){
+        visible = true
+    }else{
+        visible = false
+    }
     
     // Se è aperto, lo muove seguendo la telecamera
     if (visible) {
@@ -17,9 +20,62 @@ with (obj_menu) {
 }
 
 with(obj_resume_button){
-    visible = other.is_open; 
+    if(other.is_open and !other.option_open ){
+        visible = true 
+    }else{
+        visible = false
+    }
 }
 
 with(obj_eye_menu){
-    visible = other.is_open; 
+    if(other.is_open and !other.option_open ){
+        visible = true 
+    } else{
+        visible = false
+    }
+}
+
+with(obj_options_button){
+    if(other.is_open and !other.option_open ){
+        visible = true 
+    } else{
+        visible = false
+    }
+}
+
+
+with(obj_text_options_1){
+    visible = other.option_open
+}
+
+with(obj_text_music_1){
+    visible = other.option_open
+}
+
+with(obj_text_SFX_1){
+    visible = other.option_open
+}
+
+with(obj_text_fullscreen_1){
+    visible = other.option_open
+}
+
+with(slider_music_1){
+    visible = other.option_open
+    if(!other.option_open){
+        _first = true
+    }
+}
+with(slider_se_1){
+    visible = other.option_open
+     if(!other.option_open){
+        _first = true
+    }
+}
+with(Checkbox_1){
+    visible = other.option_open
+}
+
+with(obj_close_1){
+    visible = other.option_open
 }

@@ -24,3 +24,8 @@ if (room != previous_room ){
     /*In questo modo lo step event aspetta che la cannzone sia terminata
     prima di stopparla e avviarne una nuova*/
 }
+
+if(instance_exists(slider_music) or (instance_exists(obj_menu_manager) and obj_menu_manager.option_open) and (music != 0)){
+    audio_sound_gain(music,music_volume,0)
+}
+
