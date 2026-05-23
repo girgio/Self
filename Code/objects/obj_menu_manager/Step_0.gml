@@ -43,6 +43,14 @@ with(obj_options_button){
     }
 }
 
+with(obj_quit_button){
+    if(other.is_open and !other.option_open ){
+        visible = true 
+    } else{
+        visible = false
+    }
+}
+
 
 with(obj_text_options_1){
     visible = other.option_open
