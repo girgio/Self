@@ -1,10 +1,9 @@
 
-y = obj_text_SFX_1.y + obj_text_SFX_1.sprite_height/2
-depth = obj_menu.depth - 1
-if(_first){
-    _first = false
-    exit
+y = obj_text_SFX_1.y + sprite_height/2
+if(obj_menu_manager.option_open and _first){
+    x = obj_music_manager.se_volume*(obj_menu.lim_x2-obj_menu.lim_x1) + obj_menu.lim_x1
 }
+depth = obj_menu.depth - 1
 if(!isPressed) exit;
 if(mouse_x <= obj_menu.lim_x1){
     x = obj_menu.lim_x1 + 2
@@ -13,6 +12,7 @@ if(mouse_x <= obj_menu.lim_x1){
 }else{
     x = mouse_x
 }
+_first = false
 
 if (mouse_check_button_released(mb_left)) {
     isPressed = false
