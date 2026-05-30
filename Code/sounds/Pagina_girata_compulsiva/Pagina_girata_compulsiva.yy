@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"Pagina_girata_compulsiva",
   "parent":{
-    "name":"Suuoni magia",
-    "path":"folders/Sounds/Sound design/Suuoni magia.yy",
+    "name":"Suoni magia",
+    "path":"folders/Sounds/Sound design/Suoni magia.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

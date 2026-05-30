@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Stat_down",
+  "%Name":"Ice_magic",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.8025397,
+  "duration":3.0624943,
   "exportDir":"",
-  "name":"Stat_down",
+  "name":"Ice_magic",
   "parent":{
     "name":"Suoni magia",
     "path":"folders/Sounds/Sound design/Suoni magia.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Stat_down.ogg",
+  "soundFile":"Ice_magic.ogg",
   "volume":1.0,
 }

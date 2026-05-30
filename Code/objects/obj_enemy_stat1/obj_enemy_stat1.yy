@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_enemy_stat1",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"name","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Goccia di cum",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"name","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Sbirbantello",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"def","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"hp","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"atk","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},

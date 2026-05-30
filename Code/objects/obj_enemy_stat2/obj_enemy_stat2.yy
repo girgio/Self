@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_enemy_stat2",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"name","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Feto",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"name","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Tubercocco",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"atk","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"def","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"35",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_stat_parent","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"propertyId":{"name":"_speed","path":"objects/obj_enemy_stat_parent/obj_enemy_stat_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},

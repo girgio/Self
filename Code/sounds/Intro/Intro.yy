@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Stat_down",
+  "%Name":"Intro",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.8025397,
+  "duration":144.0,
   "exportDir":"",
-  "name":"Stat_down",
+  "name":"Intro",
   "parent":{
-    "name":"Suoni magia",
-    "path":"folders/Sounds/Sound design/Suoni magia.yy",
+    "name":"Ost",
+    "path":"folders/Sounds/Ost.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Stat_down.ogg",
+  "soundFile":"Intro.ogg",
   "volume":1.0,
 }
