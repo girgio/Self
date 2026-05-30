@@ -11,12 +11,12 @@ function create_dialogue(_messages){
 barbone_dialogue = [
 {
     "name":"Margolo",
-    "msg":"Ciao",
+    "msg":"Ciao, sono Margolo, come stai?",
     "img":spr_pesce
 },
 {
     "name":"Margolo",
-    "msg":"Sono una persona",
+    "msg":"Sono una persona e sto bene",
     "img":spr_pesce
 },
 {

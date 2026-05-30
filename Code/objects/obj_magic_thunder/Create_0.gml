@@ -1,4 +1,4 @@
-description = "Fuocone"
+description = "Fulmine che fa male"
 function Attacco(player,target){
      obj_battle_manager.holding = true
      attacker = player
