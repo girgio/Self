@@ -10,18 +10,18 @@ function create_dialogue(_messages){
 
 barbone_dialogue = [
 {
-    "name":"Ciucciapalle",
-    "msg":"Ciao, sono un barbone che per vivere succhia palle pelose",
+    "name":"Margolo",
+    "msg":"Ciao",
     "img":spr_pesce
 },
 {
-    "name":"Ciucciapalle",
-    "msg":"Voglio strapparti i peli pubici a morsi, ti prego lasciamelo fare altrimenti diventerò gay",
+    "name":"Margolo",
+    "msg":"Sono una persona",
     "img":spr_pesce
 },
 {
-    "name":"Abgadlad",
-    "msg":"Non provarci nemmeno altrimenti ti faccio esplodere dio can",
+    "name":"Elijah",
+    "msg":"Eh, anche io.",
     "img":spr_player_walk_down
 }
 
