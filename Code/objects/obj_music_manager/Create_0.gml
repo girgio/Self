@@ -1,4 +1,4 @@
-first_time = false
+first_time = true
 previous_room = room 
 music = 0
 click = Click
