@@ -1,1 +1,0 @@
- obj_battle_manager.holding = false

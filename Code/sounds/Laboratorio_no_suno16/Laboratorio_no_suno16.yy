@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Laboratorio_no_suno16",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":174.58281,
+  "exportDir":"",
+  "name":"Laboratorio_no_suno16",
+  "parent":{
+    "name":"Ost",
+    "path":"folders/Sounds/Ost.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Laboratorio_no_suno16.ogg",
+  "volume":0.7,
+}

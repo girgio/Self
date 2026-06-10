@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Dialoghi_maschi",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.2319274,
+  "exportDir":"",
+  "name":"Dialoghi_maschi",
+  "parent":{
+    "name":"Dialoghi",
+    "path":"folders/Sounds/Sound design/Dialoghi.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Dialoghi_maschi.ogg",
+  "volume":1.0,
+}

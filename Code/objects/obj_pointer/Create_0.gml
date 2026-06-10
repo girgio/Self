@@ -1,6 +1,13 @@
 _x_perc = 0.15
-_y_perc = 0.08
+_y_perc = 0.04
 _selezione = "azione"
+_selezione_magia = false//serve a capire se si sta scegliendo una magia nella selezione target
+_selezione_item = false
 _i_target = 0
 _manager = obj_battle_manager
 _text = true
+_sprite_pointer = spr_pointer
+_draw_alley_box = false //per capire se disegnare la box per il target degli alleati
+i = 0 //tiene il conto della magia da selezionare
+target_type = "nemico"
+i_alley = 0

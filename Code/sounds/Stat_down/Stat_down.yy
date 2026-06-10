@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Stat_down",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.8025397,
+  "exportDir":"",
+  "name":"Stat_down",
+  "parent":{
+    "name":"Suoni magia",
+    "path":"folders/Sounds/Sound design/Suoni magia.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Stat_down.ogg",
+  "volume":1.0,
+}

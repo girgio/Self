@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Ice_magic",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.0624943,
+  "exportDir":"",
+  "name":"Ice_magic",
+  "parent":{
+    "name":"Suoni magia",
+    "path":"folders/Sounds/Sound design/Suoni magia.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Ice_magic.ogg",
+  "volume":1.0,
+}

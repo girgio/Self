@@ -1,4 +1,5 @@
-_turn = -1 //da 0 a 4, 4 è il turno dei nemici, -1 è per scegliere se vuoi combattere o fuggire
+_turn = 0 //da 0 a 4, 4 è il turno dei nemici
+_round = 1 // da 1 a infinito, indica il numero di round in totale
 damage_to_enemy = 0
 enemy_damage = 0
 enemy_num = 0
@@ -9,6 +10,10 @@ players = [obj_battle_player1,obj_battle_player2,obj_battle_player3,obj_battle_p
 enemies = []
 order_players = []
 targets = array_create(4)
+player_alive = 4
 holding = false
-
+current_player = noone
+origin_turn = _turn
+check_state = false
+attacker_instance = noone
 alarm[11] = 1

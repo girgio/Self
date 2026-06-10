@@ -1,11 +1,18 @@
 // Inherit the parent event
-event_inherited();
+_text = "Attacco"
+_y_perc = 0.04
+_x_perc = 0.03
 function Attacco(player,target){
+    attacker = player
     obj_battle_manager.holding = true
     _enemy = target
     obj_battle_dialog.current_char = 0
     obj_battle_dialog._string = $"{player.data.name} attacca {target.data.name}"
-    danno = Calcola_danno(player,target)
-    alarm[0] = 150
+    array_push(obj_scroll_panel.moves,$"[Round {obj_battle_manager._round}] {player.data.name} attacca {target.data.name}")
+    esito = Calcola_danno(player,target,global.potenza_mossa.bassa)
+    danno = esito.danno
+    crit = esito.crit
+    player.is_attacking = true
+    alarm[0] = 120
 }
 

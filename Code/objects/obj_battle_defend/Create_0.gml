@@ -1,3 +1,6 @@
-_text = "Oggetti"
-_y_perc = 0.42
-_x_perc = 0.02
+_text = "Parata"
+_y_perc = 0.34
+_x_perc = 0.03
+function Parata(player){
+    return
+}

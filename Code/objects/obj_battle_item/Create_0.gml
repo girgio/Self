@@ -1,3 +1,3 @@
-_text = "Parata"
-_y_perc = 0.30
-_x_perc = 0.02
+_text = "Oggetti"
+_y_perc = 0.24
+_x_perc = 0.03

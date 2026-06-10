@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Earth_magic",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":4.399592,
+  "exportDir":"",
+  "name":"Earth_magic",
+  "parent":{
+    "name":"Suoni magia",
+    "path":"folders/Sounds/Sound design/Suoni magia.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Earth_magic.ogg",
+  "volume":1.0,
+}

@@ -3,7 +3,6 @@
   "%Name":"obj_battle_player3",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_battle_player3",
@@ -37,6 +36,9 @@
     "name":"spr_box_char",
     "path":"sprites/spr_box_char/spr_box_char.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"collision_box",
+    "path":"sprites/collision_box/collision_box.yy",
+  },
   "visible":true,
 }

@@ -1,23 +1,64 @@
-speed_m = 1;
+move_speed = 1;
 name = "Lentit"
 tilemap = layer_tilemap_get_id("Collision");
-hp = 69
+hp = 10
 hp_max = hp
-atk = 2
+atk = 10
 m_atk = 5
-def = 10
+def = 20
 _precision = 100
 mp = 104
 mp_max = mp
 level = 1
-_speed = 2
-luck = 1
+_speed = 20
+luck = 20
 xp = 0
 xp_required = 100
-alarm[0] = 25
 target_x = obj_player3.x;
 target_y = obj_player3.y;
 movement_h = target_x-x
 movement_v = target_y - y
 hor = clamp(movement_h,-1,1);
 ver = clamp(movement_v,-1,1);
+follow_index = 3
+_state = noone
+
+//magie
+magics = [obj_magic_fire]
+
+//oggetti
+items = [obj_item_potion]
+num_items = [1]//numero di oggetti, il numero di oggetti items[i] è num_items[i]
+
+
+//aumento di statistiche
+
+atk_up = 1
+hp_up = 20
+mp_up = 10
+matk_up = 3
+_speed_up = 2
+def_up = 3
+luck_up = 5
+levels_obtained = 0
+
+add_exp = function(obtained_exp){
+    xp += obtained_exp
+    while(xp >= xp_required){
+        xp -= xp_required
+        level++
+        xp_required *= 1.5
+        
+        hp_max += hp_up
+        hp += hp_up
+        mp += mp_up
+        mp_max += mp_up
+        atk += atk_up
+        m_atk += matk_up
+        _speed += _speed_up
+        def += def_up
+        luck += luck_up
+        
+        levels_obtained++
+    }
+}
