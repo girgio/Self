@@ -2,6 +2,8 @@ if(keyboard_check_pressed(vk_f11)){
     global.fullscreen = !global.fullscreen
 }   
 
+if(obj_cutscene_manager.start) exit;
+
 if(obj_menu_manager.is_open){
     exit;   
 }

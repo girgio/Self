@@ -8,7 +8,7 @@ if(current_char<string_length(_str)){
     draw_message = string_copy(_str,0,current_char)
     
 }
-else if(keyboard_check(input_key)){
+else if(keyboard_check_pressed(input_key)){
     current_message++
     if(current_message >= array_length(message)){
         instance_destroy()

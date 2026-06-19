@@ -1,5 +1,7 @@
 if(instance_exists(obj_dialogue)) exit;
     
+if (obj_cutscene_manager.start) exit;
+    
 if(obj_menu_manager.is_open) exit;
 hor = clamp(target_x-x,-1,1);
 ver = clamp(target_y-y,-1,1);

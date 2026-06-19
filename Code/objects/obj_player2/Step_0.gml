@@ -1,3 +1,44 @@
+
+if (obj_cutscene_manager.start) {
+    var _diff_x = target_x - x;
+    var _diff_y = target_y - y;
+    
+    // Calcoliamo la direzione
+    var _hor = sign(_diff_x);
+    var _ver = sign(_diff_y);
+    
+    // CONTROLLO ANTITREMOLIO: Se siamo più vicini della velocità stessa, 
+    // saltiamo direttamente sul target e azzeriamo il movimento.
+    if (abs(_diff_x) <= _speed) { x = target_x; _hor = 0; }
+    if (abs(_diff_y) <= _speed) { y = target_y; _ver = 0; }
+    
+    // Movimento con collisioni (solo se non siamo già arrivati)
+    if (_hor != 0 || _ver != 0) {
+        move_and_collide(
+            _hor * _speed, 
+            _ver * _speed, 
+            [Indiano.tilemap, obj_npc_parent, layer_tilemap_get_id("layer_items_collide")]
+        );
+    }
+    
+    // Gestione degli Sprite (Corretto l'uso di _hor e _ver con il trattino)
+    if (_hor != 0 || _ver != 0) {
+        if (_ver > 0)       { sprite_index = spr_player_walk_down; } 
+        else if (_ver < 0)  { sprite_index = spr_player_walk_up; }
+        else if (_hor > 0)  { sprite_index = spr_player_walk_right; }
+        else if (_hor < 0)  { sprite_index = spr_player_walk_left; }
+    } else {
+        // Stato di Idle (Corretto il walk_down che diventava walk_down)
+        if (sprite_index == spr_player_walk_down)       { sprite_index = spr_player_walk_down; }
+        else if (sprite_index == spr_player_walk_up)    { sprite_index = spr_player_idle_up; }
+        else if (sprite_index == spr_player_walk_right) { sprite_index = spr_player_idle_right; }
+        else if (sprite_index == spr_player_walk_left)  { sprite_index = spr_player_idle_left; }   
+    }
+    
+    exit;
+}
+
+
 if(instance_exists(obj_dialogue)) {
     if(sprite_index == spr_player_walk_down){
         sprite_index = spr_player_walk_down

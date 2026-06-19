@@ -2,7 +2,7 @@ if(instance_exists(obj_battle_switch)) exit;
     
 if(room == TitleScreen) exit;
     
-target_x = Indiano.x
-target_y = Indiano.y 
-alarm[0]=20;
+target_x = x
+target_y = y 
+alarm[0]=-1;
 
