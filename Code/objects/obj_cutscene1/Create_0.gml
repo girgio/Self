@@ -12,8 +12,8 @@ target_y_A = 480
 
 //posizione Karl
 target_x_K = 416
-target_y_K = 480
+target_y_K = 512
 
 //posizione Isabelle
 target_x_I = 416
-target_y_I = 512
+target_y_I = 480

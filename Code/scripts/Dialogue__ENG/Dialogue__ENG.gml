@@ -7,12 +7,12 @@ dialogo_iniziale_ENG =[
 },
 {
     "name":"Karl",
-    "msg":"Is everyone good? I'm an Innate, I'm specialized in healing spells",
+    "msg":"Is everyone good? I'm an Innate, I'm specialized in healing spells.",
     "img":noone
 },
 {
     "name":"Andrea",
-    "msg":"Keep your magic away from me, I've survived worse",
+    "msg":"Keep your magic away from me, I've survived worse.",
     "img":noone    
 },
 {
@@ -27,7 +27,7 @@ dialogo_iniziale_ENG =[
 },
 {
     "name":"Elijah",
-    "msg":"Rejecting help from an Innate just because you can't cast magic? Pathetic",
+    "msg":"Rejecting help from an Innate just because you can't cast magic? Pathetic.",
     "img":noone
 },
 {   "name":"Andrea",
@@ -36,7 +36,7 @@ dialogo_iniziale_ENG =[
 },
 { 
     "name":"Karl",
-    "msg":"No need to argue. Everyone has their own strengths",
+    "msg":"No need to argue. Everyone has their own strengths.",
     "img":noone
 },
 {
@@ -51,22 +51,22 @@ dialogo_iniziale_ENG =[
 },
 {
     "name":"Elijah",
-    "msg":"I'm Elijah, I'm an Innate",
+    "msg":"I'm Elijah, I'm an Innate.",
     "img":noone
 },
 {
     "name":"Karl",
-    "msg":"My name is Karl. As I mentioned, I'm an Innate as well",
+    "msg":"My name is Karl. As I mentioned, I'm an Innate as well.",
     "img":noone
 },
 {
     "name":"Isabelle",
-    "msg":"The name's Isabelle, I'm a Mage",
+    "msg":"The name's Isabelle, I'm a Mage.",
     "img":noone
 },
 {
     "name":"Andrea",
-    "msg":"Fantastic. I'm surrounded by kids playing with sticks",
+    "msg":"Fantastic. I'm surrounded by kids playing with sticks.",
     "img":noone
 },
 {
@@ -81,17 +81,17 @@ dialogo_iniziale_ENG =[
 },
 {
     "name":"Karl",
-    "msg":"Alright, now that introductions are out of the way, we need to find someone from the Resistance",
+    "msg":"Alright, now that introductions are out of the way, we need to find someone from the Resistance.",
     "img":noone
 },
 {
     "name":"Karl",
-    "msg":"I believe the experiment wasn't particularly successful",
+    "msg":"I believe the experiment wasn't particularly successful.",
     "img":noone
 },
 {
     "name":"Andrea",
-    "msg":"Impressive, coming from a brain soaked in magic",
+    "msg":"Impressive, coming from a brain soaked in magic.",
     "img":noone
 },
 {
@@ -101,7 +101,7 @@ dialogo_iniziale_ENG =[
 },
 {
     "name":"Karl",
-    "msg":"Oh... I'm sorry, you were brought here against your will",
+    "msg":"Oh... I'm sorry, you were brought here against your will.",
     "img":noone
 },
 {
@@ -116,7 +116,7 @@ dialogo_iniziale_ENG =[
 },
 {
     "name":"Elijah",
-    "msg":"My sister... we were together before this",
+    "msg":"My sister... we were together before this.",
     "img":noone
 },
 {
@@ -126,7 +126,7 @@ dialogo_iniziale_ENG =[
 },
 {
     "name":"Isabelle",
-    "msg":"Wait, there were 5 beds in that room",
+    "msg":"Wait, there were 5 beds in that room.",
     "img":noone
 },
 {
@@ -136,7 +136,7 @@ dialogo_iniziale_ENG =[
 },
 {
     "name":"Karl",
-    "msg":"Her body is not there, Elijah. I'm sure she's fine",
+    "msg":"Her body is not there, Elijah. I'm sure she's fine.",
     "img":noone
 },
 {
@@ -153,5 +153,18 @@ porta_dialogue_ENG = [
     "img":noone
 }
 
+]
+
+display_dialogue_ENG = [
+{
+    "name":noone,
+    "msg":"A monitor for data tracking, it displays a message.",
+    "img":noone
+},
+{
+    "name":noone,
+    "msg":"\"Project SELF / Section S - Connection successful. The target shows no signs of magic-related energy.\"",
+    "img":noone
+}
 ]
 

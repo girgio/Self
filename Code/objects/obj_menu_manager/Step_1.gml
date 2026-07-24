@@ -1,3 +1,4 @@
+if(obj_cutscene_manager.start) exit;
 if(instance_exists(obj_dialogue) or room == Battle_room or room == TitleScreen) {
     is_open = false
   exit;

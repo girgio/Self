@@ -16,7 +16,7 @@ barbone_dialogue = [
 },
 {
     "name":"Margolo",
-    "msg":"Sono una persona e sto bene",
+    "msg":"Sono una persona e sto bene.",
     "img":spr_pesce
 },
 {
@@ -35,7 +35,7 @@ dialogo_iniziale_IT =[
 },
 {
     "name":"Karl",
-    "msg":"State tutti bene? Sono un Innato specializzato in magie curative",
+    "msg":"State tutti bene? Sono un Innato specializzato in magie curative.",
     "img":noone
 },
 {
@@ -55,7 +55,7 @@ dialogo_iniziale_IT =[
 },
 {
     "name":"Elijah",
-    "msg":"Rifiuti l'aiuto di un Innato solo perchè non sei capace ad utilizzare la magia? Patetico",
+    "msg":"Rifiuti l'aiuto di un Innato solo perchè non sei capace ad utilizzare la magia? Patetico.",
     "img":noone
 },
 {   "name":"Andrea",
@@ -64,12 +64,12 @@ dialogo_iniziale_IT =[
 },
 { 
     "name":"Karl",
-    "msg":"Non c'è bisogno di litigare. Ognuno ha i propri punti di forza",
+    "msg":"Non c'è bisogno di litigare. Ognuno ha i propri punti di forza.",
     "img":noone
 },
 {
     "name":"Isabelle",
-    "msg":"Mettetevi a litigare adesso, bravi! In una situazione di merda come questa... O collaboriamo, o da qui non usciamo vivi",
+    "msg":"Mettetevi a litigare adesso, bravi! In una situazione di merda come questa... O collaboriamo, o da qui non usciamo vivi.",
     "img":noone
 },
 {
@@ -79,22 +79,22 @@ dialogo_iniziale_IT =[
 },
 {
     "name":"Elijah",
-    "msg":"Io mi chiamo Elijah, sono un Innato",
+    "msg":"Io mi chiamo Elijah, sono un Innato.",
     "img":noone
 },
 {
     "name":"Karl",
-    "msg":"Io sono Karl, e come vi dicevo sono un Innato anche io",
+    "msg":"Io sono Karl, e come vi dicevo sono un Innato anche io.",
     "img":noone
 },
 {
     "name":"Isabelle",
-    "msg":"Piacere Isabelle. Sono una maga",
+    "msg":"Piacere Isabelle. Sono una maga.",
     "img":noone
 },
 {
     "name":"Andrea",
-    "msg":"Fantastico. Sono circondata da bambini che giocano con i ramoscelli",
+    "msg":"Fantastico. Sono circondata da bambini che giocano con i ramoscelli.",
     "img":noone
 },
 {
@@ -109,17 +109,17 @@ dialogo_iniziale_IT =[
 },
 {
     "name":"Karl",
-    "msg":"Bene, ora che ci siamo presentati, dovremmo andare a cercare qualcuno della Resistenza",
+    "msg":"Bene, ora che ci siamo presentati, dovremmo andare a cercare qualcuno della Resistenza.",
     "img":noone
 },
 {
     "name":"Karl",
-    "msg":"Direi che l'esperimento non sia andato benissimo",
+    "msg":"Direi che l'esperimento non sia andato benissimo.",
     "img":noone
 },
 {
     "name":"Andrea",
-    "msg":"Perspicace, il cervello infuso di magia",
+    "msg":"Perspicace, il cervello infuso di magia.",
     "img":noone
 },
 {
@@ -129,7 +129,7 @@ dialogo_iniziale_IT =[
 },
 {
     "name":"Karl",
-    "msg":"Oh... mi spiace. Quindi sei stato portato qui contro la tua volontà",
+    "msg":"Oh... mi spiace. Quindi sei stato portato qui contro la tua volontà.",
     "img":noone
 },
 {
@@ -144,7 +144,7 @@ dialogo_iniziale_IT =[
 },
 {
     "name":"Elijah",
-    "msg":"Mia sorella... prima era con me",
+    "msg":"Mia sorella... prima era con me.",
     "img":noone
 },
 {
@@ -154,7 +154,7 @@ dialogo_iniziale_IT =[
 },
 {
     "name":"Isabelle",
-    "msg":"Aspetta. In quella stanza c'erano cinque lettini",
+    "msg":"Aspetta. In quella stanza c'erano cinque lettini.",
     "img":noone
 },
 {
@@ -164,12 +164,12 @@ dialogo_iniziale_IT =[
 },
 {
     "name":"Karl",
-    "msg":"Il suo corpo non era lì, Elijah. Sono sicuro che sta bene",
+    "msg":"Il suo corpo non era lì, Elijah. Sono sicuro che sta bene.",
     "img":noone
 },
 {
     "name":"Andrea",
-    "msg":"Ci vogliamo dare una mossa? Non voglio perdere altro tempo",
+    "msg":"Ci vogliamo dare una mossa? Non voglio perdere altro tempo.",
     "img":noone
 },
 ]
@@ -177,9 +177,21 @@ dialogo_iniziale_IT =[
 porta_dialogue_ITA = [
 {
     "name":"Karl",
-    "msg":"Tua sorella sicuramente non è qui, troviamo qualcuno che possa aiutarci",
+    "msg":"Tua sorella sicuramente non è qui, troviamo qualcuno che possa aiutarci.",
     "img":noone
 }
+]
 
+display_dialogue_ITA = [
+{
+    "name":noone,
+    "msg":"E' un display per l'analisi dati, in questo momento mostra un messaggio",
+    "img":noone
+},
+{
+    "name":noone,
+    "msg":"\"-Progetto SELF / Sezione S- Collegamento riuscito, il bersaglio non presenta alcuna energia riconducibile alla magia\"",
+    "img":noone
+}
 ]
 

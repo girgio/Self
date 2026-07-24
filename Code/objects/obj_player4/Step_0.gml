@@ -3,6 +3,7 @@
 if (obj_cutscene_manager.start) {
     var _diff_x = target_x - x;
     var _diff_y = target_y - y;
+    var _speed = 0.5
     
     // Calcoliamo la direzione
     var _hor = sign(_diff_x);

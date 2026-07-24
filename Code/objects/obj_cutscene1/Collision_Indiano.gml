@@ -1,7 +1,7 @@
-if(finish or !first) exit;
+if(finish or !first or alarm[1] != -1) exit;
    
  obj_cutscene_manager.start = true
-first = false
+alarm[1] = 120
 
 
 
