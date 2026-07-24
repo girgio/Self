@@ -27,10 +27,10 @@ barbone_dialogue = [
 
 ]
 
-dialogo_iniziale =[
+dialogo_iniziale_IT =[
 {
     "name":"Elijah",
-    "msg":"Ma che cazzo è successo?!",
+    "msg":"Dove cazzo mi trovo?!",
     "img":noone
 },
 {
@@ -40,12 +40,12 @@ dialogo_iniziale =[
 },
 {
     "name":"Andrea",
-    "msg":"Tieni la tua magia lontanta dal mio corpo, ho subito ferite peggiori di queste",
+    "msg":"Tieni la tua magia lontana da me. Sono sopravvissuta a di peggio.",
     "img":noone    
 },
 {
     "name":"Elijah",
-    "msg":"haha...",
+    "msg":"Haha...",
     "img":noone
 },
 {
@@ -55,21 +55,21 @@ dialogo_iniziale =[
 },
 {
     "name":"Elijah",
-    "msg":"Rifiuti l'aiuto di un mago solo perchè non sei capace ad utilizzare la magia, patetico",
+    "msg":"Rifiuti l'aiuto di un Innato solo perchè non sei capace ad utilizzare la magia? Patetico",
     "img":noone
 },
 {   "name":"Andrea",
-    "msg":"Non ho bisogno della magia per spezzarti in due",
+    "msg":"Non ho bisogno della magia per...",//Donato è un genio
     "img":noone
 },
 { 
     "name":"Karl",
-    "msg":"Non c'è bisogno di litigare, ognuno ha le sue capacità",
+    "msg":"Non c'è bisogno di litigare. Ognuno ha i propri punti di forza",
     "img":noone
 },
 {
     "name":"Isabelle",
-    "msg":"Veramente state litigando in questa situazione di merda, dovremmo collaborare per almeno uscire vivi da qui",
+    "msg":"Mettetevi a litigare adesso, bravi! In una situazione di merda come questa... O collaboriamo, o da qui non usciamo vivi",
     "img":noone
 },
 {
@@ -84,22 +84,22 @@ dialogo_iniziale =[
 },
 {
     "name":"Karl",
-    "msg":"Io sono Karl, come vi ho già detto anch'io sono un Innato",
+    "msg":"Io sono Karl, e come vi dicevo sono un Innato anche io",
     "img":noone
 },
 {
     "name":"Isabelle",
-    "msg":"Piacere Isabelle, sono una maga",
+    "msg":"Piacere Isabelle. Sono una maga",
     "img":noone
 },
 {
     "name":"Andrea",
-    "msg":"Sono circondata da svitati magici",
+    "msg":"Fantastico. Sono circondata da bambini che giocano con i ramoscelli",
     "img":noone
 },
 {
     "name":"Isabelle",
-    "msg":"Saresti così gentile da dirti come ti chiami?",
+    "msg":"Ok... e saresti così gentile da dirci come ti chiami?",
     "img":noone
 },
 {
@@ -109,27 +109,27 @@ dialogo_iniziale =[
 },
 {
     "name":"Karl",
-    "msg":"Bene ora che ci siamo presentati, dovremmo andare a cercare qualcuno della Resistenza",
+    "msg":"Bene, ora che ci siamo presentati, dovremmo andare a cercare qualcuno della Resistenza",
     "img":noone
 },
 {
     "name":"Karl",
-    "msg":"Ritengo che l'esperimento non sia andato benissimo",
+    "msg":"Direi che l'esperimento non sia andato benissimo",
     "img":noone
 },
 {
     "name":"Andrea",
-    "msg":"Perspicace il cervello infuso di magia",
+    "msg":"Perspicace, il cervello infuso di magia",
     "img":noone
 },
 {
-    "name":"Eljah",
+    "name":"Elijah",
     "msg":"Esperimento?",
     "img":noone
 },
 {
     "name":"Karl",
-    "msg":"Oh... mi spiace, sei stato portato qui senza la tua volontà",
+    "msg":"Oh... mi spiace. Quindi sei stato portato qui contro la tua volontà",
     "img":noone
 },
 {
@@ -139,12 +139,12 @@ dialogo_iniziale =[
 },
 {
     "name":"Karl",
-    "msg":"Tutto bene Elijah?",
+    "msg":"Tutto bene, Elijah?",
     "img":noone
 },
 {
     "name":"Elijah",
-    "msg":"Mia sorella, era con me",
+    "msg":"Mia sorella... prima era con me",
     "img":noone
 },
 {
@@ -154,7 +154,7 @@ dialogo_iniziale =[
 },
 {
     "name":"Isabelle",
-    "msg":"I lettini erano 5",
+    "msg":"Aspetta. In quella stanza c'erano cinque lettini",
     "img":noone
 },
 {
@@ -164,12 +164,22 @@ dialogo_iniziale =[
 },
 {
     "name":"Karl",
-    "msg":"Il suo corpo non c'è, sono sicuro che starà bene",
+    "msg":"Il suo corpo non era lì, Elijah. Sono sicuro che sta bene",
     "img":noone
 },
 {
     "name":"Andrea",
-    "msg":"Ci vogliamo dare una mossa, non voglio perdere altro tempo",
+    "msg":"Ci vogliamo dare una mossa? Non voglio perdere altro tempo",
     "img":noone
 },
 ]
+
+porta_dialogue_ITA = [
+{
+    "name":"Karl",
+    "msg":"Tua sorella sicuramente non è qui, troviamo qualcuno che possa aiutarci",
+    "img":noone
+}
+
+]
+

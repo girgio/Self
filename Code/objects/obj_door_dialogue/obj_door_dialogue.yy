@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_door2",
+  "%Name":"obj_door_dialogue",
   "eventList":[],
   "managed":true,
-  "name":"obj_door2",
+  "name":"obj_door_dialogue",
   "overriddenProperties":[],
   "parent":{
     "name":"FirstMap",
@@ -30,10 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
+  "spriteId":null,
+  "spriteMaskId":{
     "name":"spr_door2",
     "path":"sprites/spr_door2/spr_door2.yy",
   },
-  "spriteMaskId":null,
   "visible":true,
 }

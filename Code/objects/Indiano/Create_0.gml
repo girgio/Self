@@ -1,5 +1,5 @@
 movement_speed = 1.5;
-name = "Kristo"
+name = "Elijah"
 tilemap = layer_tilemap_get_id("Collision");
 hp = 5
 hp_max = hp
@@ -20,6 +20,8 @@ ver = 0
 xp = 0
 xp_required = 100
 _state = noone
+target_x = x
+target_y = y 
 
 //magie
 magics = [obj_magic_fire,obj_magic_ice,obj_magic_blood,obj_magic_sleep]

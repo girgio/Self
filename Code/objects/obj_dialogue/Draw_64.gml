@@ -29,7 +29,7 @@ if(_img){
 
 
 
-if(_name != 0){
+if(_name != noone){
     var _h_name = string_height(_name)+16
     var _w_name = string_width(_name)+16
     _dy += _h - _h_name

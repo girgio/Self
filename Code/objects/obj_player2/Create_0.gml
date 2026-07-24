@@ -1,4 +1,4 @@
-name = "Sbrellon"
+name = "Andrea"
 tilemap = layer_tilemap_get_id("Collision");
 hp = 20
 hp_max = hp

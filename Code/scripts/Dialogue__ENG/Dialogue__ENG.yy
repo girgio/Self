@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Dialogue",
+  "%Name":"Dialogue__ENG",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Dialogue",
+  "name":"Dialogue__ENG",
   "parent":{
     "name":"Script",
     "path":"folders/Script.yy",

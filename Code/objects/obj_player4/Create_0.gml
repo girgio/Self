@@ -1,5 +1,5 @@
 move_speed = 1;
-name = "Lentit"
+name = "Isabelle"
 tilemap = layer_tilemap_get_id("Collision");
 hp = 10
 hp_max = hp
