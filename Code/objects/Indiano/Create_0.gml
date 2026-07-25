@@ -1,16 +1,16 @@
 movement_speed = 1.5;
 name = "Elijah"
 tilemap = layer_tilemap_get_id("Collision");
-hp = 5
+hp = 10
 hp_max = hp
 atk = 10
-m_atk = 11
+m_atk = 10
 def = 10
 mp = 15
 mp_max = mp
-_speed = 30
+_speed = 8
 _precision = 100
-luck = 10
+luck = 7
 level = 1
 position_history = ds_list_create();
 history_length = 60
@@ -24,7 +24,7 @@ target_x = x
 target_y = y 
 
 //magie
-magics = [obj_magic_fire,obj_magic_ice,obj_magic_blood,obj_magic_sleep]
+magics = [obj_magic_fire]
 
 //oggetti
 items = [obj_item_potion]
@@ -34,11 +34,11 @@ num_items = [3]//numero di oggetti, il numero di oggetti items[i] è num_items[i
 //aumento di statistiche
 
 atk_up = 2
-hp_up = 20
-mp_up = 10
-matk_up = 3
-_speed_up = 5
-def_up = 3
+hp_up = 3
+mp_up = 3
+matk_up = 2
+_speed_up = 1
+def_up = 2
 luck_up = 1
 levels_obtained = 0
 fullscreen = false
@@ -64,6 +64,7 @@ add_exp = function(obtained_exp){
         luck += luck_up
         
         levels_obtained++
+        
     }
 }
 window_set_fullscreen(0)

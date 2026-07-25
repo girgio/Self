@@ -9,10 +9,10 @@ if(crit){
     array_push(obj_scroll_panel.moves,$"[Round {obj_battle_manager._round}] {_enemy_name} subisce {danno} danni")
 }
 
-var roll = irandom_range(1,10)
+var roll = irandom_range(1,20)
 
 if(_enemy.data.hp > 0){
-    if(roll <= 6 and _enemy._state == noone){
+    if(roll <= 3 and _enemy._state == noone){
         alarm[2] = 80
     }else{
         alarm[3] = 100

@@ -1,17 +1,17 @@
 move_speed = 1;
 name = "Isabelle"
 tilemap = layer_tilemap_get_id("Collision");
-hp = 10
+hp = 8
 hp_max = hp
-atk = 10
-m_atk = 5
-def = 20
+atk = 7
+m_atk = 16
+def = 9
 _precision = 100
-mp = 104
+mp = 20
 mp_max = mp
 level = 1
-_speed = 20
-luck = 20
+_speed = 8
+luck = 10
 xp = 0
 xp_required = 100
 target_x = obj_player3.x;
@@ -24,7 +24,7 @@ follow_index = 3
 _state = noone
 
 //magie
-magics = [obj_magic_fire]
+magics = [obj_magic_thunder]
 
 //oggetti
 items = [obj_item_potion]
@@ -34,12 +34,12 @@ num_items = [1]//numero di oggetti, il numero di oggetti items[i] è num_items[i
 //aumento di statistiche
 
 atk_up = 1
-hp_up = 20
-mp_up = 10
-matk_up = 3
-_speed_up = 2
-def_up = 3
-luck_up = 5
+hp_up = 2
+mp_up = 4
+matk_up = 4
+_speed_up = 1
+def_up = 1
+luck_up = 1
 levels_obtained = 0
 
 add_exp = function(obtained_exp){

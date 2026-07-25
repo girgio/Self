@@ -1,16 +1,16 @@
 
 name = "Karl"
 tilemap = layer_tilemap_get_id("Collision");
-hp = 20
+hp = 10
 hp_max = hp
-atk = 5
-m_atk = 5
-def = 15
+atk = 8
+m_atk = 14
+def = 8
 _precision = 100
-mp = 25
+mp = 20
 mp_max = mp
-_speed = 2
-luck = 3
+_speed = 10
+luck = 7
 level = 1
 xp = 0
 xp_required = 100
@@ -29,7 +29,7 @@ move_speed = 1;
 _state = noone
 
 //magie
-magics = [obj_magic_fire,obj_magic_down,obj_magic_heal]
+magics = [obj_magic_heal]
 
 
 //oggetti
@@ -40,11 +40,11 @@ num_items = [2]//numero di oggetti, il numero di oggetti items[i] è num_items[i
 //aumento di statistiche
 
 atk_up = 1
-hp_up = 30
-mp_up = 10
+hp_up = 2
+mp_up = 4
 matk_up = 3
 _speed_up = 2
-def_up = 5
+def_up = 1
 luck_up = 1
 levels_obtained = 0
 add_exp = function(obtained_exp){
@@ -65,5 +65,10 @@ add_exp = function(obtained_exp){
         luck += luck_up
         
         levels_obtained++
+        
+        if(levels_obtained == 3){
+            array_push(magics,obj_magic_ice)
+             obj_battle_dialog._string = $"{name} impara {obj_magic_ice.name}"
+        }
     }
 }

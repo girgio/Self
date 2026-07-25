@@ -195,6 +195,7 @@
     {"id":{"name":"Button_test","path":"sprites/Button_test/Button_test.yy",},},
     {"id":{"name":"collision_box","path":"sprites/collision_box/collision_box.yy",},},
     {"id":{"name":"dKristo","path":"sprites/dKristo/dKristo.yy",},},
+    {"id":{"name":"logos_anim","path":"sprites/logos_anim/logos_anim.yy",},},
     {"id":{"name":"spr_arrow_close","path":"sprites/spr_arrow_close/spr_arrow_close.yy",},},
     {"id":{"name":"spr_arrpw_open","path":"sprites/spr_arrpw_open/spr_arrpw_open.yy",},},
     {"id":{"name":"spr_battle_screen","path":"sprites/spr_battle_screen/spr_battle_screen.yy",},},

@@ -1,9 +1,10 @@
 
 
 potenza_mossa = {
+    "base":30,
     "bassa":40,
     "media":60,
-    "alta":80
+    "alta":100
 }
 
 

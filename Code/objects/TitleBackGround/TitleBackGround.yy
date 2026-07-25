@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_logo",
-    "path":"sprites/spr_logo/spr_logo.yy",
+    "name":"logos_anim",
+    "path":"sprites/logos_anim/logos_anim.yy",
   },
   "spriteMaskId":null,
   "visible":true,

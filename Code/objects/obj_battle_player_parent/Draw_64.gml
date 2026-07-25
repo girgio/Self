@@ -34,7 +34,7 @@ var testo_nome = $"{data.name} LV.{data.level}"
 draw_text(_x_text,_y_text - 8,$"{data.mp}/{data.mp_max}")
 draw_set_colour(c_white)
 
-draw_set_font(Font1)
+draw_set_font(Magic_font)
 var _y_icon = ystart*(global.h_res/camera_get_view_height(view_camera[0]))- gui_h*0.07
 var _x_icon = xstart*(global.w_res/camera_get_view_width(view_camera[0]))+ 0.2*gui_w 
 

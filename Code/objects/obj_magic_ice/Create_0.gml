@@ -13,7 +13,7 @@ function Attacco(player,target){
          obj_battle_dialog.current_char = 0
          obj_battle_dialog._string = $"{player.data.name} lancia ghiaccio secco su {target.data.name}"
          array_push(obj_scroll_panel.moves,_info)
-         esito = Calcola_danno_magico(player,target,global.potenza_mossa.bassa)
+         esito = Calcola_danno_magico(player,target,global.potenza_mossa.base)
          danno = esito.danno
          crit = esito.crit
          player.is_attacking = true

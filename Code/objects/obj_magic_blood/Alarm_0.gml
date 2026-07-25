@@ -12,7 +12,7 @@ if(crit){
 var roll_status = irandom_range(1,10)
 
 if(_enemy.data.hp > 0){
-    if(roll_status <= 4 and _enemy._state == noone){
+    if(roll_status <= 2 and _enemy._state == noone){
         alarm[2] = 80
     }else{
         alarm[3] = 100
