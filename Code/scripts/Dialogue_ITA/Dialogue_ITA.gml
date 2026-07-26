@@ -12,17 +12,20 @@ barbone_dialogue = [
 {
     "name":"Margolo",
     "msg":"Ciao, sono Margolo, come stai?",
-    "img":spr_pesce
+    "img":spr_pesce,
+    "voice": Dialoghi_maschi
 },
 {
     "name":"Margolo",
     "msg":"Sono una persona e sto bene.",
-    "img":spr_pesce
+    "img":spr_enemy2,
+    "voice": Dialoghi_maschi
 },
 {
     "name":"Elijah",
     "msg":"Eh, anche io.",
-    "img":spr_player_walk_down
+    "img":spr_player_walk_down,
+    "voice": Dialoghi_maschi
 }
 
 ]

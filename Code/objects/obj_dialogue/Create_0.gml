@@ -12,4 +12,4 @@ input_key = vk_space
 gui_h = display_get_gui_height()
 gui_w = display_get_gui_width()
 
-music = Dialoghi_femmine
+music = Dialoghi_arrabiati

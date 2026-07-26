@@ -1,6 +1,7 @@
 if(current_message < 0) exit;
     
 var _str = message[current_message].msg
+music = message[current_message].voice
 
 if(current_char<string_length(_str)){
     is_drawing = true
