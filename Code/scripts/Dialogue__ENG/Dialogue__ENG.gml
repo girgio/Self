@@ -197,6 +197,140 @@ display_dialogue_ENG = [
     "msg":"\"Project SELF / Section S - Connection successful. The target shows no signs of magic-related energy.\"",
     "img":noone,
     "voice": Dialoghi_arrabiati
+},
+{
+    "name": "Elijah",
+    "msg": "What kind of twisted research are those Resistance bastards conducting?",
+    "img": noone,
+    "voice": Dialoghi_maschi
+},
+{
+    "name": "Andrea",
+    "msg": "I don't know the details, but it's definitely a project aimed at wiping out you spineless magic-users.",
+    "img": noone,
+    "voice": Dialoghi_femmine
+},
+{
+    "name": "Karl",
+    "msg": "The Resistance would never do such a thing... They swore to me this project would save lives!",
+    "img": noone,
+    "voice": Dialoghi_maschi
+},
+{
+    "name": "Isabelle",
+    "msg": "Let's not jump to conclusions. I doubt any of us were told the true purpose behind all this.",
+    "img": noone,
+    "voice": Dialoghi_femmine
+},
+{
+    "name": "Isabelle",
+    "msg": "To get us to participate, they must have told each of us whatever we wanted to hear... except for you, Elijah, given how you ended up here.",
+    "img": noone,
+    "voice": Dialoghi_femmine
+},
+{
+    "name": "Elijah",
+    "msg": "Textbook manipulation. The sooner non-magicals accept that magic is necessary, the sooner this madness ends.",
+    "img": noone,
+    "voice": Dialoghi_maschi
+},
+{
+    "name": "Karl",
+    "msg": "There has to be an explanation... I want to believe something just went wrong with the experiment.",
+    "img": noone,
+    "voice": Dialoghi_maschi
+},
+{
+    "name": "Andrea",
+    "msg": "You're too naive, kid. Keep clinging to fairy tales and you'll just end up dead.",
+    "img": noone,
+    "voice": Dialoghi_femmine
 }
 ]
 
+display_dialogue_ENG_2 = [
+{
+    "name":noone,
+    "msg":"A monitor for data tracking, it displays a message.",
+    "img":noone,
+    "voice": Dialoghi_arrabiati
+},
+{
+    "name":noone,
+    "msg":"\"Project SELF / Section S - Connection successful. The target shows no signs of magic-related energy.\"",
+    "img":noone,
+    "voice": Dialoghi_arrabiati
+},
+]
+
+// SCENE 1
+scene_1_EN = [
+    {
+        "name": "???",
+        "msg": "Did it work?",
+        "img": noone,
+        "voice": Dialoghi_maschi
+    },
+    {
+        "name": "???",
+        "msg": "...",
+        "img": noone,
+        "voice": Dialoghi_maschi
+    }
+];
+
+// SCENE 2
+scene_2_EN = [
+    {
+        "name": "???",
+        "msg": "I'll be right back, I need to check on something. Keep an eye on them.",
+        "img": noone,
+        "voice": Dialoghi_maschi
+    }
+];
+
+// SCENE 3
+scene_3_EN = [
+    {
+        "name": "???",
+        "msg": "I don't think they're okay... Maybe we should check on them.",
+        "img": noone,
+        "voice": Dialoghi_femmine
+    },
+    {
+        "name": "???",
+        "msg": "They're still alive. Follow the instructions.",
+        "img": noone,
+        "voice": Dialoghi_maschi
+    },
+    {
+        "name": "???",
+        "msg": "...",
+        "img": noone,
+        "voice": Dialoghi_maschi
+    },
+    {
+        "name": "???",
+        "msg": "So stubborn...",
+        "img": noone,
+        "voice": Dialoghi_maschi
+    },
+    {
+        "name": "???",
+        "msg": "Subject 0... can you hear my voice?",
+        "img": noone,
+        "voice": Dialoghi_femmine
+    },
+    {
+        "name": "???",
+        "msg": "What is happening...?",
+        "img": noone,
+        "voice": Dialoghi_maschi
+    },
+    {
+        "name": "???",
+        "msg": "Well...",
+        "img": noone,
+        "voice": Dialoghi_femmine
+    }
+];

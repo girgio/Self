@@ -27,7 +27,7 @@ if (obj_cutscene_manager.start) {
         );
     }
     
-    // Gestione degli Sprite (Corretto l'uso di _hor e _ver con il trattino)
+
     if (_hor != 0 || _ver != 0) {
         if (_ver > 0)       { sprite_index = spr_player_walk_down; } 
         else if (_ver < 0)  { sprite_index = spr_player_walk_up; }
@@ -78,16 +78,16 @@ var len = point_distance(0,0,hor,ver);
 
 // movimento con collisione
 
-if(hor != 0 or ver != 0){
-    if(ver > 0) {sprite_index = spr_player_walk_down} 
-    else if(ver < 0) {sprite_index = spr_player_walk_up}
-    else if(hor > 0) {sprite_index = spr_player_walk_right}
-    else if(hor < 0) {sprite_index = spr_player_walk_left}
-}else{
-    if(sprite_index == spr_player_walk_down) {sprite_index = spr_player_walk_down}
-    else if(sprite_index == spr_player_walk_up) {sprite_index = spr_player_idle_up}
-    else if(sprite_index == spr_player_walk_right) {sprite_index = spr_player_idle_right}
-    else if(sprite_index == spr_player_walk_left) {sprite_index = spr_player_idle_left}   
+if (hor != 0 or ver != 0) {
+    if (ver > 0)      { sprite_index = spr_player_walk_down;  direction = 270; } 
+    else if (ver < 0) { sprite_index = spr_player_walk_up;    direction = 90;  }
+    else if (hor > 0) { sprite_index = spr_player_walk_right; direction = 0;   }
+    else if (hor < 0) { sprite_index = spr_player_walk_left;  direction = 180; }
+} else {
+    if (sprite_index == spr_player_walk_down)       { sprite_index = spr_player_walk_down; } 
+    else if (sprite_index == spr_player_walk_up)    { sprite_index = spr_player_idle_up; }
+    else if (sprite_index == spr_player_walk_right) { sprite_index = spr_player_idle_right; }
+    else if (sprite_index == spr_player_walk_left)  { sprite_index = spr_player_idle_left; }   
 }
 
 if(place_meeting(x,y-1,tilemap) && ver < 0){

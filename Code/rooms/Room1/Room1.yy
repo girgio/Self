@@ -7,10 +7,8 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_4BA2C8C5","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_FAEA8DE","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4491A6BE","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2EAB5ACC","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_6E7C37B9","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_BD61331","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_50956012","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3DC703E7","path":"rooms/Room1/Room1.yy",},
@@ -55,10 +53,8 @@
           74,3,73,74,75,-57,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_4BA2C8C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4BA2C8C5","objectId":{"name":"nemico1","path":"objects/nemico1/nemico1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":709.0,"y":584.0,},
-        {"$GMRInstance":"v4","%Name":"inst_FAEA8DE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_FAEA8DE","objectId":{"name":"nemico1","path":"objects/nemico1/nemico1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":570.0,"y":489.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4BA2C8C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4BA2C8C5","objectId":{"name":"nemico1","path":"objects/nemico1/nemico1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":767.0,"y":511.0,},
         {"$GMRInstance":"v4","%Name":"inst_2EAB5ACC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2EAB5ACC","objectId":{"name":"obj_party_manager","path":"objects/obj_party_manager/obj_party_manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1316.0,"y":8.0,},
-        {"$GMRInstance":"v4","%Name":"inst_6E7C37B9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E7C37B9","objectId":{"name":"nemico2","path":"objects/nemico2/nemico2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":741.0,"y":443.0,},
         {"$GMRInstance":"v4","%Name":"inst_4491A6BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4491A6BE","objectId":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"dialogue","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.barbone_dialogue",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":330.0,"y":413.0,},

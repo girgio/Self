@@ -96,6 +96,7 @@
     {"id":{"name":"obj_close_1","path":"objects/obj_close_1/obj_close_1.yy",},},
     {"id":{"name":"obj_close","path":"objects/obj_close/obj_close.yy",},},
     {"id":{"name":"obj_cutscene_manager","path":"objects/obj_cutscene_manager/obj_cutscene_manager.yy",},},
+    {"id":{"name":"obj_cutscene0","path":"objects/obj_cutscene0/obj_cutscene0.yy",},},
     {"id":{"name":"obj_cutscene1","path":"objects/obj_cutscene1/obj_cutscene1.yy",},},
     {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},},
     {"id":{"name":"obj_display","path":"objects/obj_display/obj_display.yy",},},
@@ -151,6 +152,7 @@
     {"id":{"name":"slider_se","path":"objects/slider_se/slider_se.yy",},},
     {"id":{"name":"TitleBackGround","path":"objects/TitleBackGround/TitleBackGround.yy",},},
     {"id":{"name":"Battle_room","path":"rooms/Battle_room/Battle_room.yy",},},
+    {"id":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
@@ -296,6 +298,7 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Battle_room","path":"rooms/Battle_room/Battle_room.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

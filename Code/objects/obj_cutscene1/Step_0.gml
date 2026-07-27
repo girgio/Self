@@ -23,12 +23,8 @@ if(alarm[2] == -1){
 }
 
 
-if(Indiano.x == target_x_E and Indiano.y == target_y_E and obj_player4.target_x == obj_player4.x and obj_player4.target_y == obj_player4.y){
-    is_moving = false
+if(Indiano.x == target_x_E and Indiano.y == target_y_E and obj_player4.target_x == obj_player4.x and obj_player4.target_y == obj_player4.y and alarm[0] == -1){
+    alarm[0] = 10
+    create_dialogue(global.dialogo_iniziale_ENG)
+    finish = true
 }
-
-if(is_moving) exit;
-create_dialogue(global.dialogo_iniziale_ENG)
-alarm[0] = 10
-first = true 
-finish = true

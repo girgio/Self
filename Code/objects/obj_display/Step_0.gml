@@ -14,6 +14,7 @@ if (instance_exists(Indiano)) {
         
         if (keyboard_check_pressed(input_key)) {
             create_dialogue(dialogue);
+            dialogue = global.display_dialogue_ENG_2
         }
     } else {
         can_talk = false;
