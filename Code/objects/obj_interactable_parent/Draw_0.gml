@@ -1,3 +1,4 @@
+draw_self()
 var _check_dist = 12; 
     
     // 2. Troviamo il punto X, Y esattamente DAVANTI all'Indiano
