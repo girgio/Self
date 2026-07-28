@@ -23,6 +23,7 @@ ver = clamp(movement_v,-1,1);
 follow_index = 3
 _state = noone
 
+
 //magie
 magics = [obj_magic_thunder]
 

@@ -334,3 +334,33 @@ scene_3_EN = [
         "voice": Dialoghi_femmine
     }
 ];
+
+cartello_avviso_EN = [
+    {
+        "name": "",
+        "msg": "\"WARNING: Restricted area. Authorized personnel only.\"",
+        "img": noone,
+        "voice": Dialoghi_arrabiati
+    },
+    {
+        "name": "",
+        "msg": "\"Unauthorized individuals without a valid clearance badge must leave the premises immediately.\"",
+        "img": noone,
+        "voice": Dialoghi_arrabiati
+    }
+];
+
+dialogo_carbone_EN = [
+    {
+        "name": "Elijah",
+        "msg": "I've never seen machines like this. After the Coal Revolution, non-magicals went wild trying to compensate for their inability to use magic.",
+        "img": noone,
+        "voice": Dialoghi_maschi
+    },
+    {
+        "name": "Isabelle",
+        "msg": "I'm fairly certain this machinery violates the Oath.",
+        "img": noone,
+        "voice": Dialoghi_femmine
+    }
+];

@@ -26,6 +26,7 @@ ver = 0
 move_speed = 1;
 _state = noone
 
+
 //magie
 magics = []
 

@@ -94,7 +94,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":210,"hport":1080,"hspeed":-1,"hview":236,"inherit":false,"objectId":{"name":"Indiano","path":"objects/Indiano/Indiano.yy",},"vborder":130,"visible":true,"vspeed":-1,"wport":1920,"wview":420,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":210,"hport":1080,"hspeed":-1,"hview":240,"inherit":false,"objectId":{"name":"Indiano","path":"objects/Indiano/Indiano.yy",},"vborder":130,"visible":true,"vspeed":-1,"wport":1920,"wview":500,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

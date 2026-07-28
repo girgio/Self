@@ -27,6 +27,7 @@
     {"name":"inst_6C41A262","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5C69528A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2F9B5F93","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7EC70C9A","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -67,6 +68,7 @@
         {"$GMRInstance":"v4","%Name":"inst_2F9B5F93","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F9B5F93","objectId":{"name":"obj_display","path":"objects/obj_display/obj_display.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_interactable_parent","path":"objects/obj_interactable_parent/obj_interactable_parent.yy",},"propertyId":{"name":"dialogue","path":"objects/obj_interactable_parent/obj_interactable_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.display_dialogue_ENG",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.4980469,"scaleY":0.5548077,"x":482.125,"y":223.4375,},
+        {"$GMRInstance":"v4","%Name":"inst_7EC70C9A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7EC70C9A","objectId":{"name":"obj_server","path":"objects/obj_server/obj_server.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.96875,"scaleY":1.0,"x":608.0,"y":202.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_756FEAB9","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_756FEAB9","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.8656999,"scaleY":0.7923077,"spriteId":{"name":"spr_door2_open","path":"sprites/spr_door2_open/spr_door2_open.yy",},"x":359.424,"y":331.0,},

@@ -13,13 +13,14 @@ _precision = 100
 luck = 7
 level = 1
 position_history = ds_list_create();
-history_length = 60
+history_length = 150
 leader_is_moving = false;
 hor = 0
 ver = 0
 xp = 0
 xp_required = 100
 _state = noone
+_is_running = false
 target_x = x
 target_y = y 
 

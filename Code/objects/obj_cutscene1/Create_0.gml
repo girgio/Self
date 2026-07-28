@@ -1,6 +1,7 @@
 finish = false
 first = true
 is_moving = true
+skip = false
 
 //posizione Elijah
 target_x_E = 384
